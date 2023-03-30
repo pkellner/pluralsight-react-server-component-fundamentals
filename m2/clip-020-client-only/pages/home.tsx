@@ -1,6 +1,6 @@
-import Home from "../srcSsr/home";
+import SessionsApp from "../src-no-server-components/sessions-app";
 
 
-export default function Ssr() {
-  return <Home />;
+export default function Home() {
+  return <SessionsApp />;
 }

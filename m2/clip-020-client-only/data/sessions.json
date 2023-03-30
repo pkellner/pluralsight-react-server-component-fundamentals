@@ -2,6 +2,91 @@
   "data": {
     "sessions": [
       {
+        "id": "7417",
+        "title": "How JavaScript Works",
+        "sessionSlug": "how-javascript-works",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "<table style=\"vertical-align: top;\">\n    <tr>\n        <td>&nbsp;</td>\n        <td style=\"vertical-align: top;\">\n\n            <iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\"\n                    src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=petkelsblo-20&marketplace=amazon&region=US&placement=1949815005&asins=1949815005&linkId=b7413dcbf9a83ca7ccc2368221171001&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n            </iframe>\n            <br/>\n            <b>Buy the Book!</b>\n        </td>\n        <td>&nbsp;&nbsp;&nbsp;</td>\n        <td>\n            <p>Douglas Crockford is the author of <b>How JavaScript Works</b>, the shocking best seller that rips the\n                lid off behind\n                the scenes. In this light-hearted romp thru the world's most misunderstood programming language,\n                Crockford reveals\n                what is actually going on, and how we can use this to write better programs. </p>\n        </td>\n    </tr>\n</table>",
+        "descriptionShort": "Douglas Crockford is the author of How JavaScript Works, the shocking best seller that rips the lid off behind the scenes. In this light-hearted romp thru the world's most misunderstood programming language, Crockford reveals what is actually going on, and how we can use this to write better programs. ",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539423000000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1099
+          }
+        ],
+        "lectureRoom": {
+          "id": "95",
+          "number": "Town Square A"
+        },
+        "sessionTime": {
+          "id": "131",
+          "startTimeFriendly": "9:30 AM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Beginner"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "JavaScript"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "JSON"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "137",
+            "youTubeUrl": "Bl7pZ9kbenI"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "1124",
+              "userFirstName": "Douglas",
+              "userLastName": "Crockford",
+              "twitterUrl": "",
+              "facebookUrl": null,
+              "linkedInUrl": "",
+              "nameSlug": "douglas-crockford-1124",
+              "principleJob": "Discoverer",
+              "company": "",
+              "userBio": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+              "userBioShort": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+              "userWebsite": "http://crockford.com",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "1",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/511OicTFLQL._SL75_.jpg",
+                  "bookTitle": "How JavaScript Works",
+                  "detailPageUrl": "https://www.amazon.com/dp/1949815005?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2018-10-18T00:00:00.000Z",
+                  "authors": "Crockford, Douglas  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
         "id": "7448",
         "title": "Ask the Expert: Q&A with Engineering Managers",
         "sessionSlug": "ask-the-expert-qa-with-engineering-managers",
@@ -102,145 +187,6 @@
               "userBioShort": "Tammy is a software development leader for over 20 years.",
               "userWebsite": "https://www.linkedin.com/in/tammybaker/",
               "allowHtml": true,
-              "attendeesAmazonBooks": []
-            }
-          }
-        ]
-      },
-      {
-        "id": "7444",
-        "title": "Are we there yet? A pragmatic look at quantum computing and Q# with Azure",
-        "sessionSlug": "are-we-there-yet-a-pragmatic-look-at-quantum-computing-and-q-with-azure",
-        "speakersNamesCsv": "NotYet",
-        "allowHtml": false,
-        "description": "Like superintelligence, practical quantum computing appears to be half a decade away... every half decade. In this session, we'll take a look at the basic principles behind quantum computing, the whys behind its potential, as well as the history of breakthroughs and developments in that space. We'll make a lengthy detour into programming quantum computer emulators with Visual Studio, Q# and Azure. We'll finish up by looking at the most promising pathways for making quantum computing practical and review whether it can indeed render all current encryption schemes obsolete and become the quickest path towards superintelligence.",
-        "descriptionShort": "Learn about history, promises and realities of quantum computing and gain an understanding of programming quantum emulators using Q#, a new language from Microsoft, and Azure.",
-        "sessionSequence": "",
-        "sessionsMaterialUrl": null,
-        "planAheadCount": null,
-        "interestCount": null,
-        "loggedInUserInterested": null,
-        "loggedInUserPlanToAttend": null,
-        "interestLevel": null,
-        "startTime": "1539521100000",
-        "codeCampYear": {
-          "id": "13",
-          "urlPostToken": "2018"
-        },
-        "trackSessions": [],
-        "lectureRoom": {
-          "id": "99",
-          "number": "Fireside B"
-        },
-        "sessionTime": {
-          "id": "139",
-          "startTimeFriendly": "12:45 PM Sunday",
-          "startTime": "Sun Oct 14 2018"
-        },
-        "sessionLevel": {
-          "description": "Intermediate"
-        },
-        "sessionTags": [
-          {
-            "tag": {
-              "tagName": "Azure"
-            }
-          },
-          {
-            "tag": {
-              "tagName": "Quantum"
-            }
-          }
-        ],
-        "sessionVideos": null,
-        "sessionPresenters": [
-          {
-            "speaker": {
-              "id": "10803",
-              "userFirstName": "Eugene",
-              "userLastName": "Chuvyrov",
-              "twitterUrl": "https:///twitter.com/EugeneChuvyrov",
-              "facebookUrl": null,
-              "linkedInUrl": "https://www.linkedin.com/in/eugenechuvyrov",
-              "nameSlug": "eugene-chuvyrov-10803",
-              "principleJob": "Sr. Cloud Architect",
-              "company": "Microsoft",
-              "userBio": "Eugene Chuvyrov is  a Senior Cloud Architect at Microsoft. He works directly with both startups and enterprises to enable their solutions in Microsoft cloud, and to make Azure better as a result of this work with partners. Over his tenure at Microsoft, his focus varied from modern DevOps, to enabling AI solutions in the cloud, to advising customers on creating Blockchain solutions in Azure. He is looking forward to sharing his knowledge from those engagements with the community.",
-              "userBioShort": "Cloud Architect at Microsoft focused on accelerating modern DevOps, Machine Learning and Blockchain.",
-              "userWebsite": "http://linkedin.com/in/eugenechuvyrov/",
-              "allowHtml": false,
-              "attendeesAmazonBooks": []
-            }
-          }
-        ]
-      },
-      {
-        "id": "7409",
-        "title": "Clean Architecture",
-        "sessionSlug": "clean-architecture",
-        "speakersNamesCsv": "NotYet",
-        "allowHtml": true,
-        "description": "<p>We've heard about clean code for years, but what about clean architecture. In this session you will learn how to improve developer productivity by using clean architecture concepts. Topics to be discussed:<br />- Understand function, components, and data separation<br />- Determine what's important and what isn't<br />- Defining boundaries and layers<br />- Organizing components and services<br />- And more</p>",
-        "descriptionShort": "We've heard about clean code for years, but what about clean architecture. In this session you will learn how to improve developer productivity by using clean architecture concepts. ",
-        "sessionSequence": "",
-        "sessionsMaterialUrl": null,
-        "planAheadCount": null,
-        "interestCount": null,
-        "loggedInUserInterested": null,
-        "loggedInUserPlanToAttend": null,
-        "interestLevel": null,
-        "startTime": "1539423000000",
-        "codeCampYear": {
-          "id": "13",
-          "urlPostToken": "2018"
-        },
-        "trackSessions": [],
-        "lectureRoom": {
-          "id": "100",
-          "number": "Fireside C"
-        },
-        "sessionTime": {
-          "id": "131",
-          "startTimeFriendly": "9:30 AM Saturday",
-          "startTime": "Sat Oct 13 2018"
-        },
-        "sessionLevel": {
-          "description": "Advanced"
-        },
-        "sessionTags": [
-          {
-            "tag": {
-              "tagName": "Architecture"
-            }
-          },
-          {
-            "tag": {
-              "tagName": "Modular Architecture"
-            }
-          },
-          {
-            "tag": {
-              "tagName": "Productivity"
-            }
-          }
-        ],
-        "sessionVideos": null,
-        "sessionPresenters": [
-          {
-            "speaker": {
-              "id": "5996",
-              "userFirstName": "Craig",
-              "userLastName": "Berntson",
-              "twitterUrl": "https://twitter.com/craigber",
-              "facebookUrl": null,
-              "linkedInUrl": "https://www.linkedin.com/in/craigber",
-              "nameSlug": "craig-berntson-5996",
-              "principleJob": "Senior Software Engineer",
-              "company": "HealthEquity",
-              "userBio": "Craig has a passion for community and helping other developers improve their skills. He writes the column \"Software Gardening\" in DotNet Curry Magazine and is the co-author of \"Continuous Integration in .NET\" available from Manning. He works as a Senior Software Engineer at HealthEquity.",
-              "userBioShort": "Speaker, author, architect, and engineer. Currently he's a Senior Software Engineer at HealthEquity.",
-              "userWebsite": "www.craigberntson.com",
-              "allowHtml": false,
               "attendeesAmazonBooks": []
             }
           }
@@ -359,13 +305,13 @@
         ]
       },
       {
-        "id": "7368",
-        "title": "Cracking the Product Manager Interview",
-        "sessionSlug": "cracking-the-product-manager-interview",
+        "id": "7394",
+        "title": "Productive React/TypeScript/TDD ",
+        "sessionSlug": "productive-reacttypescripttdd-love-story-from-hell",
         "speakersNamesCsv": "NotYet",
-        "allowHtml": false,
-        "description": "Product managers are sometimes called the \"CEO of a product.\" But what is a product manager really and how you do you land this role? This talk will discuss what a product manager is, how the role differs across companies, what sort of experience an aspiring PM should cover, and what the PM interview is like and how to master it. This will not be your fluffy be-your-best talk; it will tackle the specific types of interview questions and how to handle them.",
-        "descriptionShort": "Product managers are sometimes called the \"CEO of a product.\" But what is a product manager really and how you do you land this role? How to crack the PM interview?",
+        "allowHtml": true,
+        "description": "React is the most popular frontend framework and TypeScript is one of the hottest languages. The combination? Common, but barely. With test-driven development? Thin ice.\n<br/>\nIn this hands-on session we write a simple React counter application in TypeScript. But with a different approach: instead of constantly reloading a browser, we write tests in Jest and only visit the browser as a final step. We also see how to put the WebStorm IDE to work to get the productivity benefits promised by TypeScript.",
+        "descriptionShort": "React, TypeScript, TDD: Individually popular, sparse in combination. In this session we write a React application in TypeScript, using TDD, putting the power of the IDE to work.",
         "sessionSequence": "",
         "sessionsMaterialUrl": null,
         "planAheadCount": null,
@@ -373,99 +319,73 @@
         "loggedInUserInterested": null,
         "loggedInUserPlanToAttend": null,
         "interestLevel": null,
-        "startTime": "1539428400000",
+        "startTime": "1539440100000",
         "codeCampYear": {
           "id": "13",
           "urlPostToken": "2018"
         },
-        "trackSessions": [],
+        "trackSessions": [
+          {
+            "trackId": 1099
+          }
+        ],
         "lectureRoom": {
-          "id": "96",
-          "number": "Town Square B"
+          "id": "97",
+          "number": "Town Square C"
         },
         "sessionTime": {
-          "id": "132",
-          "startTimeFriendly": "11:00 AM Saturday",
+          "id": "134",
+          "startTimeFriendly": "2:15 PM Saturday",
           "startTime": "Sat Oct 13 2018"
         },
         "sessionLevel": {
-          "description": "Beginner"
+          "description": "Intermediate"
         },
         "sessionTags": [
           {
             "tag": {
-              "tagName": "APM"
+              "tagName": "JavaScript"
             }
           },
           {
             "tag": {
-              "tagName": "Career"
+              "tagName": "React"
             }
           },
           {
             "tag": {
-              "tagName": "Hiring"
+              "tagName": "TDD"
             }
           },
           {
             "tag": {
-              "tagName": "interviewing"
-            }
-          },
-          {
-            "tag": {
-              "tagName": "Product Management"
+              "tagName": "TypeScript"
             }
           }
         ],
         "sessionVideos": [
           {
-            "id": "151",
-            "youTubeUrl": "xEFLNvQyv28"
+            "id": "140",
+            "youTubeUrl": "sw5D7lqplXw"
           }
         ],
         "sessionPresenters": [
           {
             "speaker": {
-              "id": "8367",
-              "userFirstName": "Gayle",
-              "userLastName": "McDowell",
-              "twitterUrl": "https://twitter.com/gayle",
+              "id": "41808",
+              "userFirstName": "Paul",
+              "userLastName": "Everitt",
+              "twitterUrl": "https://twitter.com/paulweveritt",
               "facebookUrl": null,
-              "linkedInUrl": "https://www.linkedin.com/in/gaylemcd",
-              "nameSlug": "gayle-mcdowell-8367",
-              "principleJob": "CEO",
-              "company": "CareerCup",
-              "userBio": "<p>Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books:</p>\n\n<ul>\n  <li><a href=\"http://www.amazon.com/dp/0984782850/\" target=\"_blank\">Cracking the Coding Interview</a> (Amazon.com's #1 best-selling interview book) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/0984782818\" target=\"_blank\">Cracking the PM Interview</a> (product manager) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/1118968085\" target=\"_blank\">Cracking the Tech Career</a> </li>\n</ul>\n\n<ul>She is an interview consultant, helping companies improve their interview process and coaching startups through acquisitions/<a href=\"http://en.wikipedia.org/wiki/Acqui-hiring\" target=\"_blank\">acqui-hires</a>. She is also an interview prep instructor, hired by Facebook to teach an interview prep class for external software developer candidates.</ul>\n\n<p>Gayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School.</p>",
-              "userBioShort": "Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books.",
-              "userWebsite": "http://www.gayle.com",
-              "allowHtml": true,
-              "attendeesAmazonBooks": [
-                {
-                  "id": "18",
-                  "amazonImageSmall": "https://m.media-amazon.com/images/I/41kgVwVcL4L._SL75_.jpg",
-                  "bookTitle": "Cracking the PM Interview: How to Land a Product Manager Job in Technology",
-                  "detailPageUrl": "https://www.amazon.com/dp/B00ISYMUR6?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
-                  "bookPublishedDate": "2014-03-04T00:00:00.000Z",
-                  "authors": "McDowell, Gayle Laakmann  Bavaro, Jackie  "
-                },
-                {
-                  "id": "19",
-                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51l5XzLln+L._SL75_.jpg",
-                  "bookTitle": "Cracking the Coding Interview: 189 Programming Questions and Solutions",
-                  "detailPageUrl": "https://www.amazon.com/dp/0984782850?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
-                  "bookPublishedDate": "2015-07-01T00:00:00.000Z",
-                  "authors": "McDowell, Gayle Laakmann  "
-                },
-                {
-                  "id": "20",
-                  "amazonImageSmall": "https://m.media-amazon.com/images/I/414Vdf6rzcL._SL75_.jpg",
-                  "bookTitle": "The Big Book of Coding Interviews in C and C++, 3rd Edition: answers to the best programming interview questions on data structures and algorithms",
-                  "detailPageUrl": "https://www.amazon.com/dp/1983860549?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
-                  "bookPublishedDate": "2018-02-04T00:00:00.000Z",
-                  "authors": "Publishing, Interview Druid  "
-                }
-              ]
+              "linkedInUrl": "https://www.linkedin.com/in/paeveritt",
+              "nameSlug": "paul-everitt-41808",
+              "principleJob": "Developer Advocate",
+              "company": "JetBrains, Inc.",
+              "userBio": "Paul is the PyCharm and WebStorm Developer Advocate at JetBrains. Before that, Paul was a partner at Agendaless Consulting and co-founder of Zope Corporation, taking the first open source application server through $14M of funding. Paul has bootstrapped both the Plone Foundation and the Python Software Foundation. Before that, Paul was an officer in the US Navy, starting www.navy.mil in 1993.",
+              "userBioShort": "Paul is the PyCharm and WebStorm Developer Advocate at JetBrains.",
+              "userWebsite": "http://www.pauleveritt.org/",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
             }
           }
         ]
@@ -664,91 +584,7 @@
           }
         ]
       },
-      {
-        "id": "7417",
-        "title": "How JavaScript Works",
-        "sessionSlug": "how-javascript-works",
-        "speakersNamesCsv": "NotYet",
-        "allowHtml": true,
-        "description": "<table style=\"vertical-align: top;\">\n    <tr>\n        <td>&nbsp;</td>\n        <td style=\"vertical-align: top;\">\n\n            <iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\"\n                    src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=petkelsblo-20&marketplace=amazon&region=US&placement=1949815005&asins=1949815005&linkId=b7413dcbf9a83ca7ccc2368221171001&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n            </iframe>\n            <br/>\n            <b>Buy the Book!</b>\n        </td>\n        <td>&nbsp;&nbsp;&nbsp;</td>\n        <td>\n            <p>Douglas Crockford is the author of <b>How JavaScript Works</b>, the shocking best seller that rips the\n                lid off behind\n                the scenes. In this light-hearted romp thru the world's most misunderstood programming language,\n                Crockford reveals\n                what is actually going on, and how we can use this to write better programs. </p>\n        </td>\n    </tr>\n</table>",
-        "descriptionShort": "Douglas Crockford is the author of <b>How JavaScript Works</b>, the shocking best seller that rips the lid off behind the scenes. In this light-hearted romp thru the world's most misunderstood programming language, Crockford reveals what is actually going on, and how we can use this to write better programs. ",
-        "sessionSequence": "",
-        "sessionsMaterialUrl": null,
-        "planAheadCount": null,
-        "interestCount": null,
-        "loggedInUserInterested": null,
-        "loggedInUserPlanToAttend": null,
-        "interestLevel": null,
-        "startTime": "1539423000000",
-        "codeCampYear": {
-          "id": "13",
-          "urlPostToken": "2018"
-        },
-        "trackSessions": [
-          {
-            "trackId": 1099
-          }
-        ],
-        "lectureRoom": {
-          "id": "95",
-          "number": "Town Square A"
-        },
-        "sessionTime": {
-          "id": "131",
-          "startTimeFriendly": "9:30 AM Saturday",
-          "startTime": "Sat Oct 13 2018"
-        },
-        "sessionLevel": {
-          "description": "Beginner"
-        },
-        "sessionTags": [
-          {
-            "tag": {
-              "tagName": "JavaScript"
-            }
-          },
-          {
-            "tag": {
-              "tagName": "JSON"
-            }
-          }
-        ],
-        "sessionVideos": [
-          {
-            "id": "137",
-            "youTubeUrl": "Bl7pZ9kbenI"
-          }
-        ],
-        "sessionPresenters": [
-          {
-            "speaker": {
-              "id": "1124",
-              "userFirstName": "Douglas",
-              "userLastName": "Crockford",
-              "twitterUrl": "",
-              "facebookUrl": null,
-              "linkedInUrl": "",
-              "nameSlug": "douglas-crockford-1124",
-              "principleJob": "Discoverer",
-              "company": "",
-              "userBio": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
-              "userBioShort": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
-              "userWebsite": "http://crockford.com",
-              "allowHtml": true,
-              "attendeesAmazonBooks": [
-                {
-                  "id": "1",
-                  "amazonImageSmall": "https://m.media-amazon.com/images/I/511OicTFLQL._SL75_.jpg",
-                  "bookTitle": "How JavaScript Works",
-                  "detailPageUrl": "https://www.amazon.com/dp/1949815005?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
-                  "bookPublishedDate": "2018-10-18T00:00:00.000Z",
-                  "authors": "Crockford, Douglas  "
-                }
-              ]
-            }
-          }
-        ]
-      },
+
       {
         "id": "7367",
         "title": "Interview Like Google (or not)-But Better!",
@@ -1312,92 +1148,7 @@
           }
         ]
       },
-      {
-        "id": "7394",
-        "title": "Productive React/TypeScript/TDD: Love Story from Hell",
-        "sessionSlug": "productive-reacttypescripttdd-love-story-from-hell",
-        "speakersNamesCsv": "NotYet",
-        "allowHtml": true,
-        "description": "React is the most popular frontend framework and TypeScript is one of the hottest languages. The combination? Common, but barely. With test-driven development? Thin ice.\n<br/>\nIn this hands-on session we write a simple React counter application in TypeScript. But with a different approach: instead of constantly reloading a browser, we write tests in Jest and only visit the browser as a final step. We also see how to put the WebStorm IDE to work to get the productivity benefits promised by TypeScript.",
-        "descriptionShort": "React, TypeScript, TDD: Individually popular, sparse in combination. In this session we write a React application in TypeScript, using TDD, putting the power of the IDE to work.",
-        "sessionSequence": "",
-        "sessionsMaterialUrl": null,
-        "planAheadCount": null,
-        "interestCount": null,
-        "loggedInUserInterested": null,
-        "loggedInUserPlanToAttend": null,
-        "interestLevel": null,
-        "startTime": "1539440100000",
-        "codeCampYear": {
-          "id": "13",
-          "urlPostToken": "2018"
-        },
-        "trackSessions": [
-          {
-            "trackId": 1099
-          }
-        ],
-        "lectureRoom": {
-          "id": "97",
-          "number": "Town Square C"
-        },
-        "sessionTime": {
-          "id": "134",
-          "startTimeFriendly": "2:15 PM Saturday",
-          "startTime": "Sat Oct 13 2018"
-        },
-        "sessionLevel": {
-          "description": "Intermediate"
-        },
-        "sessionTags": [
-          {
-            "tag": {
-              "tagName": "JavaScript"
-            }
-          },
-          {
-            "tag": {
-              "tagName": "React"
-            }
-          },
-          {
-            "tag": {
-              "tagName": "TDD"
-            }
-          },
-          {
-            "tag": {
-              "tagName": "TypeScript"
-            }
-          }
-        ],
-        "sessionVideos": [
-          {
-            "id": "140",
-            "youTubeUrl": "sw5D7lqplXw"
-          }
-        ],
-        "sessionPresenters": [
-          {
-            "speaker": {
-              "id": "41808",
-              "userFirstName": "Paul",
-              "userLastName": "Everitt",
-              "twitterUrl": "https://twitter.com/paulweveritt",
-              "facebookUrl": null,
-              "linkedInUrl": "https://www.linkedin.com/in/paeveritt",
-              "nameSlug": "paul-everitt-41808",
-              "principleJob": "Developer Advocate",
-              "company": "JetBrains, Inc.",
-              "userBio": "Paul is the PyCharm and WebStorm Developer Advocate at JetBrains. Before that, Paul was a partner at Agendaless Consulting and co-founder of Zope Corporation, taking the first open source application server through $14M of funding. Paul has bootstrapped both the Plone Foundation and the Python Software Foundation. Before that, Paul was an officer in the US Navy, starting www.navy.mil in 1993.",
-              "userBioShort": "Paul is the PyCharm and WebStorm Developer Advocate at JetBrains.",
-              "userWebsite": "http://www.pauleveritt.org/",
-              "allowHtml": false,
-              "attendeesAmazonBooks": []
-            }
-          }
-        ]
-      },
+
       {
         "id": "7418",
         "title": "Q&A With Douglas Crockford",
@@ -1795,6 +1546,145 @@
               "userBio": "Mike trains web development teams all over the world, at companies ranging from tiny stealth-mode startups to Silicon Valley tech giants. He’s currently a Frontend Masters instructor, a Staff Engineer on LinkedIn’s web frameworks team, and the owner of Mike Works, a training-focused consultancy.",
               "userBioShort": "Global web technology speaker, author, educator and trainer.",
               "userWebsite": "https://mike.works",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "7444",
+        "title": "Are we there yet? A pragmatic look at quantum computing and Q# with Azure",
+        "sessionSlug": "are-we-there-yet-a-pragmatic-look-at-quantum-computing-and-q-with-azure",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": false,
+        "description": "Like superintelligence, practical quantum computing appears to be half a decade away... every half decade. In this session, we'll take a look at the basic principles behind quantum computing, the whys behind its potential, as well as the history of breakthroughs and developments in that space. We'll make a lengthy detour into programming quantum computer emulators with Visual Studio, Q# and Azure. We'll finish up by looking at the most promising pathways for making quantum computing practical and review whether it can indeed render all current encryption schemes obsolete and become the quickest path towards superintelligence.",
+        "descriptionShort": "Learn about history, promises and realities of quantum computing and gain an understanding of programming quantum emulators using Q#, a new language from Microsoft, and Azure.",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539521100000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [],
+        "lectureRoom": {
+          "id": "99",
+          "number": "Fireside B"
+        },
+        "sessionTime": {
+          "id": "139",
+          "startTimeFriendly": "12:45 PM Sunday",
+          "startTime": "Sun Oct 14 2018"
+        },
+        "sessionLevel": {
+          "description": "Intermediate"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Azure"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Quantum"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "10803",
+              "userFirstName": "Eugene",
+              "userLastName": "Chuvyrov",
+              "twitterUrl": "https:///twitter.com/EugeneChuvyrov",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/eugenechuvyrov",
+              "nameSlug": "eugene-chuvyrov-10803",
+              "principleJob": "Sr. Cloud Architect",
+              "company": "Microsoft",
+              "userBio": "Eugene Chuvyrov is  a Senior Cloud Architect at Microsoft. He works directly with both startups and enterprises to enable their solutions in Microsoft cloud, and to make Azure better as a result of this work with partners. Over his tenure at Microsoft, his focus varied from modern DevOps, to enabling AI solutions in the cloud, to advising customers on creating Blockchain solutions in Azure. He is looking forward to sharing his knowledge from those engagements with the community.",
+              "userBioShort": "Cloud Architect at Microsoft focused on accelerating modern DevOps, Machine Learning and Blockchain.",
+              "userWebsite": "http://linkedin.com/in/eugenechuvyrov/",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "7409",
+        "title": "Clean Architecture",
+        "sessionSlug": "clean-architecture",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "<p>We've heard about clean code for years, but what about clean architecture. In this session you will learn how to improve developer productivity by using clean architecture concepts. Topics to be discussed:<br />- Understand function, components, and data separation<br />- Determine what's important and what isn't<br />- Defining boundaries and layers<br />- Organizing components and services<br />- And more</p>",
+        "descriptionShort": "We've heard about clean code for years, but what about clean architecture. In this session you will learn how to improve developer productivity by using clean architecture concepts. ",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539423000000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [],
+        "lectureRoom": {
+          "id": "100",
+          "number": "Fireside C"
+        },
+        "sessionTime": {
+          "id": "131",
+          "startTimeFriendly": "9:30 AM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Advanced"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Architecture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Modular Architecture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Productivity"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "5996",
+              "userFirstName": "Craig",
+              "userLastName": "Berntson",
+              "twitterUrl": "https://twitter.com/craigber",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/craigber",
+              "nameSlug": "craig-berntson-5996",
+              "principleJob": "Senior Software Engineer",
+              "company": "HealthEquity",
+              "userBio": "Craig has a passion for community and helping other developers improve their skills. He writes the column \"Software Gardening\" in DotNet Curry Magazine and is the co-author of \"Continuous Integration in .NET\" available from Manning. He works as a Senior Software Engineer at HealthEquity.",
+              "userBioShort": "Speaker, author, architect, and engineer. Currently he's a Senior Software Engineer at HealthEquity.",
+              "userWebsite": "www.craigberntson.com",
               "allowHtml": false,
               "attendeesAmazonBooks": []
             }

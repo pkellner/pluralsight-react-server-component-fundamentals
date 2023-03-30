@@ -1,7 +1,7 @@
 import path from "path";
 import { promisify } from "util";
 import * as fs from "fs";
-const delayTime = 3000; // milliseconds added to all REST calls
+const delayTime = 1000; // milliseconds added to all REST calls
 
 const readFile = promisify(fs.readFile);
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
