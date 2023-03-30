@@ -7,7 +7,7 @@ export default function Boundary({
   children,
 }: {
   enabled?: boolean;
-  isServerComponent: boolean;
+  isServerComponent?: boolean;
   children: React.ReactNode;
 }) {
   if (!enabled) {

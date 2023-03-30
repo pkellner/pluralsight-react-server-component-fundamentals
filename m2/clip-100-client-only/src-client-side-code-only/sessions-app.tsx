@@ -1,6 +1,5 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import SessionsManager from "./sessions-manager";
-import { string } from "prop-types";
 
 export default function SessionsApp() {
   const [data, setData] = useState<
@@ -12,7 +11,7 @@ export default function SessionsApp() {
         sessionVideos: [{ youTubeUrl: string }];
       }
     ]
-  >([]);
+  >();
 
   useEffect(() => {
     async function getDataAsync() {

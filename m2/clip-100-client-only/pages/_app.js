@@ -1,4 +1,3 @@
-//import "../styles/App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function MyApp({ Component, pageProps }) {

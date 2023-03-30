@@ -1,9 +1,7 @@
-import React, { useState } from "react";
-import Boundary from "../lib/boundary";
+import React, {useState} from "react";
 import SessionsQuery from "./sessions-query";
 import SessionsList from "./sessions-list";
-
-
+import Boundary from "@/lib/boundary";
 
 
 export default function SessionsManager({ sessionData }) {

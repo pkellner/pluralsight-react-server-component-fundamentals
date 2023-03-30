@@ -1,16 +1,7 @@
-"use client";
-
 import { useEffect, useState } from "react";
+import ShowBusyIndicator from "@/lib/show-busy-indicator";
 
 export default function SessionVideo({ id }) {
-  console.log(`SessionVideo:`, id);
-
-  // if (!id) {
-  //   return <div>NO IMAGE</div>;
-  // } else {
-  //   return <div>{id}</div>;
-  // }
-
   const [data, setData] = useState<{
     id: string;
     snippet: {
@@ -26,7 +17,9 @@ export default function SessionVideo({ id }) {
     };
   }>();
 
-  console.log(`http://localhost:3001/api/youtubedata/${id}`);
+  if (!id) {
+    return null;
+  }
 
   useEffect(() => {
     async function getDataAsync() {
@@ -41,18 +34,25 @@ export default function SessionVideo({ id }) {
     getDataAsync().then(() => console.log("success"));
   }, [id]);
 
-  return (
+  return data ? (
     <>
-      {id && (
-        <a target="_blank" href={`https://www.youtube.com/watch?v=${id}}`}>
-          <img
-            // src={`/images/youTubeThumbs/${id}-medium-16x9.jpg`}
-            src={data?.snippet?.thumbnails?.medium?.url}
-            width={100}
-            alt="youtube thumb"
-          />
-        </a>
-      )}
+      <div className="row">
+        <div className="col-5">
+          <a target="_blank" href={`https://www.youtube.com/watch?v=${id}}`}>
+            <img
+              src={data?.snippet?.thumbnails?.medium?.url}
+              width={100}
+              alt="youtube thumb"
+            />
+          </a>
+        </div>
+        <div className="col-2"></div>
+        <div className="col-5 text-secondary">
+          Views: {data?.statistics?.viewCount}
+        </div>
+      </div>
     </>
+  ) : (
+    <ShowBusyIndicator />
   );
 }
