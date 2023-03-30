@@ -15,7 +15,7 @@ export default function SessionsApp() {
 
   useEffect(() => {
     async function getDataAsync() {
-      const res = await fetch(`http://localhost:3001/api/sessiondata`);
+      const res = await fetch(`http://localhost:3000/api/sessiondata`);
       if (!res.ok) {
         throw new Error("Failed to fetch data");
       }
