@@ -1,6 +1,7 @@
+import { ISessionData, IYouTubeData } from "@/lib/ts-interfaces";
 import SessionsApp from "../src-server-side-rendering-code/sessions-app";
 
-export default function ServerSideRenderingCode({ sessionData, youTubeData }) {
+export default function ServerSideRenderingCode({ sessionData, youTubeData } : { sessionData: ISessionData[], youTubeData: IYouTubeData[]}) {
   return <SessionsApp sessionData={sessionData} youTubeData={youTubeData} />;
 }
 

@@ -1,11 +1,12 @@
 import path from "path";
 import { promisify } from "util";
 import * as fs from "fs";
+import { IYouTubeData } from "@/lib/ts-interfaces";
 
 const readFile = promisify(fs.readFile);
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-export async function GET(request, response) {
+export async function GET(response: { params: any; }) {
   function getRandomInt(min: number, max: number) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -29,7 +30,7 @@ export async function GET(request, response) {
     } else {
       console.log(`GET /api/todo status: 200`);
 
-      const sessionVideo = youTubeData?.filter((rec) => {
+      const sessionVideo = youTubeData?.filter((rec : IYouTubeData) => {
         return rec.id === params.id;
       });
 

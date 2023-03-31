@@ -3,8 +3,9 @@ import SessionVideo from "./session-video";
 
 import Boundary from "@/lib/boundary";
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
+import { ISessionData } from "@/lib/ts-interfaces";
 
-export default function SessionsList({ sessionData, query }) {
+export default function SessionsList({ sessionData, query } : { sessionData?: ISessionData[], query: string}) {
   if (!sessionData) {
     return <ShowBusyIndicator />;
   }
@@ -12,8 +13,8 @@ export default function SessionsList({ sessionData, query }) {
   return (
     <ul className="list-group">
       {sessionData
-        .filter((rec) => rec.title.toLowerCase().includes(query.toLowerCase()))
-        .map(function (rec) {
+        .filter((rec : ISessionData) => rec.title.toLowerCase().includes(query.toLowerCase()))
+        .map(function (rec : ISessionData) {
           return (
             <li key={rec.id} className="list-group-item border-0 ps-0">
               <Boundary enabled={true}>
@@ -30,8 +31,8 @@ export default function SessionsList({ sessionData, query }) {
                     <div className="col-5 align-middle mt-4">
                       <SessionVideo
                         id={
-                          rec?.sessionVideos?.length > 0 &&
-                          rec.sessionVideos[0].youTubeUrl
+                          rec?.sessionVideos?.length > 0 ?
+                          rec.sessionVideos[0].youTubeUrl : undefined
                         }
                       />
                     </div>

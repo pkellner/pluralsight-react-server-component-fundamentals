@@ -1,7 +1,10 @@
 import Boundary from "@/lib/boundary";
 import React from "react";
 
-export default function SessionsQuery({ query, setQuery }) {
+export default function SessionsQuery({ query, setQuery } : {
+  query: string;
+  setQuery: React.Dispatch<React.SetStateAction<string>>;
+}) {
   return (
     <form>
       <div className="input-group mb-3">

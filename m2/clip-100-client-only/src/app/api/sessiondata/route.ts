@@ -6,7 +6,7 @@ const delayTime = 2000; // milliseconds added to all REST calls
 const readFile = promisify(fs.readFile);
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-export async function GET(request: Request) {
+export async function GET() {
   const maxToRetrieve = 4;
   console.log(`route:sessiondata:${maxToRetrieve}`);
   const fileName = "sessions.json";
@@ -23,7 +23,6 @@ export async function GET(request: Request) {
     } else {
       // @ts-ignore
       return Response.json(sessions.slice(0, maxToRetrieve));
-      console.log(`GET /api/todo status: 200`);
     }
   } catch (e) {
     console.log("/api/todo error:", e);

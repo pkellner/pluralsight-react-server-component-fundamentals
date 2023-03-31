@@ -1,21 +1,9 @@
 import { useEffect, useState } from "react";
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
+import { IYouTubeData } from "@/lib/ts-interfaces";
 
-export default function SessionVideo({ id }) {
-  const [data, setData] = useState<{
-    id: string;
-    snippet: {
-      thumbnails: {
-        medium: {
-          url: string;
-        };
-      };
-    };
-    statistics: {
-      viewCount: string;
-      likeCount: string;
-    };
-  }>();
+export default function SessionVideo({ id } : { id?: string}) {
+  const [data, setData] = useState<IYouTubeData>();
 
   if (!id) {
     return null;

@@ -2,9 +2,10 @@ import React, {useState} from "react";
 import SessionsQuery from "./sessions-query";
 import SessionsList from "./sessions-list";
 import Boundary from "@/lib/boundary";
+import { ISessionData, IYouTubeData } from "@/lib/ts-interfaces";
 
 
-export default function SessionsManager({ sessionData, youTubeData }) {
+export default function SessionsManager({ sessionData, youTubeData } : { sessionData?: ISessionData[], youTubeData: IYouTubeData[]}) {
   const [query, setQuery] = useState<string>("");
 
   return (
