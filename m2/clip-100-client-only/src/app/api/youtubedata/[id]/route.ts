@@ -13,20 +13,17 @@ export async function GET(request, response) {
   }
 
   const params = response?.params;
-  const maxToRetrieve = 4;
-  console.log(`route:youtubedata`);
+  console.log(`route:youtubedata`,params);
   const fileName = "youtubedata.json";
   const jsonFile = path.resolve("./data", fileName);
   try {
     const readFileData: Buffer = await readFile(jsonFile);
     const readFileDataString = readFileData.toString().replace(/[\n\r]/g, "");
 
-    const x = JSON.parse(readFileDataString);
-
     const {
       data: { youTubeData: youTubeData },
     } = JSON.parse(readFileDataString);
-    await delay(getRandomInt(1500, 4000));
+    await delay(getRandomInt(500, 1000));
     if (!readFileData) {
       console.log("Error: Request failed with status code 404");
     } else {
