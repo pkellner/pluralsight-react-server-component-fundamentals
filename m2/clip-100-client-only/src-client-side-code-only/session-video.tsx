@@ -5,10 +5,6 @@ import { IYouTubeData } from "@/lib/ts-interfaces";
 export default function SessionVideo({ id } : { id?: string}) {
   const [data, setData] = useState<IYouTubeData>();
 
-  if (!id) {
-    return null;
-  }
-
   useEffect(() => {
     async function getDataAsync() {
       const res = await fetch(`http://localhost:3000/api/youtubedata/${id}`);
@@ -21,6 +17,10 @@ export default function SessionVideo({ id } : { id?: string}) {
     }
     getDataAsync().then(() => console.log("success"));
   }, [id]);
+
+  if (!id) {
+    return null;
+  }
 
   return data ? (
     <>

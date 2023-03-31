@@ -1,20 +1,20 @@
 import path from "path";
-import { promisify } from "util";
+import {promisify} from "util";
 import * as fs from "fs";
-import { IYouTubeData } from "@/lib/ts-interfaces";
+import {IYouTubeData} from "@/lib/ts-interfaces";
 
 const readFile = promisify(fs.readFile);
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-export async function GET(response: { params: any; }) {
+export async function GET(request: any, {params}: any) {
   function getRandomInt(min: number, max: number) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
   }
 
-  const params = response?.params;
-  console.log(`route:youtubedata`,params);
+  const youTubeId = params.id;
+
   const fileName = "youtubedata.json";
   const jsonFile = path.resolve("./data", fileName);
   try {
@@ -30,8 +30,8 @@ export async function GET(response: { params: any; }) {
     } else {
       console.log(`GET /api/todo status: 200`);
 
-      const sessionVideo = youTubeData?.filter((rec : IYouTubeData) => {
-        return rec.id === params.id;
+      const sessionVideo = youTubeData?.filter((rec: IYouTubeData) => {
+        return rec.id === youTubeId;
       });
 
       if (sessionVideo && sessionVideo?.length > 0) {

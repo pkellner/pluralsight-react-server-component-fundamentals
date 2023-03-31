@@ -2,16 +2,19 @@ import React from "react";
 import SessionVideo from "./session-video";
 import Boundary from "@/lib/boundary";
 import { ISessionData, IYouTubeData } from "@/lib/ts-interfaces";
+import { NextPage } from "next";
 
-export default function SessionsList({
-  sessionData,
-  youTubeData,
-  query,
-}: {
+interface SessionsListProps {
   sessionData?: ISessionData[];
   youTubeData: IYouTubeData[];
   query: string;
-}): JSX.Element {
+}
+
+const SessionsList: NextPage<SessionsListProps> = ({
+  sessionData,
+  youTubeData,
+  query,
+}) => {
   return (
     <ul className="list-group">
       {sessionData
@@ -50,4 +53,6 @@ export default function SessionsList({
         : null}
     </ul>
   );
-}
+};
+
+export default SessionsList;

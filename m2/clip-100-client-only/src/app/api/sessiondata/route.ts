@@ -1,6 +1,7 @@
 import path from "path";
-import { promisify } from "util";
+import {promisify} from "util";
 import * as fs from "fs";
+
 const delayTime = 2000; // milliseconds added to all REST calls
 
 const readFile = promisify(fs.readFile);
