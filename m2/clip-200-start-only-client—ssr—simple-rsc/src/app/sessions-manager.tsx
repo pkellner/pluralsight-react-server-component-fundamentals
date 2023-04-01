@@ -1,3 +1,5 @@
+import "server-only";
+
 import SessionsQuery from "./sessions-query";
 import SessionsList from "./sessions-list";
 import {ISessionData} from "@/lib/ts-interfaces";
@@ -11,7 +13,7 @@ export default function SessionsManager({
 
   return (
 
-      <Boundary>
+      <Boundary isServerComponent={true}>
         <div className="bg-white">
           <SessionsQuery  />
           <SessionsList  />

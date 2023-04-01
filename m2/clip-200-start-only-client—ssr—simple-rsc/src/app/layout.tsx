@@ -1,3 +1,5 @@
+import "server-only";
+
 import './globals.css'
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";

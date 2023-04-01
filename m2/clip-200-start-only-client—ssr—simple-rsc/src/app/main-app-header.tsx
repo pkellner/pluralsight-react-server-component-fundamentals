@@ -5,6 +5,7 @@ import MainAppHeaderClock from "./main-app-header-clock";
 
 export default function MainAppHeader() {
 
+  const isoDateString = new Date().toISOString();
 
   return (
     <Boundary isServerComponent={true}>
@@ -12,7 +13,7 @@ export default function MainAppHeader() {
         <div className="container">
           <div className="d-flex justify-content-between align-items-top">
             <h3 className="text-dark m-2">SV Code Camp List</h3>
-            <MainAppHeaderClock />
+            <MainAppHeaderClock isoDateString={isoDateString} />
           </div>
         </div>
       </header>

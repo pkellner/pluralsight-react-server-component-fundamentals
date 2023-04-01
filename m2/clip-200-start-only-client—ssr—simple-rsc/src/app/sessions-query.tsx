@@ -10,7 +10,7 @@ export default function SessionsQuery() {
   return (
     <form>
       <div className="input-group mb-1 mt-2">
-        <Boundary>
+        <Boundary isServerComponent={false}>
           <input
             type="text"
             className="form-control"

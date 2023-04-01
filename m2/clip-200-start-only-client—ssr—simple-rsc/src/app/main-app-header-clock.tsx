@@ -1,21 +1,40 @@
-'use client';
+"use client";
 
-import {useEffect, useState} from "react";
+import { Suspense, useEffect, useState } from "react";
 import Boundary from "@/lib/boundary";
 
-export default function MainAppHeaderClock() {
-  const [date, setDate] = useState<Date>(new Date());
+// const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+//
+// async function getCurrentTime() {
+//   await delay(2000);
+//   const currentTime = new Date();
+//   return currentTime.toLocaleString();
+// }
+
+export default function MainAppHeaderClock({
+  isoDateString,
+}: {
+  isoDateString: string;
+}) {
+  const [date, setDate] = useState(new Date(isoDateString));
 
   useEffect(() => {
-    const intervalId = setInterval(() => {
-      setDate(new Date());
+    const interval = setInterval(() => {
+      setDate((oldDate) => new Date(oldDate.getTime() + 1000));
     }, 1000);
-    return () => clearInterval(intervalId);
+
+    return () => {
+      clearInterval(interval);
+    };
   }, []);
 
   return (
     <Boundary isServerComponent={false}>
-      <p style={{width: "170px", height: "10px"}} className="text-dark">{date.toLocaleString()}</p>
+      {/*<Suspense fallback={<div>Loading...(MainAppHeaderClock)</div>}>*/}
+      <p style={{ width: "170px", height: "10px" }} className="text-dark">
+        {date.toLocaleString()}
+      </p>
+      {/*</Suspense>*/}
     </Boundary>
   );
 }
