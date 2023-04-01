@@ -42,7 +42,7 @@ export default async function SessionsList() {
                         </p>
                       </div>
                     </div>
-                    <div className="col-5 align-middle mt-4 ">
+                    <div className="col-5 align-middle mt-2 ">
                       <SessionVideo
                         id={
                           rec?.sessionVideos?.length > 0

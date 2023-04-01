@@ -14,7 +14,7 @@ export default function MainAppHeaderClock() {
   }, []);
 
   return (
-    <Boundary>
+    <Boundary isServerComponent={false}>
       <p style={{width: "170px", height: "10px"}} className="text-dark">{date.toLocaleString()}</p>
     </Boundary>
   );

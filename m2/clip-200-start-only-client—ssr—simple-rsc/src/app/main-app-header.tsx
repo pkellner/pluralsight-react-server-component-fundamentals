@@ -7,7 +7,7 @@ export default function MainAppHeader() {
 
 
   return (
-    <Boundary>
+    <Boundary isServerComponent={true}>
       <header className="bg-light py-1">
         <div className="container">
           <div className="d-flex justify-content-between align-items-top">

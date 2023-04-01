@@ -5,7 +5,7 @@ import Boundary from "@/lib/boundary";
 
 export default function MainAppFooter() {
   return (
-    <Boundary>
+    <Boundary isServerComponent={true}>
       <footer className="bg-light py-1 mt-1">
         <div className="container">
           <p className="text-muted text-center mb-0">

@@ -13,11 +13,9 @@ export default function Boundary({
   return (
     <div
       className={
-        !enabled
-          ? styles.borderInvisible
-          : isServerComponent
-          ? styles.borderRsc
-          : styles.borderRcc
+        enabled ? isServerComponent
+            ? styles.borderRsc
+            : styles.borderRcc : styles.borderInvisible
       }
     >
       {children}

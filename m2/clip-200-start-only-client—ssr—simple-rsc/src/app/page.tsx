@@ -11,7 +11,7 @@ export default function MainApp() {
 
 
   return (
-      <Boundary>
+      <Boundary isServerComponent={true}>
         <div className="container py-1">
           <MainAppHeader />
           <SessionsManager />
