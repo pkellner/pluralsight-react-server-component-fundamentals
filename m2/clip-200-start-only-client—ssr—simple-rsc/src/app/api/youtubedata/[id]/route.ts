@@ -28,8 +28,6 @@ export async function GET(request:any, { params }: any) {
     if (!readFileData) {
       console.log("Error: Request failed with status code 404");
     } else {
-      console.log(`GET /api/todo status: 200`);
-
       const sessionVideo = youTubeData?.filter((rec: IYouTubeData) => {
         return rec.id === youTubeId;
       });

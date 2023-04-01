@@ -3,7 +3,7 @@ import styles from "./boundary.module.css";
 
 export default function Boundary({
   enabled = true,
-  isServerComponent = true,
+  isServerComponent = false,
   children,
 }: {
   enabled?: boolean;

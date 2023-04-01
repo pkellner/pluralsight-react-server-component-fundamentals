@@ -9,7 +9,6 @@ const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export async function GET() {
   const maxToRetrieve = 4;
-  console.log(`route:sessiondata:${maxToRetrieve}`);
   const fileName = "sessions.json";
   const jsonFile = path.resolve("./data", fileName);
   try {
