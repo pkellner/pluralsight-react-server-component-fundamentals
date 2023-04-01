@@ -1,7 +1,7 @@
-function LoadingXxx() {
+function Loading() {
   return (
     <div>Loading...</div>
   );
 }
 
-export default LoadingXxx;
+export default Loading;

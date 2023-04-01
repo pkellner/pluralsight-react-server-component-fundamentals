@@ -1,10 +1,18 @@
 import "server-only"
 
+export const dynamic = 'force-dynamic';
+
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
 import Boundary from "@/lib/boundary";
 import {IYouTubeData} from "@/lib/ts-interfaces";
+import getRandomNumber from "@/lib/getRandomNumber";
+
+const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
+
 
 async function getSessionVideo(id: string) {
+  await delay(getRandomNumber(1500, 3500));
   const res = await fetch(`http://localhost:3000/api/youtubedata/${id}`);
   if (!res.ok) {
     throw new Error("Failed to fetch data");

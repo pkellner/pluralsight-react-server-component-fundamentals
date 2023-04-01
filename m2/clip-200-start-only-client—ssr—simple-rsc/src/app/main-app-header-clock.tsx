@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import Boundary from "@/lib/boundary";
 
 // const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));

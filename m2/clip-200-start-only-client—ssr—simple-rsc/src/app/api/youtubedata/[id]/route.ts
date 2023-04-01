@@ -2,16 +2,13 @@ import path from "path";
 import {promisify} from "util";
 import * as fs from "fs";
 import {IYouTubeData} from "@/lib/ts-interfaces";
+import getRandomNumber from "@/lib/getRandomNumber";
 
 const readFile = promisify(fs.readFile);
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export async function GET(request:any, { params }: any) {
-  function getRandomInt(min: number, max: number) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
-  }
+
 
   const youTubeId = params.id;
 
@@ -24,7 +21,7 @@ export async function GET(request:any, { params }: any) {
     const {
       data: { youTubeData: youTubeData },
     } = JSON.parse(readFileDataString);
-    await delay(getRandomInt(500, 1000));
+    await delay(getRandomNumber(2500, 5000));
     if (!readFileData) {
       console.log("Error: Request failed with status code 404");
     } else {

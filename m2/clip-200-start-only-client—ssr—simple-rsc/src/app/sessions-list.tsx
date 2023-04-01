@@ -1,9 +1,13 @@
 import "server-only";
 
+export const dynamic = 'force-dynamic';
+
 import Boundary from "@/lib/boundary";
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
 import {ISessionData} from "@/lib/ts-interfaces";
 import SessionVideo from "./session-video";
+import {Suspense} from "react";
+import SessionVideoLoading from "@/src/app/session-video-loading";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -46,13 +50,15 @@ export default async function SessionsList() {
                       </div>
                     </div>
                     <div className="col-5 align-middle mt-2 ">
-                      <SessionVideo
-                        id={
-                          rec?.sessionVideos?.length > 0
-                            ? rec.sessionVideos[0].youTubeUrl
-                            : undefined
-                        }
-                      />
+                      <Suspense fallback={<SessionVideoLoading />}>
+                        <SessionVideo
+                          id={
+                            rec?.sessionVideos?.length > 0
+                              ? rec.sessionVideos[0].youTubeUrl
+                              : undefined
+                          }
+                        />
+                      </Suspense>
                     </div>
                   </div>
                 </div>
