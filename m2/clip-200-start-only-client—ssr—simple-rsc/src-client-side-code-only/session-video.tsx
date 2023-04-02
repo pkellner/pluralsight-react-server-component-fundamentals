@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
-import { IYouTubeData } from "@/lib/ts-interfaces";
+import {IYouTubeData} from "@/lib/ts-interfaces";
 import Boundary from "@/lib/boundary";
 
 export default function SessionVideo({ id } : { id?: string}) {
@@ -24,7 +24,7 @@ export default function SessionVideo({ id } : { id?: string}) {
   }
 
   return data ? (
-    <Boundary isServerComponent={true}>
+    <Boundary>
       <div className="row">
         <div className="col-md-6">
           <a target="_blank" href={`https://www.youtube.com/watch?v=${id}}`}>

@@ -3,7 +3,7 @@ import SessionVideo from "./session-video";
 
 import Boundary from "@/lib/boundary";
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
-import { ISessionData } from "@/lib/ts-interfaces";
+import {ISessionData} from "@/lib/ts-interfaces";
 
 export default function SessionsList({ sessionData, query } : { sessionData?: ISessionData[], query: string}) {
   if (!sessionData) {

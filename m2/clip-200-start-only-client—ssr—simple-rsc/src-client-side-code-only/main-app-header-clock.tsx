@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import Boundary from "@/lib/boundary";
 
 export default function MainAppHeaderClock() {

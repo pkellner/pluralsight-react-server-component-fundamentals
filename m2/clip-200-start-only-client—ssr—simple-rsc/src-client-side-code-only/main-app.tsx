@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, {useEffect, useState} from "react";
 import SessionsManager from "./sessions-manager";
-import { ISessionData } from "@/lib/ts-interfaces";
+import {ISessionData} from "@/lib/ts-interfaces";
 import MainAppHeader from "./main-app-header";
 import MainAppFooter from "./main-app-footer";
 import Boundary from "@/lib/boundary";
