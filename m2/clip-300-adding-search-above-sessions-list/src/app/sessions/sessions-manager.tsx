@@ -5,7 +5,7 @@ import SessionsList from "./sessions-list";
 import {ISessionData} from "@/lib/ts-interfaces";
 import Boundary from "@/lib/boundary";
 import React, {Suspense} from "react";
-import SessionsListLoading from "@/src/app/sessions-list-loading";
+import SessionsListLoading from "@/src/app/sessions/sessions-list-loading";
 
 
 export default function SessionsManager({

@@ -11,7 +11,7 @@ import Boundary from "@/lib/boundary";
 //   return currentTime.toLocaleString();
 // }
 
-export default function MainAppHeaderClock({
+export default function AppHeaderClock({
   isoDateString,
 }: {
   isoDateString: string;
@@ -30,7 +30,7 @@ export default function MainAppHeaderClock({
 
   return (
     <Boundary isServerComponent={false}>
-      {/*<Suspense fallback={<div>Loading...(MainAppHeaderClock)</div>}>*/}
+      {/*<Suspense fallback={<div>LoadingXXX...(AppHeaderClock)</div>}>*/}
       <p style={{ width: "170px", height: "10px" }} className="text-dark">
         {date.toLocaleString()}
       </p>

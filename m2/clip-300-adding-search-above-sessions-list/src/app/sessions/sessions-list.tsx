@@ -2,10 +2,10 @@ import "server-only";
 import Boundary from "@/lib/boundary";
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
 import {ISessionData} from "@/lib/ts-interfaces";
-import SessionListItem from "@/src/app/session-list-item";
-import SessionListItemClientWrapper from "@/src/app/session-list-item-client-wrapper";
+import SessionListItem from "@/src/app/sessions/session-list-item";
+import SessionListItemClientWrapper from "@/src/app/sessions/session-list-item-client-wrapper";
 
-export const dynamic = "force-dynamic";
+//export const dynamic = "force-dynamic";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 

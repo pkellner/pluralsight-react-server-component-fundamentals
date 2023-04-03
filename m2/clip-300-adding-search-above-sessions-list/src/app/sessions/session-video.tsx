@@ -4,7 +4,7 @@ import Boundary from "@/lib/boundary";
 import {IYouTubeData} from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
 
-export const dynamic = 'force-dynamic';
+//export const dynamic = 'force-dynamic';
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -29,7 +29,7 @@ export default async function SessionVideo({ id }: { id?: string }) {
 
   return data ? (
     <Boundary isServerComponent={true}>
-      <div className="row">
+      <div className="row"><span className="my-descr1">my-descr in server-video</span>
         <div className="col-md-6">
           <a target="_blank" href={`https://www.youtube.com/watch?v=${id}}`}>
             <img

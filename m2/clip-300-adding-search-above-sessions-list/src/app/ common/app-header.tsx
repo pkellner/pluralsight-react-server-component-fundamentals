@@ -1,9 +1,9 @@
 import "server-only";
 
 import Boundary from "@/lib/boundary";
-import MainAppHeaderClock from "./main-app-header-clock";
+import AppHeaderClock from "./app-header-clock";
 
-export default function MainAppHeader() {
+export default function AppHeader() {
 
   const isoDateString = new Date().toISOString();
 
@@ -13,7 +13,7 @@ export default function MainAppHeader() {
         <div className="container">
           <div className="d-flex justify-content-between align-items-top">
             <h3 className="text-dark m-2">SV Code Camp List</h3>
-            <MainAppHeaderClock isoDateString={isoDateString} />
+            <AppHeaderClock isoDateString={isoDateString} />
           </div>
         </div>
       </header>

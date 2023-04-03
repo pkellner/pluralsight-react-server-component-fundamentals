@@ -3,7 +3,7 @@ import "server-only";
 import React from "react";
 import Boundary from "@/lib/boundary";
 
-export default function MainAppFooter() {
+export default function AppFooter() {
   return (
     <Boundary isServerComponent={true}>
       <footer className="bg-light py-1 mt-1">

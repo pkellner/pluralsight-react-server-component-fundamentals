@@ -1,8 +1,8 @@
 import {ISessionData} from "@/lib/ts-interfaces";
 import Boundary from "@/lib/boundary";
 import {Suspense} from "react";
-import SessionVideoLoading from "@/src/app/session-video-loading";
-import SessionVideo from "@/src/app/session-video";
+import SessionVideoLoading from "@/src/app/sessions/session-video-loading";
+import SessionVideo from "@/src/app/sessions/session-video";
 
 export default function SessionListItem(props: { rec: ISessionData }) {
     return <li className="list-group-item border-0 ps-0">
