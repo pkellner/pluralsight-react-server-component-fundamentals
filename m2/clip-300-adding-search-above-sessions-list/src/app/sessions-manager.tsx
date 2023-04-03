@@ -17,7 +17,6 @@ export default function SessionsManager({
   return (
     <Boundary isServerComponent={true}>
       <div className="bg-white">
-
           <SessionsQuery />
           <Suspense fallback={<SessionsListLoading />}>
             <SessionsList />

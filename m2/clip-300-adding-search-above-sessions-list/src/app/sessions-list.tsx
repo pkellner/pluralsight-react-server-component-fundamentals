@@ -30,21 +30,17 @@ export default async function SessionsList() {
     return <ShowBusyIndicator />;
   }
 
-  const query = "";
-
   return (
-    <ul className="list-group">
-      {sessionData
-        .filter((rec: ISessionData) =>
-          rec.title.toLowerCase().includes(query.toLowerCase())
-        )
-        .map(function (rec: ISessionData) {
+    <Boundary isServerComponent={true}>
+      <ul className="list-group">
+        {sessionData.map(function (rec: ISessionData) {
           return (
             <SessionListItemClientWrapper key={rec.id} title={rec.title}>
               <SessionListItem rec={rec} />
             </SessionListItemClientWrapper>
           );
         })}
-    </ul>
+      </ul>
+    </Boundary>
   );
 }

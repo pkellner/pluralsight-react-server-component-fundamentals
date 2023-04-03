@@ -23,7 +23,7 @@ export default function QueryProvider({ children }: { children: ReactNode }) {
         setQuery,
       }}
     >
-      <Boundary isServerComponent={false}>{children}</Boundary>
+      <Boundary isServerComponent={false}  borderCustom={false}  >{children}</Boundary>
     </QueryContext.Provider>
   );
 }
