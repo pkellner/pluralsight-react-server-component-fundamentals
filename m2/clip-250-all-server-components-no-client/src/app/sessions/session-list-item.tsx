@@ -7,7 +7,7 @@ export default function SessionListItem(props: { rec: ISessionData }) {
   const maxToShow = 4;
 
   return (
-    <div className="col-md-3">
+    <div className="col-md-4 d-flex align-items-stretch">
       <Boundary isServerComponent={true}>
         <div className="card m-1">
           <div className="row g-0">
