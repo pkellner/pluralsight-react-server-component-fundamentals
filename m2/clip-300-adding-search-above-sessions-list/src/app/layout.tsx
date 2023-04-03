@@ -1,3 +1,5 @@
+import React from "react";
+
 export const metadata = {
   title: 'Server Component Fundamentals',
   description: 'Pluralsight course',
