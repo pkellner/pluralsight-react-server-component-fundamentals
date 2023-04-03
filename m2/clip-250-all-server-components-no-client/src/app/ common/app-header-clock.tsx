@@ -1,3 +1,5 @@
+import "server-only"
+
 import Boundary from "@/lib/boundary";
 
 export default function AppHeaderClock({
@@ -8,7 +10,7 @@ export default function AppHeaderClock({
 
 
   return (
-    <Boundary isServerComponent={false}>
+    <Boundary isServerComponent={true}>
       <p style={{ width: "170px", height: "10px" }} className="text-dark">
         {new Date(isoDateString).toLocaleTimeString()}
       </p>

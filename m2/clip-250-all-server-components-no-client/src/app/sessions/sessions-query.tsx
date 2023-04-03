@@ -1,19 +1,15 @@
+import "server-only"
 import Boundary from "@/lib/boundary";
 
 export default function SessionsQuery() {
-  //const query = "";
-  //const setQuery = (value: string) => {};
-
-  return (
+    return (
     <form>
       <div className="input-group mb-1 mt-2">
-        <Boundary isServerComponent={false}>
+        <Boundary isServerComponent={true}>
           <input
             type="text"
             className="form-control"
             placeholder="Search..."
-            //value={query}
-            // onChange={(e) => setQuery(e.target.value)}
           />
         </Boundary>
       </div>
