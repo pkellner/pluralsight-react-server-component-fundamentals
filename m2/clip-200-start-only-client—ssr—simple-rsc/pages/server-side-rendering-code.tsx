@@ -1,4 +1,4 @@
-import { ISessionData, IYouTubeData } from "@/lib/ts-interfaces";
+import {ISessionData, IYouTubeData} from "@/lib/ts-interfaces";
 import SessionsApp from "../src-server-side-rendering-code-OLD/sessions-app";
 
 export default function ServerSideRenderingCode({

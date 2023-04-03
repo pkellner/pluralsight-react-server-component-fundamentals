@@ -1,15 +1,13 @@
 import path from "path";
-import {promisify} from "util";
+import { promisify } from "util";
 import * as fs from "fs";
-import {IYouTubeData} from "@/lib/ts-interfaces";
+import { IYouTubeData } from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
 
 const readFile = promisify(fs.readFile);
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-export async function GET(request:any, { params }: any) {
-
-
+export async function GET(request: any, { params }: any) {
   const youTubeId = params.id;
 
   const fileName = "youtubedata.json";

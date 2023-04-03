@@ -1,11 +1,10 @@
 import "server-only"
-
-export const dynamic = 'force-dynamic';
-
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
 import Boundary from "@/lib/boundary";
 import {IYouTubeData} from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
+
+export const dynamic = 'force-dynamic';
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 

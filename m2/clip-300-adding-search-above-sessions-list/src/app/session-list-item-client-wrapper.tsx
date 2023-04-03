@@ -1,7 +1,7 @@
 "use client";
 
-import { ReactNode, useContext } from "react";
-import { QueryContext } from "@/src/app/contexts/query-provider";
+import {ReactNode, useContext} from "react";
+import {QueryContext} from "@/src/app/contexts/query-provider";
 import Boundary from "@/lib/boundary";
 
 export default function SessionListItemClientWrapper({

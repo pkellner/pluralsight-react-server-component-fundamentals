@@ -1,15 +1,11 @@
 import "server-only";
-
-export const dynamic = "force-dynamic";
-
 import Boundary from "@/lib/boundary";
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
-import { ISessionData } from "@/lib/ts-interfaces";
-import SessionVideo from "./session-video";
-import { ReactNode, Suspense } from "react";
-import SessionVideoLoading from "@/src/app/session-video-loading";
+import {ISessionData} from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/session-list-item";
 import SessionListItemClientWrapper from "@/src/app/session-list-item-client-wrapper";
+
+export const dynamic = "force-dynamic";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 

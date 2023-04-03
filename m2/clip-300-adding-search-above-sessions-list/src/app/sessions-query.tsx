@@ -1,8 +1,8 @@
 "use client";
 
 import Boundary from "@/lib/boundary";
-import React, { useContext } from "react";
-import { QueryContext } from "@/src/app/contexts/query-provider";
+import React, {useContext} from "react";
+import {QueryContext} from "@/src/app/contexts/query-provider";
 
 export default function SessionsQuery() {
   const { query, setQuery } = useContext(QueryContext);

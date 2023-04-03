@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, ReactNode, useState } from "react";
+import {createContext, ReactNode, useState} from "react";
 import Boundary from "@/lib/boundary";
 
 export type QueryContent = {
