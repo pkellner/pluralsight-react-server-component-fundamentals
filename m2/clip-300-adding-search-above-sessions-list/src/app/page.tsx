@@ -10,10 +10,6 @@ import AppFooter from "./ common/app-footer";
 import SessionsManager from "./sessions/sessions-manager";
 import QueryProvider from "@/src/app/contexts/query-provider";
 
-export const metadata = {
-    title: 'Server Component Fundamentals',
-    description: 'Pluralsight course',
-}
 
 export default function MainApp() {
   return (

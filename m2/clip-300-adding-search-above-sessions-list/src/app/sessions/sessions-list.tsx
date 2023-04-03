@@ -5,8 +5,6 @@ import {ISessionData} from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
 import SessionListItemClientWrapper from "@/src/app/sessions/session-list-item-client-wrapper";
 
-//export const dynamic = "force-dynamic";
-
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getSessionsList() {
