@@ -3,24 +3,16 @@
 import {useEffect, useState} from "react";
 import Boundary from "@/lib/boundary";
 
-// const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-//
-// async function getCurrentTime() {
-//   await delay(2000);
-//   const currentTime = new Date();
-//   return currentTime.toLocaleString();
-// }
-
 export default function AppHeaderClock({
   isoDateString,
 }: {
   isoDateString: string;
 }) {
-  const [date, setDate] = useState(new Date(isoDateString));
+  const [currentTime, setCurrentTime] = useState(new Date(isoDateString));
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setDate((oldDate) => new Date(oldDate.getTime() + 1000));
+      setCurrentTime((oldDate) => new Date(oldDate.getTime() + 1000));
     }, 1000);
 
     return () => {
@@ -30,11 +22,9 @@ export default function AppHeaderClock({
 
   return (
     <Boundary isServerComponent={false}>
-      {/*<Suspense fallback={<div>LoadingXXX...(AppHeaderClock)</div>}>*/}
       <p style={{ width: "170px", height: "10px" }} className="text-dark">
-        {date.toLocaleString()}
+        {currentTime.toLocaleString()}
       </p>
-      {/*</Suspense>*/}
     </Boundary>
   );
 }

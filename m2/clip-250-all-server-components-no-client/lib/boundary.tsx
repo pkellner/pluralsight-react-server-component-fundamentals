@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./boundary.module.css";
 
 export default function Boundary({
-  enabled = false,
+  enabled = true,
   isServerComponent = false,
   borderCustom = false,
   children,

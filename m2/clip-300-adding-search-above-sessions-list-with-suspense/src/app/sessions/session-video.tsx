@@ -39,10 +39,7 @@ export default async function SessionVideo({ id }: { id?: string }) {
           className="card-body d-flex justify-content-end"
           style={{ backgroundColor: "dimgray", padding: "4px 8px" }}
         >
-          <p
-            className="card-text fst-italic text-white mb-0"
-            style={{ lineHeight: 1, fontSize: "11px" }}
-          >
+          <p className="card-text fst-italic text-white mb-0" style={{ lineHeight: 1, fontSize: "11px" }}>
             Views {data?.statistics?.viewCount}
           </p>
         </div>

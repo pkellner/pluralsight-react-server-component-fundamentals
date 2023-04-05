@@ -6,7 +6,6 @@ import jsonData from "../../../data/youtubedata.json";
 
 function getSessionVideo(id : string) {
   const videoData = jsonData.data.youTubeData.find(video => video.id === id);
-
   if (!videoData) {
     throw new Error("Failed to fetch data");
   }
@@ -42,6 +41,4 @@ export default function SessionVideo({ id }: { id?: string }) {
         </div>
       </Boundary>
   );
-
-
 }

@@ -5,7 +5,6 @@ import SessionVideo from "@/src/app/sessions/session-video";
 export default function SessionListItem(props: { rec: ISessionData }) {
 
   return (
-    
       <Boundary isServerComponent={true}>
         <div className="card m-1">
           <div className="row g-0">

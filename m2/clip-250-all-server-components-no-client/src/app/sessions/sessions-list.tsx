@@ -4,7 +4,7 @@ import {ISessionData} from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
 import jsonData from "../../../data/sessions.json";
 
-const maxToShow = 312;
+const maxToShow = 999;
 
 export default function SessionsList() {
   interface IRawSessionData {

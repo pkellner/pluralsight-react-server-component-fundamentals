@@ -2,7 +2,7 @@ export interface ISessionData {
   id: string;
   title: string;
   descriptionShort: string;
-  sessionVideos: { youTubeUrl: string }[];
+  sessionVideos: { youTubeUrl: string }[] | null;
 }
 
 export interface IYouTubeData {

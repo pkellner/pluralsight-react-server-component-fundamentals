@@ -1,5 +1,5 @@
 import path from "path";
-import {promisify} from "util";
+import { promisify } from "util";
 import * as fs from "fs";
 
 const delayTime = 2000; // milliseconds added to all REST calls
@@ -16,7 +16,6 @@ export async function GET() {
     const {
       data: { sessions: sessions },
     } = JSON.parse(readFileDataString);
-    //console.log(`api:sessions: delay time: ${delayTime} ms`);
     await delay(delayTime);
     if (!readFileData) {
       console.log("Error: Request failed with status code 404");

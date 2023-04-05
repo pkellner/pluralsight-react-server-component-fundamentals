@@ -20,10 +20,6 @@ async function getSessionsList() {
 export default async function SessionsList() {
   const sessionData = await getSessionsList();
 
-  if (!sessionData) {
-    return <ShowBusyIndicator />;
-  }
-
   return (
     <Boundary isServerComponent={true}>
       <div className="container">
