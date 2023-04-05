@@ -1,4 +1,4 @@
-import "server-only"
+import "server-only";
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
 import Boundary from "@/lib/boundary";
 import {IYouTubeData} from "@/lib/ts-interfaces";
@@ -7,8 +7,6 @@ import getRandomNumber from "@/lib/getRandomNumber";
 //export const dynamic = 'force-dynamic';
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-
-
 
 async function getSessionVideo(id: string) {
   await delay(getRandomNumber(1500, 3500));
@@ -25,26 +23,32 @@ export default async function SessionVideo({ id }: { id?: string }) {
     return null;
   }
 
-  const data : IYouTubeData = await getSessionVideo(id);
+  const data: IYouTubeData = await getSessionVideo(id);
 
   return data ? (
     <Boundary isServerComponent={true}>
-      <div className="row"><span className="my-descr1">my-descr in server-video</span>
-        <div className="col-md-6">
-          <a target="_blank" href={`https://www.youtube.com/watch?v=${id}}`}>
-            <img
-              src={data?.snippet?.thumbnails?.medium?.url}
-              width={100}
-              alt="youtube thumb"
-            />
-          </a>
-        </div>
-        <div className="col-md-6 fst-italic fs-6">
-          Views {data?.statistics?.viewCount}
+      <div className="card">
+        <a target="_blank" href={`https://www.youtube.com/watch?v=${id}`}>
+          <img
+            src={data?.snippet?.thumbnails?.medium?.url}
+            className="card-img-top"
+            alt="youtube thumb"
+          />
+        </a>
+        <div
+          className="card-body d-flex justify-content-end"
+          style={{ backgroundColor: "dimgray", padding: "4px 8px" }}
+        >
+          <p
+            className="card-text fst-italic text-white mb-0"
+            style={{ lineHeight: 1, fontSize: "11px" }}
+          >
+            Views {data?.statistics?.viewCount}
+          </p>
         </div>
       </div>
     </Boundary>
   ) : (
-    <ShowBusyIndicator />
+    null
   );
 }

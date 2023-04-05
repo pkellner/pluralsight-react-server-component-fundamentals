@@ -1,7 +1,7 @@
 import "server-only";
 import Boundary from "@/lib/boundary";
 import ShowBusyIndicator from "@/lib/show-busy-indicator";
-import {ISessionData} from "@/lib/ts-interfaces";
+import { ISessionData } from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
 import SessionListItemClientWrapper from "@/src/app/sessions/session-list-item-client-wrapper";
 
@@ -26,15 +26,22 @@ export default async function SessionsList() {
 
   return (
     <Boundary isServerComponent={true}>
-      <ul className="list-group">
-        {sessionData.map(function (rec: ISessionData) {
-          return (
-            <SessionListItemClientWrapper key={rec.id} title={rec.title}>
-              <SessionListItem rec={rec} />
-            </SessionListItemClientWrapper>
-          );
-        })}
-      </ul>
+      <div className="container">
+        <div className="row">
+          {sessionData.map(function (rec: ISessionData) {
+            return (
+              <SessionListItemClientWrapper key={rec.id} title={rec.title}>
+                <div
+                  className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch"
+                  key={rec.id}
+                >
+                  <SessionListItem rec={rec} />
+                </div>
+              </SessionListItemClientWrapper>
+            );
+          })}
+        </div>
+      </div>
     </Boundary>
   );
 }

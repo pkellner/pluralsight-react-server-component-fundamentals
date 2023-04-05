@@ -10,7 +10,7 @@ export default function AppHeaderClock({
 
 
   return (
-    <Boundary isServerComponent={true}>
+    <Boundary isServerComponent={false}>
       <p style={{ width: "170px", height: "10px" }} className="text-dark">
         {new Date(isoDateString).toLocaleTimeString()}
       </p>
