@@ -23,7 +23,7 @@ export default function AppHeaderClock({
   return (
     <Boundary isServerComponent={false}>
       <p style={{ width: "170px", height: "10px" }} className="text-dark">
-        {currentTime.toLocaleString()}
+        {currentTime.toLocaleTimeString()}
       </p>
     </Boundary>
   );

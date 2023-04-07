@@ -1,7 +1,6 @@
 import "server-only";
 import Boundary from "@/lib/boundary";
-import ShowBusyIndicator from "@/lib/show-busy-indicator";
-import { ISessionData } from "@/lib/ts-interfaces";
+import {ISessionData} from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
 import SessionListItemClientWrapper from "@/src/app/sessions/session-list-item-client-wrapper";
 
