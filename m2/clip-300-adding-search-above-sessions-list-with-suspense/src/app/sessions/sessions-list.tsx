@@ -1,6 +1,6 @@
 import "server-only";
 import Boundary from "@/lib/boundary";
-import {ISessionData} from "@/lib/ts-interfaces";
+import { ISessionData } from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
 import SessionListItemClientWrapper from "@/src/app/sessions/session-list-item-client-wrapper";
 
@@ -25,14 +25,14 @@ export default async function SessionsList() {
         <div className="row">
           {sessionData.map(function (rec: ISessionData) {
             return (
-              <SessionListItemClientWrapper key={rec.id} title={rec.title}>
-                <div
-                  className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch"
-                  key={rec.id}
-                >
+              <div
+                className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch"
+                key={rec.id}
+              >
+                <SessionListItemClientWrapper key={rec.id} title={rec.title}>
                   <SessionListItem rec={rec} />
-                </div>
-              </SessionListItemClientWrapper>
+                </SessionListItemClientWrapper>
+              </div>
             );
           })}
         </div>
