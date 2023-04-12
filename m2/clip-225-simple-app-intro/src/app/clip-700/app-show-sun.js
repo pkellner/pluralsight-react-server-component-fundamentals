@@ -1,30 +1,30 @@
 export default function AppShowSun({ isoDateString }) {
-  const date = new Date(isoDateString);
-
-  function getMinuteOffsetIntoDay(date) {
-    return date.getHours() * 60 + date.getMinutes();
-  }
   
-  function getSunBrightness(minuteOffset) {
-    const noonMinute = 12 * 60;
-    if (minuteOffset >= 7 * 60 && minuteOffset < 18 * 60) {
-      const minuteDiff = Math.abs(minuteOffset - noonMinute);
-      const brightness = 1 - minuteDiff / noonMinute;
-      return 100.0 - brightness * 100.0;
+  // Returns the brightness of the sun as a percentage (0 to 100) based on the given date and time.
+  // The input should be an ISO date string.
+  function getSunBrightness(isoDateString) {
+    const date = new Date(isoDateString);
+    const totalMinutes = date.getHours() * 60 + date.getMinutes();
+    const noonInMinutes = 12 * 60;
+
+    // Check if the time is between 7:00 AM and 6:00 PM
+    if (totalMinutes >= 7 * 60 && totalMinutes < 18 * 60) {
+      const minutesFromNoon = Math.abs(totalMinutes - noonInMinutes);
+      const brightnessRatio = 1 - minutesFromNoon / noonInMinutes;
+      return 100.0 - brightnessRatio * 100.0;
     }
+    // If the time is outside the 7:00 AM to 6:00 PM range, return 100 (0% brightness)
     return 100.0;
   }
 
   const style = {
-    filter: `grayscale(${getSunBrightness(getMinuteOffsetIntoDay(date))}%)`,
+    filter: `grayscale(${getSunBrightness(isoDateString)}%)`,
   };
 
   return (
     <div>
-      {getMinuteOffsetIntoDay(date)}
       <div>
         <img src="./images/sun.png" style={style} />
-        {getSunBrightness(getMinuteOffsetIntoDay(date))}
       </div>
     </div>
   );
