@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@rooks/use-counter": "^4.11.2",
     "@types/node": "18.15.10",
     "@types/react": "18.0.30",
     "@types/react-dom": "18.0.11",
@@ -18,8 +19,8 @@
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.60.0",
     "server-only": "^0.0.1",
+    "sunrise-sunset-js": "^2.2.1",
     "typescript": "5.0.2"
   }
 }

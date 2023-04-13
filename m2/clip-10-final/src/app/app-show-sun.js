@@ -1,3 +1,5 @@
+//'use client';
+
 export default function AppShowSun({ isoDateString }) {
   // Returns the brightness of the sun as a percentage (0 to 100) based on the given date and time.
   // The input should be an ISO date string.
@@ -16,14 +18,12 @@ export default function AppShowSun({ isoDateString }) {
     return 100.0;
   }
 
-  const style = {
-    filter: `grayscale(${getSunBrightness(isoDateString)}%)`,
-  };
+  const sunBrightnessGrayScale = getSunBrightness(isoDateString);
 
-  function is_server() {
-    return !(typeof window != "undefined" && window.document);
-  }
-  console.log("AppShowSun: isServer:", is_server() ? "true" : "false  ");
+  const style = {
+    filter: `grayscale(${sunBrightnessGrayScale}%)`,
+    visibility: sunBrightnessGrayScale === 100.0 ? "hidden" : "visible",
+  };
 
   return (
     <div>
