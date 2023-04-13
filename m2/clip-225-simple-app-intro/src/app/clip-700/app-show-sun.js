@@ -1,5 +1,4 @@
 export default function AppShowSun({ isoDateString }) {
-  
   // Returns the brightness of the sun as a percentage (0 to 100) based on the given date and time.
   // The input should be an ISO date string.
   function getSunBrightness(isoDateString) {
@@ -21,10 +20,15 @@ export default function AppShowSun({ isoDateString }) {
     filter: `grayscale(${getSunBrightness(isoDateString)}%)`,
   };
 
+  function is_server() {
+    return !(typeof window != "undefined" && window.document);
+  }
+  console.log("AppShowSun: isServer:", is_server() ? "true" : "false  ");
+
   return (
     <div>
       <div>
-        <img src="./images/sun.png" style={style} />
+        <img src="../../images/sun.png" style={style} />
       </div>
     </div>
   );
