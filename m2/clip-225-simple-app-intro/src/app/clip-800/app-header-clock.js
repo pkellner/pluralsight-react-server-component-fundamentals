@@ -9,7 +9,10 @@ export default function AppHeaderClock({ isoDateString, children }) {
   useEffect(() => {
     const incrementSecondsEverySecond = 7200; // 3600 makes time go 1 hour for every second
     const interval = setInterval(() => {
-      setCurrentDate((oldDate) => new Date(oldDate.getTime() + 1000 * incrementSecondsEverySecond));
+      setCurrentDate(
+        (oldDate) =>
+          new Date(oldDate.getTime() + 1000 * incrementSecondsEverySecond)
+      );
     }, 1000);
 
     return () => {

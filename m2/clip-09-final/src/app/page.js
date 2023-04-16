@@ -10,8 +10,8 @@ export default function AppHeader() {
     <div className="container bg-light text-dark  m-4 w-auto">
       <h2>Clock App</h2>
       <hr />
-      <AppHeaderClock isoDateString={isoDateString} >
-          <AppServerComponent />
+      <AppHeaderClock isoDateString={isoDateString}>
+        <AppServerComponent />
       </AppHeaderClock>
     </div>
   );
