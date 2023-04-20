@@ -1,8 +1,7 @@
 //'use client';
 
 export default function AppShowSun({ isoDateString }) {
-  // Returns the brightness of the sun as a percentage (0 to 100) based on the
-  // given date and time.
+  // Returns the brightness of the sun as a percentage (0 to 100) based on the given date and time.
   // The input should be an ISO date string.
   function getSunBrightness(isoDateString) {
     const date = new Date(isoDateString);
@@ -30,7 +29,6 @@ export default function AppShowSun({ isoDateString }) {
     <div>
       <div>
         <img src="../../images/sun.png" style={style} />
-        <button className="btn btn-secondary m-2">increment</button>
       </div>
     </div>
   );

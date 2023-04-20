@@ -1,4 +1,5 @@
 import "server-only";
+import AppShowTheme from "./app-show-theme";
 
 // this is boring.
 // THIS COULD HAVE ASYNC STUFF IN IT, LIKE MAYBE SOMETHING THAT GETS WEATHER DATA, BENEFIT IS NO COMPLEX API ON CLIENT FOR THIS
@@ -6,8 +7,9 @@ import "server-only";
 
 export default function AppServerComponent() {
   return (
-    <div className="container">
+    <div className="container border">
       <h2>I'm a Server Component</h2>
+      <AppShowTheme />
     </div>
   );
 }

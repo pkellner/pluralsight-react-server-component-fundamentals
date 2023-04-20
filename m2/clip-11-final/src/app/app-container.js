@@ -11,27 +11,25 @@ export default function AppContainer({ children }) {
   };
 
   return (
-    <div className="container m-1">
-      <div
-        className={`${
-          darkTheme ? "bg-dark text-light" : "bg-light text-dark"
-        } `}
-      >
-        <div className="form-check form-switch">
-          <input
-            className="form-check-input"
-            type="checkbox"
-            id="darkThemeSwitch"
-            checked={darkTheme}
-            onChange={handleThemeChange}
-          />
-          <label className="form-check-label" htmlFor="darkThemeSwitch">
-            Enable Dark Theme
-          </label>
-        </div>
-        <hr />
-        <div>{children}</div>
+    <div
+      className={`container ${
+        darkTheme ? "bg-dark text-light" : "bg-light text-dark"
+      } `}
+    >
+      <div className="form-check form-switch">
+        <input
+          className="form-check-input"
+          type="checkbox"
+          id="darkThemeSwitch"
+          checked={darkTheme}
+          onChange={handleThemeChange}
+        />
+        <label className="form-check-label" htmlFor="darkThemeSwitch">
+          Enable Dark Theme
+        </label>
       </div>
+      <hr />
+      <div>{children}</div>
     </div>
   );
 }
