@@ -15,7 +15,7 @@ export default function AppContainer({ children }) {
           id="darkThemeSwitch" checked={darkTheme}
           onChange={() => setDarkTheme(!darkTheme)} />
         <label className="form-check-label" htmlFor="darkThemeSwitch">
-          Enable Dark Theme
+          Toggle Theme
         </label>
       </div>
       <hr />
