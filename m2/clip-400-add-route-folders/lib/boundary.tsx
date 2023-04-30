@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./boundary.module.css";
 
+const hideAllBorders = true;
+
 export default function Boundary({
   enabled = true,
   isServerComponent = false,
@@ -26,5 +28,9 @@ export default function Boundary({
     }
   };
 
-  return <div className={getClassName()}>{children}</div>;
+  return hideAllBorders ? (
+    <div>{children}</div>
+  ) : (
+    <div className={getClassName()}>{children}</div>
+  );
 }

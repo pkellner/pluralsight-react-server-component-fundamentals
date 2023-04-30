@@ -7,8 +7,8 @@ import SessionListItemClientWrapper from "@/src/app/sessions/session-list-item-c
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getSessionsList() {
-  await delay(2000);
-  const res = await fetch(`http://localhost:3000/api/sessiondata`);
+  await delay(4000);
+  const res = await fetch(`http://localhost:3000/api/sessiondata?max=11`);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
@@ -25,14 +25,9 @@ export default async function SessionsList() {
         <div className="row">
           {sessionData.map(function (rec: ISessionData) {
             return (
-              <div
-                className="col-lg-4 col-md-6 col-sm-12 d-flex align-items-stretch"
-                key={rec.id}
-              >
-                <SessionListItemClientWrapper key={rec.id} title={rec.title}>
-                  <SessionListItem rec={rec} />
-                </SessionListItemClientWrapper>
-              </div>
+              <SessionListItemClientWrapper key={rec.id} title={rec.title}>
+                <SessionListItem rec={rec} />
+              </SessionListItemClientWrapper>
             );
           })}
         </div>

@@ -8,7 +8,7 @@ import getRandomNumber from "@/lib/getRandomNumber";
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getSessionVideo(id: string) {
-  await delay(getRandomNumber(1500, 3500));
+  await delay(getRandomNumber(2500, 5000));
   const res = await fetch(`http://localhost:3000/api/youtubedata/${id}`);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
@@ -26,7 +26,7 @@ export default async function SessionVideo({ id }: { id?: string }) {
 
   return data ? (
     <Boundary isServerComponent={true}>
-      <div className="card">
+      <div className="card m-1">
         <a target="_blank" href={`https://www.youtube.com/watch?v=${id}`}>
           <img
             src={data?.snippet?.thumbnails?.medium?.url}

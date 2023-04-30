@@ -7,7 +7,7 @@ export default function SessionsListLoading() {
       <div className="row">
         {[1, 2, 3, 4].map(function (id: number) {
           return (
-            <div className="col-md-4 d-flex align-items-stretch" key={id}>
+            <div className="col-md-3 d-flex align-items-stretch" key={id}>
               <Boundary enabled={false}>
                 <div className="card m-1">
                   <div className="row g-0">
