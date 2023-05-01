@@ -3,6 +3,7 @@
   padding: 4px;
   margin: 3px;
   border: 3px solid #FFC942;
+  /*border: 3px solid #FFFFFF00*/
 
 }
 
@@ -11,6 +12,7 @@
   padding: 4px;
   margin: 3px;
   border: 3px solid #FF7B01;
+  /*border: 3px solid #FFFFFF00*/
 }
 
 .borderCustom {
