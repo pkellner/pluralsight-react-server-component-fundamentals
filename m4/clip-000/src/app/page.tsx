@@ -11,6 +11,6 @@ export default function MainApp() {
       <AppHeader />
       <SessionsList />
       <AppFooter />
-    </div>
-  );
+    </div>  
+  );  
 }
