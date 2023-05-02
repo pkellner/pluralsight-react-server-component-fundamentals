@@ -1,0 +1,696 @@
+{
+  "data": {
+    "youTubeData": [
+      {
+        "kind": "youtube#video",
+        "etag": "FIjynaiLkUIVmieZFAvd6tmztMs",
+        "id": "mEJ8f0-rACo",
+        "snippet": {
+          "publishedAt": "2018-11-01T04:19:09Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "Gayle Laakmann McDowell Talks about 'Interview Like Google (or not)-But Better!'",
+          "description": "Gayle Laakmann McDowell Talks about 'Interview Like Google (or not)-But Better!' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nBe a better interviewer: make candidates happier, raise the bar, create a consistent process, and avoid rejecting good candidates or hiring bad ones. We'll discuss multiple interview styles so you can interview like Google (or not)-but better!\n\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/interview-like-google-or-not-but-better\nSession Materials:\nhttp://go.gayle.com/interviewinglikegoogle\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nInterview Like Google (or not)-But Better! at Silicon Valley Code Camp 2018 \n\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nGayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books.\n\nGayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/mEJ8f0-rACo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/mEJ8f0-rACo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/mEJ8f0-rACo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/mEJ8f0-rACo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/mEJ8f0-rACo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Gayle Laakmann McDowell Talks about 'Interview Like Google (or not)-But Better!'",
+            "description": "Gayle Laakmann McDowell Talks about 'Interview Like Google (or not)-But Better!' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nBe a better interviewer: make candidates happier, raise the bar, create a consistent process, and avoid rejecting good candidates or hiring bad ones. We'll discuss multiple interview styles so you can interview like Google (or not)-but better!\n\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/interview-like-google-or-not-but-better\nSession Materials:\nhttp://go.gayle.com/interviewinglikegoogle\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nInterview Like Google (or not)-But Better! at Silicon Valley Code Camp 2018 \n\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nGayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books.\n\nGayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT1H16M2S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "2484",
+          "likeCount": "45",
+          "favoriteCount": "0",
+          "commentCount": "0"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "DQ2V6pNG88gQBPRRRSK1quXXqEE",
+        "id": "8T7a09V1KZo",
+        "snippet": {
+          "publishedAt": "2018-10-19T12:55:37Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "Cracking the Coding Interview at Silicon Valley Code Camp 2018",
+          "description": "Gayle Laakmann McDowell Talks about 'Cracking the Coding Interview' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nGayle ran out of books to sell but you can still pick one up on Amazon.  Here is a link:  https://amzn.to/2q1zutH\n\nProgrammer & best-selling author of Cracking the Coding Interview presents a technical talk on how coding interviews work and how to do well on them. This will be a deeply technical talk covering data structures and algorithms.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/cracking-the-coding-interview\nSession Materials:\nhttp://go.gayle.com/codingprep\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\nGayle Laakmann McDowell Talks about 'Cracking the Coding Interview' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nProgrammer & best-selling author of Cracking the Coding Interview presents a technical talk on how coding interviews work and how to do well on them. This will be a deeply technical talk covering data structures and algorithms.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/cracking-the-coding-interview\nSession Materials:\nhttp://go.gayle.com/codingprep\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nGayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books:\n\nCracking the Coding Interview (Amazon.com's #1 best-selling interview book)\nCracking the PM Interview (product manager)\nCracking the Tech Career\nShe is an interview consultant, helping companies improve their interview process and coaching startups through acquisitions/acqui-hires. She is also an interview prep instructor, hired by Facebook to teach an interview prep class for external software developer candidates.\nGayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/8T7a09V1KZo/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/8T7a09V1KZo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/8T7a09V1KZo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/8T7a09V1KZo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/8T7a09V1KZo/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "tags": ["Silicon Valley Code Camp", "Interviewing"],
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Cracking the Coding Interview at Silicon Valley Code Camp 2018",
+            "description": "Gayle Laakmann McDowell Talks about 'Cracking the Coding Interview' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nGayle ran out of books to sell but you can still pick one up on Amazon.  Here is a link:  https://amzn.to/2q1zutH\n\nProgrammer & best-selling author of Cracking the Coding Interview presents a technical talk on how coding interviews work and how to do well on them. This will be a deeply technical talk covering data structures and algorithms.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/cracking-the-coding-interview\nSession Materials:\nhttp://go.gayle.com/codingprep\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\nGayle Laakmann McDowell Talks about 'Cracking the Coding Interview' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nProgrammer & best-selling author of Cracking the Coding Interview presents a technical talk on how coding interviews work and how to do well on them. This will be a deeply technical talk covering data structures and algorithms.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/cracking-the-coding-interview\nSession Materials:\nhttp://go.gayle.com/codingprep\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nGayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books:\n\nCracking the Coding Interview (Amazon.com's #1 best-selling interview book)\nCracking the PM Interview (product manager)\nCracking the Tech Career\nShe is an interview consultant, helping companies improve their interview process and coaching startups through acquisitions/acqui-hires. She is also an interview prep instructor, hired by Facebook to teach an interview prep class for external software developer candidates.\nGayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT1H3M13S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "4074",
+          "likeCount": "104",
+          "favoriteCount": "0",
+          "commentCount": "6"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "L8PQQIyktvdiLBjWTJg2r9rbIY8",
+        "id": "EH6ihCPDnnc",
+        "snippet": {
+          "publishedAt": "2018-11-01T13:50:43Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "Microservices: Decomposing Applications for Testability and Deployability at SV Code Camp 2018",
+          "description": "Chris Richardson Talks about 'Microservices: Decomposing Applications for Testability and Deployability' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nBook: Microservices Patterns in Java https://amzn.to/2PBGo78\n\nLearn how the microservice architecture accelerates the delivery of large, complex applications by improving testability and deployability\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/microservices-decomposing-applications-for-testability-and-deployability\nSession Materials:\nhttps://microservices.io/microservices/general/2018/10/15/svcc.html\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nMicroservices: Decomposing Applications for Testability and Deployability at Silicon Valley Code Camp 2018 \n\n\n\nFollow Chris Richardson on Twitter: https://twitter.com/crichardson\n\nSpeaker Biography for Chris Richardson\n\n\nChris Richardson is a developer and architect. He is a Java Champion, a JavaOne rock star and the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/EH6ihCPDnnc/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/EH6ihCPDnnc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/EH6ihCPDnnc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "tags": [
+            "Microservices",
+            "Silicon Valley Code Camp",
+            "Chris Richardson"
+          ],
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Microservices: Decomposing Applications for Testability and Deployability at SV Code Camp 2018",
+            "description": "Chris Richardson Talks about 'Microservices: Decomposing Applications for Testability and Deployability' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nBook: Microservices Patterns in Java https://amzn.to/2PBGo78\n\nLearn how the microservice architecture accelerates the delivery of large, complex applications by improving testability and deployability\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/microservices-decomposing-applications-for-testability-and-deployability\nSession Materials:\nhttps://microservices.io/microservices/general/2018/10/15/svcc.html\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nMicroservices: Decomposing Applications for Testability and Deployability at Silicon Valley Code Camp 2018 \n\n\n\nFollow Chris Richardson on Twitter: https://twitter.com/crichardson\n\nSpeaker Biography for Chris Richardson\n\n\nChris Richardson is a developer and architect. He is a Java Champion, a JavaOne rock star and the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2."
+          },
+          "defaultAudioLanguage": "zxx"
+        },
+        "contentDetails": {
+          "duration": "PT1H2M45S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "306",
+          "likeCount": "5",
+          "favoriteCount": "0",
+          "commentCount": "0"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "KR0FWi6Ma6mfVqG1BLk8b4fULfA",
+        "id": "EIsMoGnF7-A",
+        "snippet": {
+          "publishedAt": "2019-01-08T18:54:19Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "Microservices and Serverless Speaker Panel – The Road Ahead at Silicon Valley Code Camp 2018",
+          "description": "Brad Irby, Chris Richardson, Dave Nielsen, Eugene Chuvyrov Talk about 'Microservices and Serverless Speaker Panel – The Road Ahead' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nJoin our panel of experienced cloud experts as they answer your questions on the advantages and pitfalls of microservcies and serverless functions, and also share their insights into what comes next.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/microservices-and-serverless-speaker-panel---the-road-ahead\nSession Materials:\nhttps://bradirby.click/SVCC2018-MicroSvcPanel\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nMicroservices and Serverless Speaker Panel – The Road Ahead at Silicon Valley Code Camp 2018\n\n\n\nFollow Brad Irby on Twitter: https://twitter.com/bradirby\n\nSpeaker Biography for Brad Irby\n\nBrad is an accomplished .NET software architect specializing in Domain Driven Design and Event Driven Architectures.  Over his 30 year professional career, Brad has built web applications for Adidas, Kashi, Gap, Wells Fargo, Bank of America, Aptos, and many others.  Brads specialty is migrating existing .NET applications to a DDD architecture and EDA without system downtime.\n\nBrad has been the organizer of the San Francisco and Silicon Valley .NET user groups, and is frequent speaker on technical software topics throughout the US, South America, and Europe.\n\nBrad has written a book on Reengineering .NET published by Adison Wesley.\n\n\nFollow Chris Richardson on Twitter: https://twitter.com/crichardson\n\nSpeaker Biography for Chris Richardson\n\n\nChris Richardson is a developer and architect. He is a Java Champion, a JavaOne rock star and the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2.\n\nToday, he is a recognized thought leader in microservices and speaks regularly at international conferences. Chris is the creator of http://Microservices.io, a pattern language for microservices, and is writing the book Microservice Patterns, which is available as a Manning MEAP. He provides microservices consulting and training to organizations that are adopting the microservice architecture and is working on his third startup Eventuate, an application platform for developing transactional microservices.\n\n\nFollow Dave Nielsen on Twitter: https://twitter.com/davenielsen\n\nSpeaker Biography for Dave Nielsen\n\nAs Head of Ecosystem Programs, Dave uses emerging technologies and open source projects like Microservices, Serverless & Kubernetes to bring the magic of Redis to the broader community. Dave has extensive ecosystem experience from his years of engagement in the web, cloud and big data trenches. Prior to Redis Labs, Dave led the relationship between Intel’s Deep Learning in Apache Spark project and public cloud providers; and at PayPal where he helped pioneer web api developer evangelism.\n\n\nFollow Eugene Chuvyrov on Twitter: https://twitter.com/EugeneChuvyrov\n\nSpeaker Biography for Eugene Chuvyrov\n\nEugene Chuvyrov is  a Senior Cloud Architect at Microsoft. He works directly with both startups and enterprises to enable their solutions in Microsoft cloud, and to make Azure better as a result of this work with partners. Over his tenure at Microsoft, his focus varied from modern DevOps, to enabling AI solutions in the cloud, to advising customers on creating Blockchain solutions in Azure. He is looking forward to sharing his knowledge from those engagements with the community.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/EIsMoGnF7-A/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/EIsMoGnF7-A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/EIsMoGnF7-A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/EIsMoGnF7-A/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/EIsMoGnF7-A/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "tags": ["Microservices", "Serverless"],
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Microservices and Serverless Speaker Panel – The Road Ahead at Silicon Valley Code Camp 2018",
+            "description": "Brad Irby, Chris Richardson, Dave Nielsen, Eugene Chuvyrov Talk about 'Microservices and Serverless Speaker Panel – The Road Ahead' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nJoin our panel of experienced cloud experts as they answer your questions on the advantages and pitfalls of microservcies and serverless functions, and also share their insights into what comes next.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/microservices-and-serverless-speaker-panel---the-road-ahead\nSession Materials:\nhttps://bradirby.click/SVCC2018-MicroSvcPanel\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nMicroservices and Serverless Speaker Panel – The Road Ahead at Silicon Valley Code Camp 2018\n\n\n\nFollow Brad Irby on Twitter: https://twitter.com/bradirby\n\nSpeaker Biography for Brad Irby\n\nBrad is an accomplished .NET software architect specializing in Domain Driven Design and Event Driven Architectures.  Over his 30 year professional career, Brad has built web applications for Adidas, Kashi, Gap, Wells Fargo, Bank of America, Aptos, and many others.  Brads specialty is migrating existing .NET applications to a DDD architecture and EDA without system downtime.\n\nBrad has been the organizer of the San Francisco and Silicon Valley .NET user groups, and is frequent speaker on technical software topics throughout the US, South America, and Europe.\n\nBrad has written a book on Reengineering .NET published by Adison Wesley.\n\n\nFollow Chris Richardson on Twitter: https://twitter.com/crichardson\n\nSpeaker Biography for Chris Richardson\n\n\nChris Richardson is a developer and architect. He is a Java Champion, a JavaOne rock star and the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2.\n\nToday, he is a recognized thought leader in microservices and speaks regularly at international conferences. Chris is the creator of http://Microservices.io, a pattern language for microservices, and is writing the book Microservice Patterns, which is available as a Manning MEAP. He provides microservices consulting and training to organizations that are adopting the microservice architecture and is working on his third startup Eventuate, an application platform for developing transactional microservices.\n\n\nFollow Dave Nielsen on Twitter: https://twitter.com/davenielsen\n\nSpeaker Biography for Dave Nielsen\n\nAs Head of Ecosystem Programs, Dave uses emerging technologies and open source projects like Microservices, Serverless & Kubernetes to bring the magic of Redis to the broader community. Dave has extensive ecosystem experience from his years of engagement in the web, cloud and big data trenches. Prior to Redis Labs, Dave led the relationship between Intel’s Deep Learning in Apache Spark project and public cloud providers; and at PayPal where he helped pioneer web api developer evangelism.\n\n\nFollow Eugene Chuvyrov on Twitter: https://twitter.com/EugeneChuvyrov\n\nSpeaker Biography for Eugene Chuvyrov\n\nEugene Chuvyrov is  a Senior Cloud Architect at Microsoft. He works directly with both startups and enterprises to enable their solutions in Microsoft cloud, and to make Azure better as a result of this work with partners. Over his tenure at Microsoft, his focus varied from modern DevOps, to enabling AI solutions in the cloud, to advising customers on creating Blockchain solutions in Azure. He is looking forward to sharing his knowledge from those engagements with the community."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT57M52S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "277",
+          "likeCount": "4",
+          "favoriteCount": "0",
+          "commentCount": "0"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "eiizn0rsoTFzWnbBvz-6CA_1K5g",
+        "id": "Bl7pZ9kbenI",
+        "snippet": {
+          "publishedAt": "2018-10-19T20:13:03Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "How JavaScript Works at Silicon Valley Code Camp 2018",
+          "description": "How JavaScript Works at Silicon Valley Code Camp 2018 \n\nDouglas Crockford's new Book, \"How JavaScript Works\" https://amzn.to/2EK0Gr9\nAnd his Best Seller \"JavaScript, The Good Parts\" https://amzn.to/2q3Reo6\n\nDouglas Crockford Talks about 'How JavaScript Works' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nDouglas Crockford is the author of How JavaScript Works, the shocking best seller that rips the lid off behind the scenes. In this light-hearted romp thru the world's most misunderstood programming language, Crockford reveals what is actually going on, and how we can use this to write better programs. \n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/how-javascript-works\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\n\nHow JavaScript Works at Silicon Valley Code Camp 2018 \n\nSpeaker Biography for Douglas Crockford\n\nDouglas Crockford discovered the JSON Data Interchange Format. He is also the author of JavaScript: The Good Parts. He has been called a guru, but he is actually more of a mahatma.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/Bl7pZ9kbenI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Bl7pZ9kbenI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Bl7pZ9kbenI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Bl7pZ9kbenI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/Bl7pZ9kbenI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "tags": [
+            "JavaScript",
+            "Douglas Crockford",
+            "The Good Parts",
+            "Silicon Valley Code Camp",
+            "How JavaScript Works"
+          ],
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "How JavaScript Works at Silicon Valley Code Camp 2018",
+            "description": "How JavaScript Works at Silicon Valley Code Camp 2018 \n\nDouglas Crockford's new Book, \"How JavaScript Works\" https://amzn.to/2EK0Gr9\nAnd his Best Seller \"JavaScript, The Good Parts\" https://amzn.to/2q3Reo6\n\nDouglas Crockford Talks about 'How JavaScript Works' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nDouglas Crockford is the author of How JavaScript Works, the shocking best seller that rips the lid off behind the scenes. In this light-hearted romp thru the world's most misunderstood programming language, Crockford reveals what is actually going on, and how we can use this to write better programs. \n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/how-javascript-works\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\n\nHow JavaScript Works at Silicon Valley Code Camp 2018 \n\nSpeaker Biography for Douglas Crockford\n\nDouglas Crockford discovered the JSON Data Interchange Format. He is also the author of JavaScript: The Good Parts. He has been called a guru, but he is actually more of a mahatma."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT1H8M1S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "7996",
+          "likeCount": "120",
+          "favoriteCount": "0",
+          "commentCount": "10"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "vcqawj6Wn-Q8xHNq4AXCWyvaHtc",
+        "id": "SkiQMH8nHOQ",
+        "snippet": {
+          "publishedAt": "2018-10-22T23:41:12Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "Event Driven Architecture – Enabling  Microservices at Silicon Valley Code Camp 2018",
+          "description": "Brad Irby Talks about 'Event Driven Architecture – Enabling  Microservices' \n\nBuy Brad Irby's Book https://amzn.to/2q7a5i3\nReengineering .NET: Injecting Quality, Testability, and Architecture into Existing Systems\n\nhttps://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nhttps://www.slideshare.net/BradIrby/event-driven-architecture-enabling-microservices\n\nDo you have a large application that you want to break into microservices?  This talk discusses using Events to let the microservices communicate in a way that keeps the promise of loose coupling, fast development, and easy deployment.  \n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/event-driven-architecture---enabling-microservices\nSession Materials:\nhttps://bradirby.click/SVCC2018-EDA-Microsvc\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nEvent Driven Architecture – Enabling  Microservices at Silicon Valley Code Camp 2018 \n\n\n\nFollow Brad Irby on Twitter: https://twitter.com/bradirby\n\nSpeaker Biography for Brad Irby\n\nBrad is an accomplished .NET software architect specializing in Domain Driven Design and Event Driven Architectures.  Over his 30 year professional career, Brad has built web applications for Adidas, Kashi, Gap, Wells Fargo, Bank of America, Aptos, and many others.  Brads specialty is migrating existing .NET applications to a DDD architecture and EDA without system downtime.\n\nBrad has been the organizer of the San Francisco and Silicon Valley .NET user groups, and is frequent speaker on technical software topics throughout the US, South America, and Europe.\n\nBrad has written a book on Reengineering .NET published by Adison Wesley.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/SkiQMH8nHOQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/SkiQMH8nHOQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/SkiQMH8nHOQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "tags": ["Silicon Valley Code Camp", "Microservices"],
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Event Driven Architecture – Enabling  Microservices at Silicon Valley Code Camp 2018",
+            "description": "Brad Irby Talks about 'Event Driven Architecture – Enabling  Microservices' \n\nBuy Brad Irby's Book https://amzn.to/2q7a5i3\nReengineering .NET: Injecting Quality, Testability, and Architecture into Existing Systems\n\nhttps://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nhttps://www.slideshare.net/BradIrby/event-driven-architecture-enabling-microservices\n\nDo you have a large application that you want to break into microservices?  This talk discusses using Events to let the microservices communicate in a way that keeps the promise of loose coupling, fast development, and easy deployment.  \n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/event-driven-architecture---enabling-microservices\nSession Materials:\nhttps://bradirby.click/SVCC2018-EDA-Microsvc\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nEvent Driven Architecture – Enabling  Microservices at Silicon Valley Code Camp 2018 \n\n\n\nFollow Brad Irby on Twitter: https://twitter.com/bradirby\n\nSpeaker Biography for Brad Irby\n\nBrad is an accomplished .NET software architect specializing in Domain Driven Design and Event Driven Architectures.  Over his 30 year professional career, Brad has built web applications for Adidas, Kashi, Gap, Wells Fargo, Bank of America, Aptos, and many others.  Brads specialty is migrating existing .NET applications to a DDD architecture and EDA without system downtime.\n\nBrad has been the organizer of the San Francisco and Silicon Valley .NET user groups, and is frequent speaker on technical software topics throughout the US, South America, and Europe.\n\nBrad has written a book on Reengineering .NET published by Adison Wesley."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT1H7M59S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "522",
+          "likeCount": "12",
+          "favoriteCount": "0",
+          "commentCount": "0"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "Njd9X9_OzKhy7Y-BNyhWBSjorw0",
+        "id": "nbrLn6D9EjI",
+        "snippet": {
+          "publishedAt": "2019-01-26T15:41:49Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "Ask the Expert: Q&A with Engineering Managers at Silicon Valley Code Camp 2018",
+          "description": "Ron Lichty, Mickey W. Mantle, Tammy Baker Talk about 'Ask the Expert: Q&A with Engineering Managers' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nHow do I handle an unreasonable boss? What if I don't trust my team to deliver good code?  \nIn this unscripted format, speakers from the Management and Agile tracks answer your questions about challenges leading programmers.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/ask-the-expert-qa-with-engineering-managers\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nAsk the Expert: Q&A with Engineering Managers at Silicon Valley Code Camp 2018 \n\n\n\nFollow Ron Lichty on Twitter: https://twitter.com/RonLichty\n\nSpeaker Biography for Ron Lichty\n\nRon Lichty has been managing and, more recently, consulting in managing software development and product organizations for over 25 years. Before that, as a programmer, he coded compiler code generators, was awarded patents for compression and security algorithms he designed and coded for embedded microcontroller devices, wrote two widely used programming texts, and developed the computer animation demo that Apple used to launch and sell a next-generation line of PCs. The primary focus of his consulting practice has mirrored what he did as a manager: untangling the knots in software development. As Ron Lichty Consulting, he takes on fractional Interim VP Engineering and Acting CTO roles, trains teams in scrum, transitions teams to agile, trains managers in managing software people and teams, and advises organizations and coaches teams to make their software development “hum.” His 450-page book, Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams, was recently released as video training - LiveLessons: Managing Software People and Teams - both from Pearson and on O’Reilly’s Safari Network. He also co-authors the biannual Study of Product Team Performance.\n \n\nFollow Mickey W. Mantle on Twitter: https://twitter.com/mwmantleCA\n\nSpeaker Biography for Mickey W. Mantle\n\nMickey has been developing software systems and products for over 40 years, as a systems programmer, Tech Lead, Manager, VP Engineering, CTO, COO, and now CEO/CTO of his own company.  During this time he has contributed to several notable companies, including computer graphics pioneer Evans & Sutherland (E&S), Pixar, Broderbund Software, and Gracenote – always in a technical leadership role.\n\nHe continues developing software at Wanderful (see wanderfulstorybooks.com), developing and publishing Apps for iOS, Android, macOS, and Windows.\n\nWorking with co-author Ron Lichty, they wrote the book “Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams”. Published by Addison Wesley, this book distills their experience of over 70 combined years developing software and managing programmers and has received many accolades including being favorably compared to The Mythical Man Month and Peopleware (see managingtheunmanageable.net).\n \n\nFollow Tammy Baker on Twitter: https://twitter.com/tammybaker123\n\nSpeaker Biography for Tammy Baker\n\nTammy has held a number of executive and management roles over the past 15 years, including vice president of engineering Cantaloupe Systems, vice president of engineering at Untangle, Inc., and vice president of engineering at E-Color. More recently, Tammy is vice president of engineering and CSO for Cantaloupe Systems which was recently acquired by USA Technologies.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/nbrLn6D9EjI/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/nbrLn6D9EjI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/nbrLn6D9EjI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/nbrLn6D9EjI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/nbrLn6D9EjI/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "tags": ["Silicon Valley Code Camp", "Agile", "Management"],
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Ask the Expert: Q&A with Engineering Managers at Silicon Valley Code Camp 2018",
+            "description": "Ron Lichty, Mickey W. Mantle, Tammy Baker Talk about 'Ask the Expert: Q&A with Engineering Managers' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nHow do I handle an unreasonable boss? What if I don't trust my team to deliver good code?  \nIn this unscripted format, speakers from the Management and Agile tracks answer your questions about challenges leading programmers.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/ask-the-expert-qa-with-engineering-managers\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nAsk the Expert: Q&A with Engineering Managers at Silicon Valley Code Camp 2018 \n\n\n\nFollow Ron Lichty on Twitter: https://twitter.com/RonLichty\n\nSpeaker Biography for Ron Lichty\n\nRon Lichty has been managing and, more recently, consulting in managing software development and product organizations for over 25 years. Before that, as a programmer, he coded compiler code generators, was awarded patents for compression and security algorithms he designed and coded for embedded microcontroller devices, wrote two widely used programming texts, and developed the computer animation demo that Apple used to launch and sell a next-generation line of PCs. The primary focus of his consulting practice has mirrored what he did as a manager: untangling the knots in software development. As Ron Lichty Consulting, he takes on fractional Interim VP Engineering and Acting CTO roles, trains teams in scrum, transitions teams to agile, trains managers in managing software people and teams, and advises organizations and coaches teams to make their software development “hum.” His 450-page book, Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams, was recently released as video training - LiveLessons: Managing Software People and Teams - both from Pearson and on O’Reilly’s Safari Network. He also co-authors the biannual Study of Product Team Performance.\n \n\nFollow Mickey W. Mantle on Twitter: https://twitter.com/mwmantleCA\n\nSpeaker Biography for Mickey W. Mantle\n\nMickey has been developing software systems and products for over 40 years, as a systems programmer, Tech Lead, Manager, VP Engineering, CTO, COO, and now CEO/CTO of his own company.  During this time he has contributed to several notable companies, including computer graphics pioneer Evans & Sutherland (E&S), Pixar, Broderbund Software, and Gracenote – always in a technical leadership role.\n\nHe continues developing software at Wanderful (see wanderfulstorybooks.com), developing and publishing Apps for iOS, Android, macOS, and Windows.\n\nWorking with co-author Ron Lichty, they wrote the book “Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams”. Published by Addison Wesley, this book distills their experience of over 70 combined years developing software and managing programmers and has received many accolades including being favorably compared to The Mythical Man Month and Peopleware (see managingtheunmanageable.net).\n \n\nFollow Tammy Baker on Twitter: https://twitter.com/tammybaker123\n\nSpeaker Biography for Tammy Baker\n\nTammy has held a number of executive and management roles over the past 15 years, including vice president of engineering Cantaloupe Systems, vice president of engineering at Untangle, Inc., and vice president of engineering at E-Color. More recently, Tammy is vice president of engineering and CSO for Cantaloupe Systems which was recently acquired by USA Technologies."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT1H7M12S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "169",
+          "likeCount": "5",
+          "favoriteCount": "0",
+          "commentCount": "0"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "TNnrj2gn7Vxji5L9oaOETy7GVrM",
+        "id": "hlNTy8baxiQ",
+        "snippet": {
+          "publishedAt": "2018-10-19T22:10:48Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "Web Panel with Douglas Crockford, Steve Souders and Mike North at Silicon Valley Code Camp 2018",
+          "description": "Douglas Crockford, Steve Souders, Mike North, Kevin Nilson Talk about 'Web Panel with Douglas Crockford, Steve Souders and Mike North' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nCheckout Douglas Crockfords new book \"How JavaScript Works\" https://amzn.to/2q1zutH\n\nJoin this star filled panel, Douglas Crockford, Steve Souders and Mike North talk about the web. A better set of luminaries you will not find.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/web-panel-with-douglas-crockford-steve-souders-and-mike-north\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nWeb Panel with Douglas Crockford, Steve Souders and Mike North at Silicon Valley Code Camp 2018 \n\n\n\nFollow Douglas Crockford\n\nSpeaker Biography for Douglas Crockford\n\nDouglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.\n \n\nFollow Steve Souders on Twitter: https://twitter.com/Souders\n\nSpeaker Biography for Steve Souders\n\nSteve works at SpeedCurve on the interplay between performance and design. He previously served as Google's Head Performance Engineer, Chief Performance Yahoo!, and Chief Performance Officer at Fastly. Steve has pioneered much of the work in the world of web performance. He is the author of High Performance Web Sites and Even Faster Web Sites. He is the creator of many performance tools and services including YSlow, the HTTP Archive, Episodes, ControlJS, and Browserscope. Steve taught CS193H: High Performance Web Sites at Stanford and serves as co-chair of Velocity, the web performance and operations conference from O'Reilly.\n\nFollow Mike North on Twitter: https://twitter.com/michaellnorth\n\nSpeaker Biography for Mike North\n\nMike trains web development teams all over the world, at companies ranging from tiny stealth-mode startups to Silicon Valley tech giants. He’s currently a Frontend Masters instructor, a Staff Engineer on LinkedIn’s web frameworks team, and the owner of Mike Works, a training-focused consultancy.\n \n\nFollow Kevin Nilson on Twitter: https://twitter.com/javaclimber\n\nSpeaker Biography for Kevin Nilson\n\nTeam Lead of the Chromecast Technical Solutions Engineer team, a Java Champion and three time JavaOne Rock Star Presenter. Kevin has spoken at conferences such as JavaOne, Devoxx, JAX, O'Reilly Fluent, Silicon Valley Code Camp, JAX, HTML5DevConf, On Android, NFJS SpringOne and AjaxWorld. Kevin is the co-author of Web 2.0 Fundamentals. In the past Kevin was an adjunct professor at the College of San Mateo. Kevin holds a MS and BS in Computer Science from Southern Illinois University. Kevin is the leader of the Silicon Valley JavaScript Meetup, Silicon Valley Java User Group, Silicon Valley Google Developer Group, and Devoxx4Kids Bay Area.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/hlNTy8baxiQ/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hlNTy8baxiQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hlNTy8baxiQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/hlNTy8baxiQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/hlNTy8baxiQ/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "tags": [
+            "Douglas Crockford",
+            "Steve Souders",
+            "Mike North",
+            "Web Panel",
+            "Silicon Valley Code Camp"
+          ],
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Web Panel with Douglas Crockford, Steve Souders and Mike North at Silicon Valley Code Camp 2018",
+            "description": "Douglas Crockford, Steve Souders, Mike North, Kevin Nilson Talk about 'Web Panel with Douglas Crockford, Steve Souders and Mike North' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nCheckout Douglas Crockfords new book \"How JavaScript Works\" https://amzn.to/2q1zutH\n\nJoin this star filled panel, Douglas Crockford, Steve Souders and Mike North talk about the web. A better set of luminaries you will not find.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/web-panel-with-douglas-crockford-steve-souders-and-mike-north\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nWeb Panel with Douglas Crockford, Steve Souders and Mike North at Silicon Valley Code Camp 2018 \n\n\n\nFollow Douglas Crockford\n\nSpeaker Biography for Douglas Crockford\n\nDouglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.\n \n\nFollow Steve Souders on Twitter: https://twitter.com/Souders\n\nSpeaker Biography for Steve Souders\n\nSteve works at SpeedCurve on the interplay between performance and design. He previously served as Google's Head Performance Engineer, Chief Performance Yahoo!, and Chief Performance Officer at Fastly. Steve has pioneered much of the work in the world of web performance. He is the author of High Performance Web Sites and Even Faster Web Sites. He is the creator of many performance tools and services including YSlow, the HTTP Archive, Episodes, ControlJS, and Browserscope. Steve taught CS193H: High Performance Web Sites at Stanford and serves as co-chair of Velocity, the web performance and operations conference from O'Reilly.\n\nFollow Mike North on Twitter: https://twitter.com/michaellnorth\n\nSpeaker Biography for Mike North\n\nMike trains web development teams all over the world, at companies ranging from tiny stealth-mode startups to Silicon Valley tech giants. He’s currently a Frontend Masters instructor, a Staff Engineer on LinkedIn’s web frameworks team, and the owner of Mike Works, a training-focused consultancy.\n \n\nFollow Kevin Nilson on Twitter: https://twitter.com/javaclimber\n\nSpeaker Biography for Kevin Nilson\n\nTeam Lead of the Chromecast Technical Solutions Engineer team, a Java Champion and three time JavaOne Rock Star Presenter. Kevin has spoken at conferences such as JavaOne, Devoxx, JAX, O'Reilly Fluent, Silicon Valley Code Camp, JAX, HTML5DevConf, On Android, NFJS SpringOne and AjaxWorld. Kevin is the co-author of Web 2.0 Fundamentals. In the past Kevin was an adjunct professor at the College of San Mateo. Kevin holds a MS and BS in Computer Science from Southern Illinois University. Kevin is the leader of the Silicon Valley JavaScript Meetup, Silicon Valley Java User Group, Silicon Valley Google Developer Group, and Devoxx4Kids Bay Area."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT58M20S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "829",
+          "likeCount": "23",
+          "favoriteCount": "0",
+          "commentCount": "4"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "qxExKX-Wln_9-w9hAnoMCpgeOqI",
+        "id": "sw5D7lqplXw",
+        "snippet": {
+          "publishedAt": "2018-10-19T22:10:48Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "Productive React/TypeScript/TDD: Love Story from Hell at Silicon Valley Code Camp 2018",
+          "description": "Productive React/TypeScript/TDD: Love Story from Hell at Silicon Valley Code Camp 2018 \n\nPaul Everitt Talks about 'Productive React/TypeScript/TDD: Love Story from Hell' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nReact, TypeScript, TDD: Individually popular, sparse in combination. In this session we write a React application in TypeScript, using TDD, putting the power of the IDE to work.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/productive-reacttypescripttdd-love-story-from-hell\nSession Materials:\nhttp://react-typescript-tdd.firebaseapp.com\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nProductive React/TypeScript/TDD: Love Story from Hell at Silicon Valley Code Camp 2018 \n\n\n\nFollow Paul Everitt on Twitter: https://twitter.com/paulweveritt\n\nSpeaker Biography for Paul Everitt\n\nPaul is the PyCharm and WebStorm Developer Advocate at JetBrains. Before that, Paul was a partner at Agendaless Consulting and co-founder of Zope Corporation, taking the first open source application server through $14M of funding. Paul has bootstrapped both the Plone Foundation and the Python Software Foundation. Before that, Paul was an officer in the US Navy, starting www.navy.mil in 1993.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/sw5D7lqplXw/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/sw5D7lqplXw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/sw5D7lqplXw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/sw5D7lqplXw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            },
+            "maxres": {
+              "url": "https://i.ytimg.com/vi/sw5D7lqplXw/maxresdefault.jpg",
+              "width": 1280,
+              "height": 720
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "tags": [
+            "JetBrains",
+            "JavaScript",
+            "Silicon Valley Code Camp",
+            "TypeScript",
+            "WebStorm"
+          ],
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Productive React/TypeScript/TDD: Love Story from Hell at Silicon Valley Code Camp 2018",
+            "description": "Productive React/TypeScript/TDD: Love Story from Hell at Silicon Valley Code Camp 2018 \n\nPaul Everitt Talks about 'Productive React/TypeScript/TDD: Love Story from Hell' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nReact, TypeScript, TDD: Individually popular, sparse in combination. In this session we write a React application in TypeScript, using TDD, putting the power of the IDE to work.\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/productive-reacttypescripttdd-love-story-from-hell\nSession Materials:\nhttp://react-typescript-tdd.firebaseapp.com\n\n\nSilicon Valley Code Camp site:\nhttps://SiliconValley-CodeCamp.com\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nProductive React/TypeScript/TDD: Love Story from Hell at Silicon Valley Code Camp 2018 \n\n\n\nFollow Paul Everitt on Twitter: https://twitter.com/paulweveritt\n\nSpeaker Biography for Paul Everitt\n\nPaul is the PyCharm and WebStorm Developer Advocate at JetBrains. Before that, Paul was a partner at Agendaless Consulting and co-founder of Zope Corporation, taking the first open source application server through $14M of funding. Paul has bootstrapped both the Plone Foundation and the Python Software Foundation. Before that, Paul was an officer in the US Navy, starting www.navy.mil in 1993."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT1H2M39S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "678",
+          "likeCount": "13",
+          "favoriteCount": "0",
+          "commentCount": "1"
+        }
+      },
+      {
+        "kind": "youtube#video",
+        "etag": "LVB9ZCLMy-OG7hvGSrW-fk_0SUk",
+        "id": "xEFLNvQyv28",
+        "snippet": {
+          "publishedAt": "2018-11-06T17:11:58Z",
+          "channelId": "UCl_fhwlTAARASHq2hoEd_pw",
+          "title": "Cracking the Product Manager Interview at Silicon Valley Code Camp 2018",
+          "description": "Gayle Laakmann McDowell Talks about 'Cracking the Product Manager Interview' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nGayle ran out of books to sell but you can still pick one up on Amazon.  Here is a link:  https://amzn.to/2q1zutH\n\nGayle Laakmann McDowell Talks about 'Cracking the Product Manager Interview' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nProduct managers are sometimes called the \"CEO of a product.\" But what is a product manager really and how you do you land this role? How to crack the PM interview?\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/cracking-the-product-manager-interview\nSession Materials:\ngo.gayle.com/pmprepslides\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\nProgrammer & best-selling author of Cracking the Coding Interview presents a technical talk on how coding interviews work and how to do well on them. This will be a deeply technical talk covering data structures and algorithms.\n\n\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nGayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books:\n\nCracking the Coding Interview (Amazon.com's #1 best-selling interview book)\nCracking the PM Interview (product manager)\nCracking the Tech Career\nShe is an interview consultant, helping companies improve their interview process and coaching startups through acquisitions/acqui-hires. She is also an interview prep instructor, hired by Facebook to teach an interview prep class for external software developer candidates.\nGayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School.",
+          "thumbnails": {
+            "default": {
+              "url": "https://i.ytimg.com/vi/xEFLNvQyv28/default.jpg",
+              "width": 120,
+              "height": 90
+            },
+            "medium": {
+              "url": "https://i.ytimg.com/vi/xEFLNvQyv28/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/xEFLNvQyv28/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            }
+          },
+          "channelTitle": "Silicon Valley Code Camp",
+          "categoryId": "27",
+          "liveBroadcastContent": "none",
+          "localized": {
+            "title": "Cracking the Product Manager Interview at Silicon Valley Code Camp 2018",
+            "description": "Gayle Laakmann McDowell Talks about 'Cracking the Product Manager Interview' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nGayle ran out of books to sell but you can still pick one up on Amazon.  Here is a link:  https://amzn.to/2q1zutH\n\nGayle Laakmann McDowell Talks about 'Cracking the Product Manager Interview' at https://SiliconValley-CodeCamp.com in San Jose Hosted by PayPal\n\nProduct managers are sometimes called the \"CEO of a product.\" But what is a product manager really and how you do you land this role? How to crack the PM interview?\n\nSession Details:\nhttps://SiliconValley-CodeCamp.com/Session/2018/cracking-the-product-manager-interview\nSession Materials:\ngo.gayle.com/pmprepslides\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\nProgrammer & best-selling author of Cracking the Coding Interview presents a technical talk on how coding interviews work and how to do well on them. This will be a deeply technical talk covering data structures and algorithms.\n\n\n\nSubscribe to the Silicon Valley Code Camp Youtube Channel\nhttps://www.youtube.com/c/SiliconValleyCodeCampVideos\n\nFollow Silicon Valley Code Camp on Twitter: https://twitter.com/sv_code_camp\nJoin the Silicon Valley Code Camp G+ community: https://plus.google.com/110656351842726857531\nCracking the Coding Interview at Silicon Valley Code Camp 2018 \n\n\n\nFollow Gayle Laakmann McDowell on Twitter: https://twitter.com/gayle\n\nSpeaker Biography for Gayle Laakmann McDowell\n\nGayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books:\n\nCracking the Coding Interview (Amazon.com's #1 best-selling interview book)\nCracking the PM Interview (product manager)\nCracking the Tech Career\nShe is an interview consultant, helping companies improve their interview process and coaching startups through acquisitions/acqui-hires. She is also an interview prep instructor, hired by Facebook to teach an interview prep class for external software developer candidates.\nGayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School."
+          },
+          "defaultAudioLanguage": "en"
+        },
+        "contentDetails": {
+          "duration": "PT59M59S",
+          "dimension": "2d",
+          "definition": "hd",
+          "caption": "false",
+          "licensedContent": true,
+          "contentRating": {},
+          "projection": "rectangular"
+        },
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "public",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false
+        },
+        "statistics": {
+          "viewCount": "1696",
+          "likeCount": "25",
+          "favoriteCount": "0",
+          "commentCount": "0"
+        }
+      }
+    ]
+  }
+}
