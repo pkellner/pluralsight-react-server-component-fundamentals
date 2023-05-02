@@ -1,6 +1,6 @@
 import "server-only";
 import Boundary from "@/lib/boundary";
-import {IYouTubeData} from "@/lib/ts-interfaces";
+import {YouTubeData} from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
 
 //export const dynamic = 'force-dynamic';
@@ -22,7 +22,7 @@ export default async function SessionVideo({ id }: { id?: string }) {
     return null;
   }
 
-  const data: IYouTubeData = await getSessionVideo(id);
+  const data: YouTubeData = await getSessionVideo(id);
 
   return  (
     <Boundary isServerComponent={true}>

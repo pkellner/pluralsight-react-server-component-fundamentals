@@ -1,11 +1,11 @@
-export interface ISessionData {
+export interface SessionData {
   id: string;
   title: string;
   descriptionShort: string;
   sessionVideos: { youTubeUrl: string }[] | null;
 }
 
-export interface IYouTubeData {
+export interface YouTubeData {
   id: string;
   snippet: {
     thumbnails: {

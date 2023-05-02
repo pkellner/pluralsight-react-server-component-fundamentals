@@ -1,7 +1,11 @@
-import {ISessionData} from "@/lib/ts-interfaces";
+import "server-only";
+
+import { SessionData } from "@/lib/ts-interfaces";
+import Boundary from "@/lib/boundary";
+import SessionVideo from "@/src/app/sessions/session-video";
 //import SessionVideo from "@/src/app/sessions/session-video";
 
-export default function SessionListItem(props: { rec: ISessionData }) {
+export default function SessionListItem(props: { rec: SessionData }) {
   return (
     <div className="card m-1">
       <div className="row g-0">
@@ -13,11 +17,11 @@ export default function SessionListItem(props: { rec: ISessionData }) {
             </p>
           </div>
         </div>
-        {/*<div className="col-5 align-middle mt-2 ">*/}
-        {/*  <SessionVideo*/}
-        {/*    id={props.rec.sessionVideos?.[0]?.youTubeUrl ?? undefined}*/}
-        {/*  />*/}
-        {/*</div>*/}
+        <div className="col-5 align-middle mt-2 ">
+          <SessionVideo
+            id={props.rec.sessionVideos?.[0]?.youTubeUrl ?? undefined}
+          />
+        </div>
       </div>
     </div>
   );

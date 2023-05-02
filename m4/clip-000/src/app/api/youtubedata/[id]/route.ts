@@ -1,7 +1,7 @@
 import path from "path";
 import { promisify } from "util";
 import * as fs from "fs";
-import { IYouTubeData } from "@/lib/ts-interfaces";
+import { YouTubeData } from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
 
 const readFile = promisify(fs.readFile);
@@ -23,7 +23,7 @@ export async function GET(request: any, { params }: any) {
     if (!readFileData) {
       console.log("Error: Request failed with status code 404");
     } else {
-      const sessionVideo = youTubeData?.filter((rec: IYouTubeData) => {
+      const sessionVideo = youTubeData?.filter((rec: YouTubeData) => {
         return rec.id === youTubeId;
       });
 
