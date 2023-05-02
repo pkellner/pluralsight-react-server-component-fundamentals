@@ -14,7 +14,6 @@ export default function SessionVideoLoading() {
             className="card-img-top"
             alt="youtube thumb"
           />
-
         </a>
         <div
           className="card-body d-flex justify-content-end"
