@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./boundary.module.css";
 
-const hideAllBorders = false;
+const hideAllBorders = true;
 
 export default function Boundary({
   enabled = true,

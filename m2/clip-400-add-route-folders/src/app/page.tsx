@@ -1,7 +1,7 @@
 import "server-only";
 
-import "./ common/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "@/styles/styles.css";
 
 import Boundary from "@/lib/boundary";
 import AppHeader from "./ common/app-header";

@@ -1,10 +1,7 @@
 "use client";
-import Boundary from "@/lib/boundary";
 import { YouTubeData } from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
 import { useEffect, useState } from "react";
-
-//export const dynamic = 'force-dynamic';
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -37,19 +34,10 @@ export default function SessionVideo({ id }: { id?: string }) {
     <div className="card">
       <a target="_blank" href={`https://www.youtube.com/watch?v=${id}`}>
         {loading ? (
-          <>
-            <div
-              className="spinner"
-              style={{ width: "65px", height: "65px" }}
-            ></div>
-            {/*<img*/}
-            {/*  width="65"*/}
-            {/*  height="37"*/}
-            {/*  src="/images/loading-box.gif"*/}
-            {/*  className="card-img-top"*/}
-            {/*  alt="youtube thumb"*/}
-            {/*/>*/}
-          </>
+          <div
+            className="spinner"
+            style={{ width: "105px", height: "105px" }}
+          ></div>
         ) : (
           <img
             src={youtubeData?.snippet?.thumbnails?.medium?.url}
