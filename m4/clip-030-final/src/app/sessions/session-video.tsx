@@ -1,6 +1,5 @@
 import "server-only";
-import Boundary from "@/lib/boundary";
-import { YouTubeData } from "@/lib/ts-interfaces";
+import {YouTubeData} from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
 
 //export const dynamic = 'force-dynamic';

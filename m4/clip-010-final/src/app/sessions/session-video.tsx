@@ -1,7 +1,6 @@
 "use client";
-import { YouTubeData } from "@/lib/ts-interfaces";
-import getRandomNumber from "@/lib/getRandomNumber";
-import { useEffect, useState } from "react";
+import {YouTubeData} from "@/lib/ts-interfaces";
+import {useEffect, useState} from "react";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 

@@ -14,7 +14,7 @@ async function getSessionsList() {
   return data;
 }
 
-export default async function SessionsList() {
+export default async function SessionsList() : Promise<JSX.Element>  {
   const sessionData = await getSessionsList();
 
   return (

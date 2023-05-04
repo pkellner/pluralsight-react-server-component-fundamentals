@@ -1,15 +1,10 @@
 "use client";
 
-import { SessionData } from "@/lib/ts-interfaces";
+import {SessionData} from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
-import sessionsData from "../../../data/sessions.json";
-import { useEffect, useState } from "react";
-const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+import {useEffect, useState} from "react";
 
-async function getSessionsList() {
-  await delay(3000);
-  return sessionsData.data.sessions;
-}
+const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export default function SessionsList() {
   const [sessions, setSessions] = useState<SessionData[]>([]);

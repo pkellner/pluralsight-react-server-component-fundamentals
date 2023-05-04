@@ -1,6 +1,6 @@
 import "server-only";
 
-export default function AppHeader() {
+export default function AppHeader()  {
   return (
     <header className="text-bg-light py-1">
       <div className="container">
