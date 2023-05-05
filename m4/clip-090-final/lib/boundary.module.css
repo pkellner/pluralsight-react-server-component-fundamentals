@@ -1,0 +1,30 @@
+.borderRsc {
+  border-radius: 10px 10px;
+  padding: 4px;
+  margin: 3px;
+  border: 3px solid #FFC942;
+
+}
+
+.borderRcc {
+  border-radius: 10px 10px;
+  padding: 4px;
+  margin: 3px;
+  border: 3px solid #FF7B01;
+}
+
+.borderCustom {
+  border-radius: 10px 10px;
+  padding: 4px;
+  margin: 3px;
+  border: 3px solid #770EF7;
+  border-style: dashed !important;
+}
+
+.borderInvisible {
+  border-radius: 10px 10px;
+  padding: 4px;
+  margin: 3px;
+  border: 3px solid #00000000;
+
+}

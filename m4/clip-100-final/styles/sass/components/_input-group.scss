@@ -1,0 +1,7 @@
+// Bootstrap .input-group-append extends
+
+.input-group-append {
+  &:first-child {
+    border-radius: 0 0 0 rem-calc(15px);
+  }
+}
