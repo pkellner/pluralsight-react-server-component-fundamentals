@@ -3,11 +3,6 @@ import "server-only";
 import { SessionData } from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
 
-import sessionsData from "../../../data/sessions.json";
-import { Suspense } from "react";
-import ShowBusyIndicator from "@/lib/show-busy-indicator";
-import GradientRectangle from "@/lib/gradient-rectangle";
-
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getSessionsList() {

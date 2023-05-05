@@ -15,9 +15,7 @@ export default function SessionListItem(props: { rec: SessionData }) {
           </div>
         </div>
         <div className="col-5 align-middle mt-2 ">
-          <SessionVideo
-            id={props.rec.sessionVideos?.[0]?.youTubeUrl ?? undefined}
-          />
+          <SessionVideo id={props.rec.sessionVideos?.[0]?.youTubeUrl ?? ""} />
         </div>
       </div>
     </div>

@@ -2,8 +2,6 @@ import path from "path";
 import { promisify } from "util";
 import * as fs from "fs";
 
-const delayTime = 5000; // milliseconds added to all REST calls
-const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 const readFile = promisify(fs.readFile);
 
 export async function GET(req: Request) {

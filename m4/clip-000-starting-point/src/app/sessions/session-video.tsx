@@ -2,8 +2,10 @@ import "server-only";
 import { YouTubeData } from "@/lib/ts-interfaces";
 import youtubeDataAll from "../../../data/youtubedata.json";
 
-export default function SessionVideo({ id }: { id?: string }) {
-  if (!id) { return null; }
+export default function SessionVideo({ id }: { id: string }) {
+  if (!id || id.length === 0) {
+    return null;
+  }
   const youtubeData = youtubeDataAll.data.youTubeData.find(rec => rec.id === id);
   return (
     <div className="card">

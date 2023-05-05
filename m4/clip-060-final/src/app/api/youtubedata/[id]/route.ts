@@ -5,7 +5,6 @@ import { YouTubeData } from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
 
 const readFile = promisify(fs.readFile);
-const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 export async function GET(request: any, { params }: any) {
   const youTubeId = params.id;
@@ -19,7 +18,6 @@ export async function GET(request: any, { params }: any) {
     const {
       data: { youTubeData: youTubeData },
     } = JSON.parse(readFileDataString);
-    await delay(getRandomNumber(2500, 5000));
     if (!readFileData) {
       console.log("Error: Request failed with status code 404");
     } else {

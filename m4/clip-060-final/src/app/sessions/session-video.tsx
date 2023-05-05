@@ -14,11 +14,10 @@ async function getSessionVideo(id: string) {
   return data;
 }
 
-export default async function SessionVideo({ id }: { id?: string }) {
-  if (!id) {
+export default async function SessionVideo({ id }: { id: string }) {
+  if (!id || id.length === 0) {
     return null;
   }
-
   const youtubeData: YouTubeData = await getSessionVideo(id);
 
   return (

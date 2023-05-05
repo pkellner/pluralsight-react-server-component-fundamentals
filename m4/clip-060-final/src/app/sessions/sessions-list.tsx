@@ -24,7 +24,6 @@ async function getSessionsList() {
 
 export default async function SessionsList() {
   const sessionData = await getSessionsList();
-  console.log(sessionData.length);
   return (
     <div className="container">
       <div className="row">
