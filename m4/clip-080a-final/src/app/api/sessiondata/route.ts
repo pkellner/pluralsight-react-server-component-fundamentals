@@ -2,7 +2,7 @@ import path from "path";
 import { promisify } from "util";
 import * as fs from "fs";
 
-const delayTime = 2000; // milliseconds added to all REST calls
+const delayTime = 5000; // milliseconds added to all REST calls
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 const readFile = promisify(fs.readFile);
 
@@ -12,13 +12,14 @@ export async function GET(req: Request) {
 
   const fileName = "sessions.json";
   const jsonFile = path.resolve("./data", fileName);
+  console.log("/api/session data...");
   try {
     const readFileData: Buffer = await readFile(jsonFile);
     const readFileDataString = readFileData.toString().replace(/[\n\r]/g, "");
     const {
       data: { sessions: sessions },
     } = JSON.parse(readFileDataString);
-    await delay(delayTime);
+    //await delay(delayTime);
     if (!readFileData) {
       console.log("Error: Request failed with status code 404");
     } else {
@@ -26,6 +27,6 @@ export async function GET(req: Request) {
       return Response.json(sessions.slice(0, maxToRetrieve));
     }
   } catch (e) {
-    console.log("/api/todo error:", e);
+    console.log("/api/session data error:", e);
   }
 }

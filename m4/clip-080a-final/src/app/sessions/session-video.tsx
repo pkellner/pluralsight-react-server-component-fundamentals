@@ -1,11 +1,12 @@
 import "server-only";
 import { YouTubeData } from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
+import { Suspense } from "react";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getSessionVideo(id: string) {
-  await delay(getRandomNumber(500, 1500));
+  await delay(getRandomNumber(500, 3500));
   const res = await fetch(`http://localhost:3000/api/youtubedata/${id}`);
   if (!res.ok) {
     throw new Error("Failed to fetch data");
@@ -14,8 +15,8 @@ async function getSessionVideo(id: string) {
   return data;
 }
 
-export default async function SessionVideo({ id }: { id?: string }) {
-  if (!id) {
+export default async function SessionVideo({ id }: { id: string }) {
+  if (!id || id.length === 0) {
     return null;
   }
 

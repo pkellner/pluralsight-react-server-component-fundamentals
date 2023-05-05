@@ -1,6 +1,7 @@
-import 'server-only';
-import {SessionData} from "@/lib/ts-interfaces";
+import "server-only";
+import { SessionData } from "@/lib/ts-interfaces";
 import SessionVideo from "@/src/app/sessions/session-video";
+import { Suspense } from "react";
 
 export default function SessionListItem(props: { rec: SessionData }) {
   return (
@@ -15,11 +16,24 @@ export default function SessionListItem(props: { rec: SessionData }) {
           </div>
         </div>
         <div className="col-5 align-middle mt-2 ">
-          <SessionVideo
-            id={props.rec.sessionVideos?.[0]?.youTubeUrl ?? undefined}
-          />
+          <Suspense fallback={<SessionVideoLoading />}>
+            <SessionVideo id={props.rec.sessionVideos?.[0]?.youTubeUrl ?? ""} />
+          </Suspense>
         </div>
       </div>
+    </div>
+  );
+}
+
+function SessionVideoLoading() {
+  return (
+    <div className="card m-1">
+      <a target="#">
+        <div
+          className="spinner"
+          style={{ width: "105px", height: "105px" }}
+        ></div>
+      </a>
     </div>
   );
 }
