@@ -1,6 +1,6 @@
 import "server-only";
 
-import { SessionData } from "@/lib/ts-interfaces";
+import {SessionData} from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));

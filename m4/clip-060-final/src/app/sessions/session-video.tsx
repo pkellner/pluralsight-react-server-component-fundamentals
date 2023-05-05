@@ -1,5 +1,5 @@
 import "server-only";
-import { YouTubeData } from "@/lib/ts-interfaces";
+import {YouTubeData} from "@/lib/ts-interfaces";
 import getRandomNumber from "@/lib/getRandomNumber";
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));

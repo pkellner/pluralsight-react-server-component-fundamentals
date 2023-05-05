@@ -1,7 +1,7 @@
 import "server-only";
 import {SessionData} from "@/lib/ts-interfaces";
 import SessionVideo from "@/src/app/sessions/session-video";
-import { Suspense } from "react";
+import {Suspense} from "react";
 
 export default function SessionListItem(props: { rec: SessionData }) {
   return (

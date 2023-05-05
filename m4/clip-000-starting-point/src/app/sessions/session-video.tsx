@@ -1,5 +1,4 @@
 import "server-only";
-import { YouTubeData } from "@/lib/ts-interfaces";
 import youtubeDataAll from "../../../data/youtubedata.json";
 
 export default function SessionVideo({ id }: { id: string }) {

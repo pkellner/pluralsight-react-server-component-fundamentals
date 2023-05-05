@@ -2,6 +2,7 @@
 import {SessionData} from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
 import {useEffect, useState} from "react";
+
 export default function SessionsList() {
   const [sessions, setSessions] = useState<SessionData[]>([]);
   const [loading, setLoading] = useState(true);

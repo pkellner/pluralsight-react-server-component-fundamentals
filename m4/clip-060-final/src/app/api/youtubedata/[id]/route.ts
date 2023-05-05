@@ -2,7 +2,6 @@ import path from "path";
 import { promisify } from "util";
 import * as fs from "fs";
 import { YouTubeData } from "@/lib/ts-interfaces";
-import getRandomNumber from "@/lib/getRandomNumber";
 
 const readFile = promisify(fs.readFile);
 
