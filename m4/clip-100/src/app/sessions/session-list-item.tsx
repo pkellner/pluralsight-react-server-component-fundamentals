@@ -5,6 +5,7 @@ import SessionVideo from "@/src/app/sessions/session-video";
 
 export default function SessionListItem({ rec }: { rec: SessionData }) {
   return (
+    <div className="col-lg-3 col-md-6 col-sm-12 d-flex align-items-stretch">
       <div className="card m-1">
         <div className="row g-0">
           <div className="col-7">
@@ -22,6 +23,7 @@ export default function SessionListItem({ rec }: { rec: SessionData }) {
           </div>
         </div>
       </div>
+    </div>
   );
 }
 

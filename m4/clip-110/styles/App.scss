@@ -1,0 +1,135 @@
+// custom settings and mixins
+@import "./sass/settings";
+@import "./sass/mixins";
+
+// ==========================
+// Bootstrap imports
+// ==========================
+
+// Import all from Bootstrap
+// @import 'node_modules/bootstrap/scss/bootstrap';
+
+// ...or just chosen parts of Bootstrap
+// it is better to remove unused parts
+
+// Core variables and mixins
+@import "../node_modules/bootstrap/scss/functions";
+
+//!Include any default variable overrides here
+
+// Include remainder of required parts
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Reset and dependencies
+// @import "node_modules/bootstrap/scss/print";
+
+// Icons
+//@import 'node_modules/font-awesome/scss/font-awesome';
+@import "./sassAssets/font-awesome/scss/font-awesome";
+
+// Core CSS
+@import "./sass/fonts";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/tables";
+// In Bootstrap 5, the custom-forms component has been removed and replaced with the updated forms component.
+@import "../node_modules/bootstrap/scss/forms";
+@import "../node_modules/bootstrap/scss/buttons";
+
+// Components
+@import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/dropdown";
+@import "../node_modules/bootstrap/scss/button-group";
+@import "../node_modules/bootstrap/scss/forms/input-group";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/navbar";
+@import "../node_modules/bootstrap/scss/card";
+@import "../node_modules/bootstrap/scss/breadcrumb";
+@import "../node_modules/bootstrap/scss/pagination";
+@import "../node_modules/bootstrap/scss/badge";
+
+@import "../node_modules/bootstrap/scss/alert";
+@import "../node_modules/bootstrap/scss/progress";
+
+@import "../node_modules/bootstrap/scss/list-group";
+@import "../node_modules/bootstrap/scss/close";
+
+// Components w/ JavaScript
+@import "../node_modules/bootstrap/scss/modal";
+@import "../node_modules/bootstrap/scss/tooltip";
+@import "../node_modules/bootstrap/scss/popover";
+@import "../node_modules/bootstrap/scss/carousel";
+
+// Utility classes
+@import "../node_modules/bootstrap/scss/utilities";
+
+// ==========================
+// Custom imports
+// ==========================
+
+// Global custom styles
+@import "./sass/global-styles";
+
+// Components
+@import "./sass/components/buttons";
+@import "./sass/components/col-form-label";
+@import "./sass/components/form-control";
+@import "./sass/components/form-check-input";
+@import "./sass/components/dropdowns";
+@import "./sass/components/icons";
+@import "./sass/components/header";
+@import "./sass/components/footer";
+@import "./sass/components/jumbo-home";
+@import "./sass/components/jumbo-events";
+@import "./sass/components/news-item";
+@import "./sass/components/events-item";
+@import "./sass/components/newsletter-block";
+@import "./sass/components/supporter-block";
+@import "./sass/components/login-modal";
+@import "./sass/components/filter-bar";
+@import "./sass/components/speakers-carousel";
+@import "./sass/components/events-info-block";
+@import "./sass/components/events-sponsors";
+@import "./sass/components/events-sessions-list";
+@import "./sass/components/events-sessions-list-speaker";
+@import "./sass/components/jumbo-common";
+@import "./sass/components/jumbo-session";
+@import "./sass/components/custom-dropdown";
+@import "./sass/components/sponsors";
+@import "./sass/components/speakers";
+@import "./sass/components/speaker";
+@import "./sass/components/news-title";
+@import "./sass/components/news-filters";
+@import "./sass/components/news-list";
+@import "./sass/components/news-tile";
+@import "./sass/components/rect-social";
+@import "./sass/components/article-excerpt";
+@import "./sass/components/gallery-list";
+@import "./sass/components/session-details";
+@import "./sass/components/registration";
+@import "./sass/components/generic-content";
+@import "./sass/components/pop-up";
+@import "./sass/components/heading";
+@import "./sass/components/video-player";
+@import "./sass/components/sidebar";
+@import "./sass/components/portrait";
+@import "./sass/components/image-overlay";
+@import "./sass/components/social-button";
+@import "./sass/components/small-text";
+@import "./sass/components/custom-select";
+@import "./sass/components/input-group";
+@import "./sass/components/custom-table";
+@import "./sass/components/custom-pagination";
+
+// Pages
+@import "./sass/pages/home";
+@import "./sass/pages/events";
+
+@import "./sass/utilities/color";

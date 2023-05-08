@@ -31,11 +31,11 @@ function SessionVideoLoading() {
   return (
     <div className="card m-1">
       <a target="#">
-        <div
-          className="spinner"
+        <div className="spinner"
           style={{ width: "105px", height: "105px" }}
-        ></div>
+        >
+        </div>
       </a>
     </div>
-  );
+  )
 }
