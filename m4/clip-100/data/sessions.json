@@ -1,0 +1,1696 @@
+{
+  "data": {
+    "sessions": [
+      {
+        "id": "7417",
+        "title": "How JavaScript Works",
+        "sessionSlug": "how-javascript-works",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "<table style=\"vertical-align: top;\">\n    <tr>\n        <td>&nbsp;</td>\n        <td style=\"vertical-align: top;\">\n\n            <iframe style=\"width:120px;height:240px;\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\"\n                    src=\"//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=petkelsblo-20&marketplace=amazon&region=US&placement=1949815005&asins=1949815005&linkId=b7413dcbf9a83ca7ccc2368221171001&show_border=true&link_opens_in_new_window=true&price_color=333333&title_color=0066c0&bg_color=ffffff\">\n            </iframe>\n            <br/>\n            <b>Buy the Book!</b>\n        </td>\n        <td>&nbsp;&nbsp;&nbsp;</td>\n        <td>\n            <p>Douglas Crockford is the author of <b>How JavaScript Works</b>, the shocking best seller that rips the\n                lid off behind\n                the scenes. In this light-hearted romp thru the world's most misunderstood programming language,\n                Crockford reveals\n                what is actually going on, and how we can use this to write better programs. </p>\n        </td>\n    </tr>\n</table>",
+        "descriptionShort": "Douglas Crockford is the author of How JavaScript Works, the shocking best seller that rips the lid off behind the scenes. In this light-hearted romp thru the world's most misunderstood programming language, Crockford reveals what is actually going on, and how we can use this to write better programs. ",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539423000000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1099
+          }
+        ],
+        "lectureRoom": {
+          "id": "95",
+          "number": "Town Square A"
+        },
+        "sessionTime": {
+          "id": "131",
+          "startTimeFriendly": "9:30 AM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Beginner"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "JavaScript"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "JSON"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "137",
+            "youTubeUrl": "Bl7pZ9kbenI"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "1124",
+              "userFirstName": "Douglas",
+              "userLastName": "Crockford",
+              "twitterUrl": "",
+              "facebookUrl": null,
+              "linkedInUrl": "",
+              "nameSlug": "douglas-crockford-1124",
+              "principleJob": "Discoverer",
+              "company": "",
+              "userBio": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+              "userBioShort": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+              "userWebsite": "http://crockford.com",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "1",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/511OicTFLQL._SL75_.jpg",
+                  "bookTitle": "How JavaScript Works",
+                  "detailPageUrl": "https://www.amazon.com/dp/1949815005?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2018-10-18T00:00:00.000Z",
+                  "authors": "Crockford, Douglas  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "7448",
+        "title": "Q&A with Engineering Managers",
+        "sessionSlug": "ask-the-expert-qa-with-engineering-managers",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "How do I handle an unreasonable boss? What if I don't trust my team to deliver good code?  How can I improve your team's attitude about agile?  Why do I have so many bugs???\n<br/><br/>\nIn this unscripted format, speakers from the Management and Agile tracks answer audience questions.  Bring your toughest questions about agile, management, leadership, careers, terrible bosses and the pains of moving from Programmer to Manager.  \n<br/><br/>\nFeeling shy? Email your question advance to Ron@RonLichty.com ",
+        "descriptionShort": "How do I handle an unreasonable boss? What if I don't trust my team to deliver good code?  \nIn this unscripted format, speakers from the Management and Agile tracks answer your questions about challenges leading programmers.",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539513900000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1097
+          }
+        ],
+        "lectureRoom": {
+          "id": "96",
+          "number": "Town Square B"
+        },
+        "sessionTime": {
+          "id": "138",
+          "startTimeFriendly": "10:45 AM Sunday",
+          "startTime": "Sun Oct 14 2018"
+        },
+        "sessionLevel": {
+          "description": "Intermediate"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "management"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "164",
+            "youTubeUrl": "nbrLn6D9EjI"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "2920",
+              "userFirstName": "Ron",
+              "userLastName": "Lichty",
+              "twitterUrl": "https:///twitter.com/RonLichty",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/ronlichty",
+              "nameSlug": "ron-lichty-2920",
+              "principleJob": "Consultant: Interim VP Engineering",
+              "company": "Ron Lichty Consulting, Inc.",
+              "userBio": "Ron Lichty has been managing and, more recently, consulting in managing software development and product organizations for over 25 years. Before that, as a programmer, he coded compiler code generators, was awarded patents for compression and security algorithms for embedded microcontroller devices, wrote 2 widely used programming texts, and developed the computer animation demo that Apple used to launch and sell a next-generation line of PCs. The primary focus of his consulting practice has mirrored what he did as a manager: untangling the knots in software development. As Ron Lichty Consulting, he takes on fractional Interim VP Engineering roles, trains teams and executives in scrum, transitions teams to agile, trains and coaches managers in managing software people and teams, and advises organizations and coaches teams to make their software development “hum.” His 450-page book, Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams, was recently released as video training - LiveLessons: Managing Software People and Teams - both from Pearson and on O’Reilly’s Safari Network. He also co-authors the periodic Study of Product Team Performance.",
+              "userBioShort": "Interim VP Eng. Transforming chaos to clarity. Author, Managing the Unmanageable (Addison Wesley) ",
+              "userWebsite": "www.ronlichty.com ",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "7",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51dUrgiVgHL._SL75_.jpg",
+                  "bookTitle": "Programming the 65816: Including the 6502, 65C02, and 65802",
+                  "detailPageUrl": "https://www.amazon.com/dp/0893037893?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2015-11-04T00:00:00.000Z",
+                  "authors": "Eyes, David  Lichty, Ron  "
+                },
+                {
+                  "id": "28",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51zR-UB5QsL._SL75_.jpg",
+                  "bookTitle": "Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams",
+                  "detailPageUrl": "https://www.amazon.com/dp/B08126W99D?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2019-11-12T00:00:00.000Z",
+                  "authors": "Mantle, Mickey W.  Lichty, Ron  "
+                }
+              ]
+            }
+          },
+          {
+            "speaker": {
+              "id": "1530",
+              "userFirstName": "Tammy",
+              "userLastName": "Baker",
+              "twitterUrl": "https://twitter.com/tammybaker123",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/tammybaker",
+              "nameSlug": "tammy-baker-1530",
+              "principleJob": "Assistant to the SVCC Coordinator",
+              "company": "Code Camp",
+              "userBio": "Tammy is a software development leader for over 20 years and as a Vice President of Engineering has lead teams of native-mobile, full stack, .Net and Java developers, QA and project management. She’s held VP roles at several startups and large companies including USA Technologies, Cantaloupe Systems, Untangle, WeatherNews and E-Color.",
+              "userBioShort": "Tammy is a software development leader for over 20 years.",
+              "userWebsite": "https://www.linkedin.com/in/tammybaker/",
+              "allowHtml": true,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "7366",
+        "title": "Cracking the Coding Interview",
+        "sessionSlug": "cracking-the-coding-interview",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": false,
+        "description": "Programming interviews are a different breed from other interviews and, as such, require specialized skills and techniques. This talk will teach you how to prepare for coding interviews, what top companies like Google, Amazon, Facebook, and Microsoft really look for, and how to tackle the toughest programming and algorithm problems. This is not a fluffy be-your-best talk; it is deeply technical and will discuss specific algorithm and data structure topics.",
+        "descriptionShort": "Programmer & best-selling author of Cracking the Coding Interview presents a technical talk on how coding interviews work and how to do well on them. This will be a deeply technical talk covering data structures and algorithms.",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539440100000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [],
+        "lectureRoom": {
+          "id": "95",
+          "number": "Town Square A"
+        },
+        "sessionTime": {
+          "id": "134",
+          "startTimeFriendly": "2:15 PM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Beginner"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Algorithms"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Career"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Data Structures"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Hiring"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "interviewing"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "138",
+            "youTubeUrl": "8T7a09V1KZo"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "8367",
+              "userFirstName": "Gayle",
+              "userLastName": "McDowell",
+              "twitterUrl": "https://twitter.com/gayle",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/gaylemcd",
+              "nameSlug": "gayle-mcdowell-8367",
+              "principleJob": "CEO",
+              "company": "CareerCup",
+              "userBio": "<p>Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books:</p>\n\n<ul>\n  <li><a href=\"http://www.amazon.com/dp/0984782850/\" target=\"_blank\">Cracking the Coding Interview</a> (Amazon.com's #1 best-selling interview book) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/0984782818\" target=\"_blank\">Cracking the PM Interview</a> (product manager) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/1118968085\" target=\"_blank\">Cracking the Tech Career</a> </li>\n</ul>\n\n<ul>She is an interview consultant, helping companies improve their interview process and coaching startups through acquisitions/<a href=\"http://en.wikipedia.org/wiki/Acqui-hiring\" target=\"_blank\">acqui-hires</a>. She is also an interview prep instructor, hired by Facebook to teach an interview prep class for external software developer candidates.</ul>\n\n<p>Gayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School.</p>",
+              "userBioShort": "Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books.",
+              "userWebsite": "http://www.gayle.com",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "18",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/41kgVwVcL4L._SL75_.jpg",
+                  "bookTitle": "Cracking the PM Interview: How to Land a Product Manager Job in Technology",
+                  "detailPageUrl": "https://www.amazon.com/dp/B00ISYMUR6?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2014-03-04T00:00:00.000Z",
+                  "authors": "McDowell, Gayle Laakmann  Bavaro, Jackie  "
+                },
+                {
+                  "id": "19",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51l5XzLln+L._SL75_.jpg",
+                  "bookTitle": "Cracking the Coding Interview: 189 Programming Questions and Solutions",
+                  "detailPageUrl": "https://www.amazon.com/dp/0984782850?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2015-07-01T00:00:00.000Z",
+                  "authors": "McDowell, Gayle Laakmann  "
+                },
+                {
+                  "id": "20",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/414Vdf6rzcL._SL75_.jpg",
+                  "bookTitle": "The Big Book of Coding Interviews in C and C++, 3rd Edition: answers to the best programming interview questions on data structures and algorithms",
+                  "detailPageUrl": "https://www.amazon.com/dp/1983860549?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2018-02-04T00:00:00.000Z",
+                  "authors": "Publishing, Interview Druid  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "7394",
+        "title": "Productive React/TypeScript/TDD ",
+        "sessionSlug": "productive-reacttypescripttdd-love-story-from-hell",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "React is the most popular frontend framework and TypeScript is one of the hottest languages. The combination? Common, but barely. With test-driven development? Thin ice.\n<br/>\nIn this hands-on session we write a simple React counter application in TypeScript. But with a different approach: instead of constantly reloading a browser, we write tests in Jest and only visit the browser as a final step. We also see how to put the WebStorm IDE to work to get the productivity benefits promised by TypeScript.",
+        "descriptionShort": "React, TypeScript, TDD: Individually popular, sparse in combination. In this session we write a React application in TypeScript, using TDD, putting the power of the IDE to work.",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539440100000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1099
+          }
+        ],
+        "lectureRoom": {
+          "id": "97",
+          "number": "Town Square C"
+        },
+        "sessionTime": {
+          "id": "134",
+          "startTimeFriendly": "2:15 PM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Intermediate"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "JavaScript"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "React"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "TDD"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "TypeScript"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "140",
+            "youTubeUrl": "sw5D7lqplXw"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "41808",
+              "userFirstName": "Paul",
+              "userLastName": "Everitt",
+              "twitterUrl": "https://twitter.com/paulweveritt",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/paeveritt",
+              "nameSlug": "paul-everitt-41808",
+              "principleJob": "Developer Advocate",
+              "company": "JetBrains, Inc.",
+              "userBio": "Paul is the PyCharm and WebStorm Developer Advocate at JetBrains. Before that, Paul was a partner at Agendaless Consulting and co-founder of Zope Corporation, taking the first open source application server through $14M of funding. Paul has bootstrapped both the Plone Foundation and the Python Software Foundation. Before that, Paul was an officer in the US Navy, starting www.navy.mil in 1993.",
+              "userBioShort": "Paul is the PyCharm and WebStorm Developer Advocate at JetBrains.",
+              "userWebsite": "http://www.pauleveritt.org/",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "7401",
+        "title": "Developing Asynchronous, Message-Driven Microservices",
+        "sessionSlug": "developing-asynchronous-message-driven-microservices",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "The microservice architecture functionally decomposes an application into a set of services. Each service has its own private database that’s only accessible indirectly through the services API. Consequently, implementing queries and transactions that span multiple services is challenging. In this presentation, you will learn how to solve these distributed data management challenges using asynchronous messaging. I describe how to implement transactions using sagas, which are sequences of local transactions, coordinated using messages. You will learn how to implement queries using Command Query Responsibility Segregation (CQRS), which uses events to maintain replicas. I describe the key role that messaging plays a microservice architecture.",
+        "descriptionShort": "Learn about the key role that messages and events play in a microservice architecture",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539440100000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1106
+          }
+        ],
+        "lectureRoom": {
+          "id": "106",
+          "number": "Round Table"
+        },
+        "sessionTime": {
+          "id": "134",
+          "startTimeFriendly": "2:15 PM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Intermediate"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Architecture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Asynchronous Programming"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "events"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Messaging"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "microservices"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "8590",
+              "userFirstName": "Chris",
+              "userLastName": "Richardson",
+              "twitterUrl": "https:///twitter.com/crichardson",
+              "facebookUrl": null,
+              "linkedInUrl": "",
+              "nameSlug": "chris-richardson-8590",
+              "principleJob": "Founder",
+              "company": "Eventuate, Inc",
+              "userBio": "\nChris Richardson is a developer and architect. He is a Java Champion, a JavaOne rock star and the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2. \n\nToday, he is a recognized thought leader in microservices and speaks regularly at international conferences. Chris is the creator of <a href=\"http://Microservices.io\">Microservices.io</a>, a pattern language for microservices, and is writing the book <a href=\"https://www.manning.com/books/microservices-patterns\">Microservice Patterns</a>, which is available as a Manning MEAP. He provides <a href=\"http://chrisrichardson.net/microserviceslanding.html\">microservices consulting and training</a> to organizations that are adopting the microservice architecture and is working on his third startup <a href=\"http://eventuate.io/\">Eventuate</a>, an application platform for developing transactional microservices. ",
+              "userBioShort": "Founder of Eventuate, Author of POJOs in Action, creator of the original Cloud Foundry",
+              "userWebsite": "http://learnmicroservices.io",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "8",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51b370sKEgL._SL75_.jpg",
+                  "bookTitle": "Microservices Patterns: With examples in Java",
+                  "detailPageUrl": "https://www.amazon.com/dp/1617294543?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2018-11-19T00:00:00.000Z",
+                  "authors": "Richardson, Chris  "
+                },
+                {
+                  "id": "9",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51Os0JJuk4L._SL75_.jpg",
+                  "bookTitle": "POJOs in Action: Developing Enterprise Applications with Lightweight Frameworks",
+                  "detailPageUrl": "https://www.amazon.com/dp/1932394583?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2006-02-02T00:00:00.000Z",
+                  "authors": "Richardson, Chris  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "7377",
+        "title": "Event Driven Architecture – Enabling  Microservices",
+        "sessionSlug": "event-driven-architecture--enabling--microservices",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": false,
+        "description": "Event Driven Architecture is a way of building small or large systems, that takes full advantage of Microservices and proper architectural design.  Using messages as the communication mechanism among different services allows more independence of the individual components that make up a larger system, thus enabling faster development, faster deployment, and additional scalability.  Introducing Persistent Messages further enhances the architecture to allow time independence as well.\n\nIn this talk we will look at the overall structure of an Event Driven Architecture, discuss the business and technical advantages, and review how to migrate an existing application to an Event Driven Architecture.  Brad will present his experiences in migrating an existing application to an Event Driven Architecture, talk about lessons learned along the way.\n\nIf you have a large legacy application you need to break into microservices, or you are involved in a Domain Driven Design project, this talk is for you.\n",
+        "descriptionShort": "Do you have a large application that you want to break into microservices?  This talk discusses using Events to let the microservices communicate in a way that keeps the promise of loose coupling, fast development, and easy deployment.  ",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539428400000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1106
+          }
+        ],
+        "lectureRoom": {
+          "id": "97",
+          "number": "Town Square C"
+        },
+        "sessionTime": {
+          "id": "132",
+          "startTimeFriendly": "11:00 AM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Intermediate"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Architecture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "CQRS"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Distributed Application"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "events"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "microservices"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "142",
+            "youTubeUrl": "SkiQMH8nHOQ"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "1725",
+              "userFirstName": "Brad",
+              "userLastName": "Irby",
+              "twitterUrl": "https://twitter.com/bradirby",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/BradIrby",
+              "nameSlug": "brad-irby-1725",
+              "principleJob": null,
+              "company": "Brad Irby Consulting LLC",
+              "userBio": "Brad is an accomplished .NET software architect specializing in Domain Driven Design and Event Driven Architectures.  Over his 30 year professional career, Brad has built web applications for Adidas, Kashi, Gap, Wells Fargo, Bank of America, Aptos, and many others.  Brads specialty is migrating existing .NET applications to a DDD architecture and EDA without system downtime.\n\nBrad has been the organizer of the San Francisco and Silicon Valley .NET user groups, and is frequent speaker on technical software topics throughout the US, South America, and Europe.\n\nBrad has written a book on Reengineering .NET published by Adison Wesley.",
+              "userBioShort": "I help retail companies migrate Software Monoliths to microservices and Event Driven Architecture",
+              "userWebsite": "http://www.bradirby.com/",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+
+      {
+        "id": "7367",
+        "title": "Interview Like Google (or not)-But Better!",
+        "sessionSlug": "interview-like-google-or-not-but-better",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "Google is (in)famous for its tough algorithm questions, and then making candidates code on a whiteboard. Other companies are partial to behavioral questions, factual/knowledge questions, and big lofty architecture and design questions. \n<br/><br/>\nWe’ll discuss the different styles of technical and behavioral interviews for software developers. What’s right for your company? And how do you help candidates do their very best (and why is this so important)? How to keep your standards reasonable, but high and consistent? How do you limit your false negatives and false positives? \n<br/><br/>\nHiring managers and recruiters will learn how to create a better process. Interviewers will learn how to select and ask better questions. And candidates will get to explore what happens on the other side of the hiring table. \n<br/><br/>\nThis session will cover behavioral questions, coding questions, algorithm questions, knowledge questions, design questions, and code assessment/test tools.",
+        "descriptionShort": "Be a better interviewer: make candidates happier, raise the bar, create a consistent process, and avoid rejecting good candidates or hiring bad ones. We'll discuss multiple interview styles so you can interview like Google (or not)-but better!",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539450000000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [],
+        "lectureRoom": {
+          "id": "95",
+          "number": "Town Square A"
+        },
+        "sessionTime": {
+          "id": "136",
+          "startTimeFriendly": "5:00 PM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Beginner"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Google"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Hiring"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "interviewing"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "management"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "147",
+            "youTubeUrl": "mEJ8f0-rACo"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "8367",
+              "userFirstName": "Gayle",
+              "userLastName": "McDowell",
+              "twitterUrl": "https://twitter.com/gayle",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/gaylemcd",
+              "nameSlug": "gayle-mcdowell-8367",
+              "principleJob": "CEO",
+              "company": "CareerCup",
+              "userBio": "<p>Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books:</p>\n\n<ul>\n  <li><a href=\"http://www.amazon.com/dp/0984782850/\" target=\"_blank\">Cracking the Coding Interview</a> (Amazon.com's #1 best-selling interview book) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/0984782818\" target=\"_blank\">Cracking the PM Interview</a> (product manager) </li>\n\n  <li><a href=\"http://www.amazon.com/dp/1118968085\" target=\"_blank\">Cracking the Tech Career</a> </li>\n</ul>\n\n<ul>She is an interview consultant, helping companies improve their interview process and coaching startups through acquisitions/<a href=\"http://en.wikipedia.org/wiki/Acqui-hiring\" target=\"_blank\">acqui-hires</a>. She is also an interview prep instructor, hired by Facebook to teach an interview prep class for external software developer candidates.</ul>\n\n<p>Gayle has worked as a Software Engineer for Google, Microsoft and Apple. She holds a BSE and MSE from UPenn in Computer Science, and an MBA from the Wharton School.</p>",
+              "userBioShort": "Gayle Laakmann McDowell is the founder and CEO of CareerCup.com and the author of three books.",
+              "userWebsite": "http://www.gayle.com",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "18",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/41kgVwVcL4L._SL75_.jpg",
+                  "bookTitle": "Cracking the PM Interview: How to Land a Product Manager Job in Technology",
+                  "detailPageUrl": "https://www.amazon.com/dp/B00ISYMUR6?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2014-03-04T00:00:00.000Z",
+                  "authors": "McDowell, Gayle Laakmann  Bavaro, Jackie  "
+                },
+                {
+                  "id": "19",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51l5XzLln+L._SL75_.jpg",
+                  "bookTitle": "Cracking the Coding Interview: 189 Programming Questions and Solutions",
+                  "detailPageUrl": "https://www.amazon.com/dp/0984782850?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2015-07-01T00:00:00.000Z",
+                  "authors": "McDowell, Gayle Laakmann  "
+                },
+                {
+                  "id": "20",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/414Vdf6rzcL._SL75_.jpg",
+                  "bookTitle": "The Big Book of Coding Interviews in C and C++, 3rd Edition: answers to the best programming interview questions on data structures and algorithms",
+                  "detailPageUrl": "https://www.amazon.com/dp/1983860549?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2018-02-04T00:00:00.000Z",
+                  "authors": "Publishing, Interview Druid  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "7379",
+        "title": "Java developer’s journey in Kubernetes land",
+        "sessionSlug": "java-developers-journey-in-kubernetes-land",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "Deploying your Java application in a Kubernetes cluster could feel like Alice in Wonderland. You keep going down the rabbit hole and don’t know how to make that ride comfortable. This no-slide and code-only session will explain how a Java application consisting of different microservices can be deployed in a Kubernetes cluster. Specifically, it will explain the following:\n\nShow a Java application with three microservices\nHow this application is packaged as a Docker image\nCreate Kubernetes manifests\nHow Helm charts are created and hosted in a Helm repository\nTest in a local environment\nAttach debugger\nInstall Istio in k8s, show service visibility\nInstall k8s on AWS\nMigrate application from a local cluster to a cluster on the Cloud\nSetup deployment pipeline using CodePipeline\nUse an Alexa skill to scale the application\nChange application, show A/B using Istio",
+        "descriptionShort": "This code-only session will explain how a Java application consisting of different microservices can be deployed in a Kubernetes cluster.",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539440100000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1103
+          }
+        ],
+        "lectureRoom": {
+          "id": "100",
+          "number": "Fireside C"
+        },
+        "sessionTime": {
+          "id": "134",
+          "startTimeFriendly": "2:15 PM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Beginner"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Java"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Kubernetes"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "1269",
+              "userFirstName": "Arun",
+              "userLastName": "Gupta",
+              "twitterUrl": "https://twitter.com/arungupta",
+              "facebookUrl": null,
+              "linkedInUrl": "",
+              "nameSlug": "arun-gupta-1269",
+              "principleJob": "Vice President, Developer Advocacy",
+              "company": "Couchbase",
+              "userBio": "Arun Gupta is a Principal Open Source Technologist at Amazon Web Services. He has built and led developer communities for 12+ years at Sun, Oracle, Red Hat and Couchbase. He has deep expertise in leading cross-functional teams to develop and execute strategy, planning and execution of content, marketing campaigns, and programs. Prior to that he led engineering teams at Sun and is a founding member of the Java EE team.\n\nHe has extensive speaking experience in more than 40 countries on myriad topics and is a JavaOne Rock Star for four years in a row. Gupta also founded the Devoxx4Kids chapter in the US and continues to promote technology education among children. A prolific blogger, author of several books, an avid runner, a globe trotter, a Docker Captain, a Java Champion, a JUG leader, NetBeans Dream Team member, he is easily accessible at @arungupta.\n\n",
+              "userBioShort": "Arun Gupta is a Principal Open Source Technologist at Amazon Web Services. ",
+              "userWebsite": "blog.arungupta.me",
+              "allowHtml": false,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "2",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51IPe2snzaL._SL75_.jpg",
+                  "bookTitle": "Minecraft Modding with Forge: A Family-Friendly Guide to Building Fun Mods in Java",
+                  "detailPageUrl": "https://www.amazon.com/dp/1491918896?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2015-04-17T00:00:00.000Z",
+                  "authors": "Gupta, Arun  Gupta, Aditya  "
+                },
+                {
+                  "id": "3",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51Ybanzo88L._SL75_.jpg",
+                  "bookTitle": "Java EE 7 Essentials: Enterprise Developer Handbook",
+                  "detailPageUrl": "https://www.amazon.com/dp/1449370179?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2013-09-06T00:00:00.000Z",
+                  "authors": "Gupta, Arun  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "7371",
+        "title": "Managing in an Agile World",
+        "sessionSlug": "managing-in-an-agile-world",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "Agile is based on self-organizing teams, so if teams organize themselves, what do managers do?\n<br/><br/>\nIt turns out that managers can play a critical role both in agile adoption and in agile success long-term.\n<br/><br/>\nUnfortunately, scrum training mostly doesn’t address the role: when trainers and coaches sketch the structure of a scrum team, they almost never include a manager. \n<br/>\nManagers not knowing their changed role can be a problem: A frequently cited barrier to agile adoption is managers who don't know what to do when their teams become self-managing. When they're not included in training, how would they (or anyone else, for that matter) know the contributions to which managers need to apply themselves. Worse, their larger organizations often lay down expectations for them that are incompatible with agile. \n<br/><br/>\nAgile has shifted the old roles and responsibilities. A manager bent on command-and-control is clearly a barrier to agile adoption. But managers who take a hands-off approach or are unclear on the contribution they must make will almost certainly stymie adoption, as well.\n<br/><br/>\nRon Lichty echoes many of the early agile thought leaders: managers have critical roles to play in enabling success, both in transitioning to agile and in agile itself. \n<br/><br/>This session is about managers’ critical contributions, and is for managers, for prospective managers, for team leads, and for members of teams thinking through how to make their teams the best teams they’ve ever been part of.",
+        "descriptionShort": "Managers have critical roles to play enabling agile adoption and agile success. While “self-organizing” does not mean no managers, the old manager roles and rules no longer apply. This session is about manager roles that make agile teams thrive.",
+        "sessionSequence": "010",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539423000000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1097
+          }
+        ],
+        "lectureRoom": {
+          "id": "98",
+          "number": "Fireside A"
+        },
+        "sessionTime": {
+          "id": "131",
+          "startTimeFriendly": "9:30 AM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Beginner"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Agile"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "culture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "management"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Performance"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Scrum"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "team building"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Team Management"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "2920",
+              "userFirstName": "Ron",
+              "userLastName": "Lichty",
+              "twitterUrl": "https:///twitter.com/RonLichty",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/ronlichty",
+              "nameSlug": "ron-lichty-2920",
+              "principleJob": "Consultant: Interim VP Engineering",
+              "company": "Ron Lichty Consulting, Inc.",
+              "userBio": "Ron Lichty has been managing and, more recently, consulting in managing software development and product organizations for over 25 years. Before that, as a programmer, he coded compiler code generators, was awarded patents for compression and security algorithms for embedded microcontroller devices, wrote 2 widely used programming texts, and developed the computer animation demo that Apple used to launch and sell a next-generation line of PCs. The primary focus of his consulting practice has mirrored what he did as a manager: untangling the knots in software development. As Ron Lichty Consulting, he takes on fractional Interim VP Engineering roles, trains teams and executives in scrum, transitions teams to agile, trains and coaches managers in managing software people and teams, and advises organizations and coaches teams to make their software development “hum.” His 450-page book, Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams, was recently released as video training - LiveLessons: Managing Software People and Teams - both from Pearson and on O’Reilly’s Safari Network. He also co-authors the periodic Study of Product Team Performance.",
+              "userBioShort": "Interim VP Eng. Transforming chaos to clarity. Author, Managing the Unmanageable (Addison Wesley) ",
+              "userWebsite": "www.ronlichty.com ",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "7",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51dUrgiVgHL._SL75_.jpg",
+                  "bookTitle": "Programming the 65816: Including the 6502, 65C02, and 65802",
+                  "detailPageUrl": "https://www.amazon.com/dp/0893037893?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2015-11-04T00:00:00.000Z",
+                  "authors": "Eyes, David  Lichty, Ron  "
+                },
+                {
+                  "id": "28",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51zR-UB5QsL._SL75_.jpg",
+                  "bookTitle": "Managing the Unmanageable: Rules, Tools, and Insights for Managing Software People and Teams",
+                  "detailPageUrl": "https://www.amazon.com/dp/B08126W99D?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2019-11-12T00:00:00.000Z",
+                  "authors": "Mantle, Mickey W.  Lichty, Ron  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "7460",
+        "title": "Microservices and Serverless Speaker Panel – The Road Ahead",
+        "sessionSlug": "microservices-and-serverless-speaker-panel--the-road-ahead",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "We have all heard for a while that microservices are the solution to all of our problems.  Now serverless is emerging as an even smaller component of the new way of building applications piece by piece.  In our zeal to adopt the latest in architectural approaches, have we given sufficient thought to where they are going or what comes next?\n<br/><br/>\nIf you are considering building an application with a microservice or serverless based architecture, come to this panel of experienced cloud developers and architects and learn what these technologies can do for you now, and what they will do in the future.  Ask our panel questions on what works, what doesn't, and how to prepare today for the technology that's coming next.",
+        "descriptionShort": "Join our panel of experienced cloud experts as they answer your questions on the advantages and pitfalls of microservcies and serverless functions, and also share their insights into what comes next.",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539508500000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1107
+          }
+        ],
+        "lectureRoom": {
+          "id": "96",
+          "number": "Town Square B"
+        },
+        "sessionTime": {
+          "id": "137",
+          "startTimeFriendly": "9:15 AM Sunday",
+          "startTime": "Sun Oct 14 2018"
+        },
+        "sessionLevel": {
+          "description": "Intermediate"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Architecture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "microservices"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Modular Architecture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "serverless"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "156",
+            "youTubeUrl": "EIsMoGnF7-A"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "1725",
+              "userFirstName": "Brad",
+              "userLastName": "Irby",
+              "twitterUrl": "https://twitter.com/bradirby",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/BradIrby",
+              "nameSlug": "brad-irby-1725",
+              "principleJob": null,
+              "company": "Brad Irby Consulting LLC",
+              "userBio": "Brad is an accomplished .NET software architect specializing in Domain Driven Design and Event Driven Architectures.  Over his 30 year professional career, Brad has built web applications for Adidas, Kashi, Gap, Wells Fargo, Bank of America, Aptos, and many others.  Brads specialty is migrating existing .NET applications to a DDD architecture and EDA without system downtime.\n\nBrad has been the organizer of the San Francisco and Silicon Valley .NET user groups, and is frequent speaker on technical software topics throughout the US, South America, and Europe.\n\nBrad has written a book on Reengineering .NET published by Adison Wesley.",
+              "userBioShort": "I help retail companies migrate Software Monoliths to microservices and Event Driven Architecture",
+              "userWebsite": "http://www.bradirby.com/",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          },
+          {
+            "speaker": {
+              "id": "8590",
+              "userFirstName": "Chris",
+              "userLastName": "Richardson",
+              "twitterUrl": "https:///twitter.com/crichardson",
+              "facebookUrl": null,
+              "linkedInUrl": "",
+              "nameSlug": "chris-richardson-8590",
+              "principleJob": "Founder",
+              "company": "Eventuate, Inc",
+              "userBio": "\nChris Richardson is a developer and architect. He is a Java Champion, a JavaOne rock star and the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2. \n\nToday, he is a recognized thought leader in microservices and speaks regularly at international conferences. Chris is the creator of <a href=\"http://Microservices.io\">Microservices.io</a>, a pattern language for microservices, and is writing the book <a href=\"https://www.manning.com/books/microservices-patterns\">Microservice Patterns</a>, which is available as a Manning MEAP. He provides <a href=\"http://chrisrichardson.net/microserviceslanding.html\">microservices consulting and training</a> to organizations that are adopting the microservice architecture and is working on his third startup <a href=\"http://eventuate.io/\">Eventuate</a>, an application platform for developing transactional microservices. ",
+              "userBioShort": "Founder of Eventuate, Author of POJOs in Action, creator of the original Cloud Foundry",
+              "userWebsite": "http://learnmicroservices.io",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "8",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51b370sKEgL._SL75_.jpg",
+                  "bookTitle": "Microservices Patterns: With examples in Java",
+                  "detailPageUrl": "https://www.amazon.com/dp/1617294543?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2018-11-19T00:00:00.000Z",
+                  "authors": "Richardson, Chris  "
+                },
+                {
+                  "id": "9",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51Os0JJuk4L._SL75_.jpg",
+                  "bookTitle": "POJOs in Action: Developing Enterprise Applications with Lightweight Frameworks",
+                  "detailPageUrl": "https://www.amazon.com/dp/1932394583?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2006-02-02T00:00:00.000Z",
+                  "authors": "Richardson, Chris  "
+                }
+              ]
+            }
+          },
+          {
+            "speaker": {
+              "id": "187",
+              "userFirstName": "Dave",
+              "userLastName": "Nielsen",
+              "twitterUrl": "https:///twitter.com/davenielsen",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/dnielsen",
+              "nameSlug": "dave-nielsen-187",
+              "principleJob": "Developer Advocate",
+              "company": "Intel",
+              "userBio": "As Head of Ecosystem Programs, Dave uses emerging technologies and open source projects like Microservices, Serverless & Kubernetes to bring the magic of Redis to the broader community. Dave has extensive ecosystem experience from his years of engagement in the web, cloud and big data trenches. Prior to Redis Labs, Dave led the relationship between Intel’s Deep Learning in Apache Spark project and public cloud providers; and at PayPal where he helped pioneer web api developer evangelism. ",
+              "userBioShort": "I head up ecosystem programs at Redis Labs. I'm also the co-founder of CloudCamp. ",
+              "userWebsite": "http://www.davenielsen.net",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          },
+          {
+            "speaker": {
+              "id": "10803",
+              "userFirstName": "Eugene",
+              "userLastName": "Chuvyrov",
+              "twitterUrl": "https:///twitter.com/EugeneChuvyrov",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/eugenechuvyrov",
+              "nameSlug": "eugene-chuvyrov-10803",
+              "principleJob": "Sr. Cloud Architect",
+              "company": "Microsoft",
+              "userBio": "Eugene Chuvyrov is  a Senior Cloud Architect at Microsoft. He works directly with both startups and enterprises to enable their solutions in Microsoft cloud, and to make Azure better as a result of this work with partners. Over his tenure at Microsoft, his focus varied from modern DevOps, to enabling AI solutions in the cloud, to advising customers on creating Blockchain solutions in Azure. He is looking forward to sharing his knowledge from those engagements with the community.",
+              "userBioShort": "Cloud Architect at Microsoft focused on accelerating modern DevOps, Machine Learning and Blockchain.",
+              "userWebsite": "http://linkedin.com/in/eugenechuvyrov/",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "7402",
+        "title": "Microservices: Decomposing Applications for Testability and Deployability",
+        "sessionSlug": "microservices-decomposing-applications-for-testability-and-deployability",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "Successful applications have a habit of growing.  What’s more, the rate of growth increases over time because the development team typically gets larger. Eventually, the application will become extremely large and the organization ends up in monolithic hell. All aspects of development, testing and deployment are slow and painful. It’s impossible for the developers to keep up with the demands of the business. And, to make matters worse the application uses a technology stack that is increasingly obsolete.\n\nThe way to escape monolithic hell is to migrate to the microservice architecture. In this talk, you will learn about the essential characteristics of microservices. I describe the benefits and drawbacks  of the microservice architecture and when it makes sense to use it. You will learn about the design problems you will encounter when using microservices. I describe how to solve this problems by applying the microservices pattern language. You will learn how the microservice architecture accelerates the delivery of large, complex applications.\n",
+        "descriptionShort": "Learn how the microservice architecture accelerates the delivery of large, complex applications by improving testability and deployability",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539423000000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1106
+          }
+        ],
+        "lectureRoom": {
+          "id": "96",
+          "number": "Town Square B"
+        },
+        "sessionTime": {
+          "id": "131",
+          "startTimeFriendly": "9:30 AM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Intermediate"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Architecture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "distributed systems"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "microservices"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "148",
+            "youTubeUrl": "EH6ihCPDnnc"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "8590",
+              "userFirstName": "Chris",
+              "userLastName": "Richardson",
+              "twitterUrl": "https:///twitter.com/crichardson",
+              "facebookUrl": null,
+              "linkedInUrl": "",
+              "nameSlug": "chris-richardson-8590",
+              "principleJob": "Founder",
+              "company": "Eventuate, Inc",
+              "userBio": "\nChris Richardson is a developer and architect. He is a Java Champion, a JavaOne rock star and the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2. \n\nToday, he is a recognized thought leader in microservices and speaks regularly at international conferences. Chris is the creator of <a href=\"http://Microservices.io\">Microservices.io</a>, a pattern language for microservices, and is writing the book <a href=\"https://www.manning.com/books/microservices-patterns\">Microservice Patterns</a>, which is available as a Manning MEAP. He provides <a href=\"http://chrisrichardson.net/microserviceslanding.html\">microservices consulting and training</a> to organizations that are adopting the microservice architecture and is working on his third startup <a href=\"http://eventuate.io/\">Eventuate</a>, an application platform for developing transactional microservices. ",
+              "userBioShort": "Founder of Eventuate, Author of POJOs in Action, creator of the original Cloud Foundry",
+              "userWebsite": "http://learnmicroservices.io",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "8",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51b370sKEgL._SL75_.jpg",
+                  "bookTitle": "Microservices Patterns: With examples in Java",
+                  "detailPageUrl": "https://www.amazon.com/dp/1617294543?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2018-11-19T00:00:00.000Z",
+                  "authors": "Richardson, Chris  "
+                },
+                {
+                  "id": "9",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/51Os0JJuk4L._SL75_.jpg",
+                  "bookTitle": "POJOs in Action: Developing Enterprise Applications with Lightweight Frameworks",
+                  "detailPageUrl": "https://www.amazon.com/dp/1932394583?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2006-02-02T00:00:00.000Z",
+                  "authors": "Richardson, Chris  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+
+      {
+        "id": "7418",
+        "title": "Q&A With Douglas Crockford",
+        "sessionSlug": "qa-with-douglas-crockford",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "If you've never been to a Q&A session with Douglas Crockford, you are in for a treat.  Ask anything you want, then be prepared for the answer.  This is the follow on session to Douglas Crockford's first session where he talks about <b>How JavaScript Works</b> (his new book).",
+        "descriptionShort": "If you've never been to a Q&A session with Douglas Crockford, you are in for a treat.  Ask anything you want, then be prepared for the answer.  This is the follow on session to Douglas Crockford's first session where he talks about <b>How JavaScript Works</b> (his new book).",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539428400000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1099
+          }
+        ],
+        "lectureRoom": {
+          "id": "98",
+          "number": "Fireside A"
+        },
+        "sessionTime": {
+          "id": "132",
+          "startTimeFriendly": "11:00 AM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Beginner"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "JavaScript"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "JSON"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "1124",
+              "userFirstName": "Douglas",
+              "userLastName": "Crockford",
+              "twitterUrl": "",
+              "facebookUrl": null,
+              "linkedInUrl": "",
+              "nameSlug": "douglas-crockford-1124",
+              "principleJob": "Discoverer",
+              "company": "",
+              "userBio": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+              "userBioShort": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+              "userWebsite": "http://crockford.com",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "1",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/511OicTFLQL._SL75_.jpg",
+                  "bookTitle": "How JavaScript Works",
+                  "detailPageUrl": "https://www.amazon.com/dp/1949815005?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2018-10-18T00:00:00.000Z",
+                  "authors": "Crockford, Douglas  "
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "7391",
+        "title": "Redis in Containers, and Kubernetes and Serverless ... Oh My!",
+        "sessionSlug": "redis-in-containers-and-kubernetes-and-serverless--oh-my",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "According to Docker Hub Explore, Redis is the most popular database in containers. Some even say Redis is the most popular database on AWS. While running one Redis in one container is limiting, it can be very useful. But deploying Redis in a cluster of containers can give you scale and reliability your startup needs. In fact, some companies run 100's of instances of Redis as their primary database. In this talk, I'll share 5 popular use cases for Redis in Containers, Kubernetes and even Serverless. And I'll show you how to package Redis for deployment via Docker & Kubernetes. If I'm feeling gutsy, I might even show you how to run Redis on Windows.",
+        "descriptionShort": "In this talk, I'll share 5 popular use cases for Redis in Containers, Kubernetes and even Serverless. And I'll show you how to package Redis for deployment via Docker & Kubernetes. ",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539513900000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1103
+          }
+        ],
+        "lectureRoom": {
+          "id": "100",
+          "number": "Fireside C"
+        },
+        "sessionTime": {
+          "id": "138",
+          "startTimeFriendly": "10:45 AM Sunday",
+          "startTime": "Sun Oct 14 2018"
+        },
+        "sessionLevel": {
+          "description": "Beginner"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Cloud"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "containers"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "DevOps"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Docker"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Kubernetes"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "microservices"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Redis"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "187",
+              "userFirstName": "Dave",
+              "userLastName": "Nielsen",
+              "twitterUrl": "https:///twitter.com/davenielsen",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/dnielsen",
+              "nameSlug": "dave-nielsen-187",
+              "principleJob": "Developer Advocate",
+              "company": "Intel",
+              "userBio": "As Head of Ecosystem Programs, Dave uses emerging technologies and open source projects like Microservices, Serverless & Kubernetes to bring the magic of Redis to the broader community. Dave has extensive ecosystem experience from his years of engagement in the web, cloud and big data trenches. Prior to Redis Labs, Dave led the relationship between Intel’s Deep Learning in Apache Spark project and public cloud providers; and at PayPal where he helped pioneer web api developer evangelism. ",
+              "userBioShort": "I head up ecosystem programs at Redis Labs. I'm also the co-founder of CloudCamp. ",
+              "userWebsite": "http://www.davenielsen.net",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "7390",
+        "title": "Top 10 Microservices with Redis",
+        "sessionSlug": "top-10-microservices-with-redis",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": false,
+        "description": "Most Microservices need a database. With SQL and Redis you have most of what you need. In this talk we'll share database tips and tricks using SQL & Redis for creating scalable Microservices. Examples include: user registration, session management, online presence, custom analytics, keyword search, product recommendations, product catalog, order management, and error message leaderboard. Demos will be made available via NodeJS & Spring Boot, and via general Redis command-line text.",
+        "descriptionShort": "Learn tips & tricks using SQL & Redis to create scalable Microservices. Example include: session management, online presence, custom analytics, keyword search, search-as-you-type, product recommendations, product catalog, & leaderboard",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539450000000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1106
+          }
+        ],
+        "lectureRoom": {
+          "id": "100",
+          "number": "Fireside C"
+        },
+        "sessionTime": {
+          "id": "136",
+          "startTimeFriendly": "5:00 PM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Intermediate"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Development"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Java"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "JavaScript"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Kubernetes"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "microservices"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "NodeJS"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Redis"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "187",
+              "userFirstName": "Dave",
+              "userLastName": "Nielsen",
+              "twitterUrl": "https:///twitter.com/davenielsen",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/dnielsen",
+              "nameSlug": "dave-nielsen-187",
+              "principleJob": "Developer Advocate",
+              "company": "Intel",
+              "userBio": "As Head of Ecosystem Programs, Dave uses emerging technologies and open source projects like Microservices, Serverless & Kubernetes to bring the magic of Redis to the broader community. Dave has extensive ecosystem experience from his years of engagement in the web, cloud and big data trenches. Prior to Redis Labs, Dave led the relationship between Intel’s Deep Learning in Apache Spark project and public cloud providers; and at PayPal where he helped pioneer web api developer evangelism. ",
+              "userBioShort": "I head up ecosystem programs at Redis Labs. I'm also the co-founder of CloudCamp. ",
+              "userWebsite": "http://www.davenielsen.net",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "7465",
+        "title": "Web Panel with Douglas Crockford, Steve Souders and Mike North",
+        "sessionSlug": "web-panel-with-douglas-crockford-steve-souders-and-mike-north",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "Join this star filled panel, Douglas Crockford, Steve Souders and Mike North talk about the web. A better set of luminaries you will not find.  Both Douglas Crockford and Steve Souders keynote the largest tech conferences in the world regularly, and Mike North a well known tech author who also leads developer training at LinkedIn.\n<br/><br/>\nKevin Nilson will moderate this much anticipated lively session right after lunch on Saturday on the main stage of Code Camp. Don't miss it!\n",
+        "descriptionShort": "Join this star filled panel, Douglas Crockford, Steve Souders and Mike North talk about the web. A better set of luminaries you will not find",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539435600000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [
+          {
+            "trackId": 1107
+          }
+        ],
+        "lectureRoom": {
+          "id": "96",
+          "number": "Town Square B"
+        },
+        "sessionTime": {
+          "id": "133",
+          "startTimeFriendly": "1:00 PM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Beginner"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "JavaScript"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Panel"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Web"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Web Performance"
+            }
+          }
+        ],
+        "sessionVideos": [
+          {
+            "id": "139",
+            "youTubeUrl": "hlNTy8baxiQ"
+          }
+        ],
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "823",
+              "userFirstName": "Kevin",
+              "userLastName": "Nilson",
+              "twitterUrl": "https://twitter.com/javaclimber",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/kevinnilson",
+              "nameSlug": "kevin-nilson-823",
+              "principleJob": "Software Engineer",
+              "company": "Google",
+              "userBio": "Team Lead of the Chromecast Technical Solutions Engineer team, a Java Champion and three time JavaOne Rock Star Presenter. Kevin has spoken at conferences such as JavaOne, Devoxx, JAX, O'Reilly Fluent, Silicon Valley Code Camp, JAX, HTML5DevConf, On Android, NFJS SpringOne and AjaxWorld. Kevin is the co-author of Web 2.0 Fundamentals. In the past Kevin was an adjunct professor at the College of San Mateo. Kevin holds a MS and BS in Computer Science from Southern Illinois University. Kevin is the leader of the Silicon Valley JavaScript Meetup, Silicon Valley Java User Group, Silicon Valley Google Developer Group, and Devoxx4Kids Bay Area.",
+              "userBioShort": "Chromecast Technical Solutions Engineering Lead at Google, Java Champion, 3 time JavaOne Rock Star",
+              "userWebsite": "http://www.javaclimber.com",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          },
+          {
+            "speaker": {
+              "id": "1124",
+              "userFirstName": "Douglas",
+              "userLastName": "Crockford",
+              "twitterUrl": "",
+              "facebookUrl": null,
+              "linkedInUrl": "",
+              "nameSlug": "douglas-crockford-1124",
+              "principleJob": "Discoverer",
+              "company": "",
+              "userBio": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+              "userBioShort": "Douglas Crockford discovered the JSON Data Interchange Format. He is also the author of _JavaScript: The Good Parts_. He has been called a guru, but he is actually more of a mahatma.",
+              "userWebsite": "http://crockford.com",
+              "allowHtml": true,
+              "attendeesAmazonBooks": [
+                {
+                  "id": "1",
+                  "amazonImageSmall": "https://m.media-amazon.com/images/I/511OicTFLQL._SL75_.jpg",
+                  "bookTitle": "How JavaScript Works",
+                  "detailPageUrl": "https://www.amazon.com/dp/1949815005?tag=petkelsblo-20&linkCode=ogi&th=1&psc=1",
+                  "bookPublishedDate": "2018-10-18T00:00:00.000Z",
+                  "authors": "Crockford, Douglas  "
+                }
+              ]
+            }
+          },
+          {
+            "speaker": {
+              "id": "39062",
+              "userFirstName": "Mike",
+              "userLastName": "North",
+              "twitterUrl": "https://twitter.com/michaellnorth",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/northm",
+              "nameSlug": "mike-north-39062",
+              "principleJob": ".",
+              "company": "Mike Works, Inc.",
+              "userBio": "Mike trains web development teams all over the world, at companies ranging from tiny stealth-mode startups to Silicon Valley tech giants. He’s currently a Frontend Masters instructor, a Staff Engineer on LinkedIn’s web frameworks team, and the owner of Mike Works, a training-focused consultancy.",
+              "userBioShort": "Global web technology speaker, author, educator and trainer.",
+              "userWebsite": "https://mike.works",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "7444",
+        "title": "Are we there yet? A pragmatic look at quantum computing and Q# with Azure",
+        "sessionSlug": "are-we-there-yet-a-pragmatic-look-at-quantum-computing-and-q-with-azure",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": false,
+        "description": "Like superintelligence, practical quantum computing appears to be half a decade away... every half decade. In this session, we'll take a look at the basic principles behind quantum computing, the whys behind its potential, as well as the history of breakthroughs and developments in that space. We'll make a lengthy detour into programming quantum computer emulators with Visual Studio, Q# and Azure. We'll finish up by looking at the most promising pathways for making quantum computing practical and review whether it can indeed render all current encryption schemes obsolete and become the quickest path towards superintelligence.",
+        "descriptionShort": "Learn about history, promises and realities of quantum computing and gain an understanding of programming quantum emulators using Q#, a new language from Microsoft, and Azure.",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539521100000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [],
+        "lectureRoom": {
+          "id": "99",
+          "number": "Fireside B"
+        },
+        "sessionTime": {
+          "id": "139",
+          "startTimeFriendly": "12:45 PM Sunday",
+          "startTime": "Sun Oct 14 2018"
+        },
+        "sessionLevel": {
+          "description": "Intermediate"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Azure"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Quantum"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "10803",
+              "userFirstName": "Eugene",
+              "userLastName": "Chuvyrov",
+              "twitterUrl": "https:///twitter.com/EugeneChuvyrov",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/eugenechuvyrov",
+              "nameSlug": "eugene-chuvyrov-10803",
+              "principleJob": "Sr. Cloud Architect",
+              "company": "Microsoft",
+              "userBio": "Eugene Chuvyrov is  a Senior Cloud Architect at Microsoft. He works directly with both startups and enterprises to enable their solutions in Microsoft cloud, and to make Azure better as a result of this work with partners. Over his tenure at Microsoft, his focus varied from modern DevOps, to enabling AI solutions in the cloud, to advising customers on creating Blockchain solutions in Azure. He is looking forward to sharing his knowledge from those engagements with the community.",
+              "userBioShort": "Cloud Architect at Microsoft focused on accelerating modern DevOps, Machine Learning and Blockchain.",
+              "userWebsite": "http://linkedin.com/in/eugenechuvyrov/",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "7409",
+        "title": "Clean Architecture",
+        "sessionSlug": "clean-architecture",
+        "speakersNamesCsv": "NotYet",
+        "allowHtml": true,
+        "description": "<p>We've heard about clean code for years, but what about clean architecture. In this session you will learn how to improve developer productivity by using clean architecture concepts. Topics to be discussed:<br />- Understand function, components, and data separation<br />- Determine what's important and what isn't<br />- Defining boundaries and layers<br />- Organizing components and services<br />- And more</p>",
+        "descriptionShort": "We've heard about clean code for years, but what about clean architecture. In this session you will learn how to improve developer productivity by using clean architecture concepts. ",
+        "sessionSequence": "",
+        "sessionsMaterialUrl": null,
+        "planAheadCount": null,
+        "interestCount": null,
+        "loggedInUserInterested": null,
+        "loggedInUserPlanToAttend": null,
+        "interestLevel": null,
+        "startTime": "1539423000000",
+        "codeCampYear": {
+          "id": "13",
+          "urlPostToken": "2018"
+        },
+        "trackSessions": [],
+        "lectureRoom": {
+          "id": "100",
+          "number": "Fireside C"
+        },
+        "sessionTime": {
+          "id": "131",
+          "startTimeFriendly": "9:30 AM Saturday",
+          "startTime": "Sat Oct 13 2018"
+        },
+        "sessionLevel": {
+          "description": "Advanced"
+        },
+        "sessionTags": [
+          {
+            "tag": {
+              "tagName": "Architecture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Modular Architecture"
+            }
+          },
+          {
+            "tag": {
+              "tagName": "Productivity"
+            }
+          }
+        ],
+        "sessionVideos": null,
+        "sessionPresenters": [
+          {
+            "speaker": {
+              "id": "5996",
+              "userFirstName": "Craig",
+              "userLastName": "Berntson",
+              "twitterUrl": "https://twitter.com/craigber",
+              "facebookUrl": null,
+              "linkedInUrl": "https://www.linkedin.com/in/craigber",
+              "nameSlug": "craig-berntson-5996",
+              "principleJob": "Senior Software Engineer",
+              "company": "HealthEquity",
+              "userBio": "Craig has a passion for community and helping other developers improve their skills. He writes the column \"Software Gardening\" in DotNet Curry Magazine and is the co-author of \"Continuous Integration in .NET\" available from Manning. He works as a Senior Software Engineer at HealthEquity.",
+              "userBioShort": "Speaker, author, architect, and engineer. Currently he's a Senior Software Engineer at HealthEquity.",
+              "userWebsite": "www.craigberntson.com",
+              "allowHtml": false,
+              "attendeesAmazonBooks": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
