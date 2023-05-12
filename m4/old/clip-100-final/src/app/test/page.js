@@ -49,8 +49,8 @@ async function SessionsListComp({ sessions }) {
             ? rec.sessionVideos[0].youTubeUrl
             : undefined;
         return (
-          <Suspense fallback={<div>Loading video</div>}>
-            <VideoComp key={rec.id} id={youTubeUrl} />
+          <Suspense fallback={<div>Loading video</div>} key={rec.id}>
+            <VideoComp id={youTubeUrl} />
           </Suspense>
         );
       })}

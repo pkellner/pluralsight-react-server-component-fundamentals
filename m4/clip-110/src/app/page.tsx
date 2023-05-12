@@ -64,5 +64,5 @@ function SessionsListLoading() {
         })}
       </div>
     </div>
-  );
+  )
 }

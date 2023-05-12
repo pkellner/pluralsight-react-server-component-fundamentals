@@ -1,8 +1,6 @@
 import 'server-only';
 import {SessionData} from "@/lib/ts-interfaces";
 import SessionListItem from "@/src/app/sessions/session-list-item";
-import SessionListItemClient from
-  "@/src/app/sessions/session-list-item-client";
 
 const delay = (ms: number) => new Promise(
   (resolve) => setTimeout(resolve, ms)
@@ -22,11 +20,7 @@ export default async function SessionsList() {
     <div className="container">
       <div className="row">
         {sessionsData.map(function (rec: SessionData) {
-          return (
-            <SessionListItemClient key={rec.id} title={rec.title} >
-              <SessionListItem rec={rec} />
-            </SessionListItemClient>
-          );
+          return <SessionListItem key={rec.id} rec={rec} />;
         })}
       </div>
     </div>
