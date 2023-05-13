@@ -9,7 +9,7 @@ const delay = (ms: number) => new Promise(
 );
 
 async function getSessionsList() {
-  await delay(300000);
+  await delay(3000);
   const res = await fetch(`http://localhost:3000/api/sessiondata?max=11`);
   if (!res.ok) { throw new Error("failed to fetch data"); }
   const data = await res.json();
