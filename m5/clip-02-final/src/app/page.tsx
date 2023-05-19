@@ -1,3 +1,5 @@
+import 'server-only';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
 import FavoriteCookieButton from "@/app/FavoriteCookieButton";
