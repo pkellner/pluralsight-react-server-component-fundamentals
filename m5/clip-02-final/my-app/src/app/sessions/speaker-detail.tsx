@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { speakersData } from "@/app/common/speakers-data"
 
 export interface Speaker {
   id?: string;
@@ -10,29 +11,8 @@ export interface Speaker {
 async function getSpeaker(speakerId: string) {
   const delay = (ms: number) =>
     new Promise((resolve) => setTimeout(resolve, ms));
-  await delay(1000);
-  const data: Speaker[] = [
-    {
-      id: "1124",
-      first: "Douglas",
-      last: "Crockford",
-      sessionId: "7417",
-    },
-    {
-      id: "8367",
-      last: "McDowell",
-      first: "Gayle",
-      sessionId: "7366",
-    },
-    {
-      id: "10803",
-      first: "Eugene",
-      last: "Chuvyrov",
-      sessionId: "7444",
-    },
-  ];
-  const speakerData = data.find((speaker) => speaker.id === speakerId);
-  return speakerData ?? data[0]; // this should never happen
+  await delay(2000);
+  return speakersData.find((speaker : Speaker) => speaker.id === speakerId) || {};
 }
 
 export default async function SpeakerDetail({
@@ -40,7 +20,6 @@ export default async function SpeakerDetail({
 }: {
   speakerId: string;
 }) {
-  console.log("speakerId", speakerId);
   const speaker: Speaker = await getSpeaker(speakerId);
 
   return (

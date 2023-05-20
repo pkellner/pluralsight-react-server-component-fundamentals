@@ -1,6 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
 import SpeakerDetailWithBio from "@/app/speakers/speaker-detail-with-bio";
+import { speakersData } from "@/app/common/speakers-data"
 
 export interface Speaker {
   id?: string;
@@ -10,23 +9,21 @@ export interface Speaker {
   sessionId?: string;
 }
 
-const speakerIds = ["1124", "8367", "10803"];
-
-
+const speakerIds = speakersData.map((speaker) => speaker.id);
 
 export default async function Sessions() {
   return (
     <div className="container-main speakers">
       <div className="row">
-        <div className="col-12">
-          <div>
-            {speakerIds.map((speakerId) => {
-              return (
+
+          {speakerIds.map((speakerId) => {
+            return (
+              <div className="col-sm-12 col-lg-6 speakers-list-item" key={speakerId}>
                 <SpeakerDetailWithBio key={speakerId} speakerId={speakerId} />
-              );
-            })}
-          </div>
-        </div>
+              </div>
+            );
+          })}
+
       </div>
     </div>
   );
