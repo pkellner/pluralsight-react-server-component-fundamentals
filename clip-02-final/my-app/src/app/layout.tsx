@@ -1,19 +1,31 @@
-import "./globals.css";
-import { ReactNode } from "react";
+import React from "react";
+import Nav from "@/app/common/Nav";
+import "@/styles/globals.css";
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+
+
+export const metadata = {
+  title: "SV Code Camp Next.js 13 Exp",
+  description: "Silicon Valley Code Camp with Next.js",
+};
+
+export default function RootLayout({
+                                     children,
+                                   }: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
-      <body>
-        <div style={{ overflow: "hidden" }}>
-          <header className="header">
-            <div className="container-main">
-              <div>NAV</div>
-            </div>
-          </header>
-          {children}
+    <body>
+    <div style={{ overflow: "hidden" }}>
+      <header className="header">
+        <div className="container-main">
+          <Nav />
         </div>
-      </body>
+      </header>
+      {children}
+    </div>
+    </body>
     </html>
   );
 }
