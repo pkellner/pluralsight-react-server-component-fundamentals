@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 export interface Speaker {
   id?: string;
   first?: string;
@@ -15,8 +14,8 @@ async function getSpeaker(speakerId: string) {
   const data: Speaker[] = [
     {
       id: "1124",
-      first: "Crockford",
-      last: "Douglas",
+      first: "Douglas",
+      last: "Crockford",
       sessionId: "7417",
     },
     {
@@ -41,27 +40,28 @@ export default async function SpeakerDetail({
 }: {
   speakerId: string;
 }) {
+  console.log("speakerId", speakerId);
   const speaker: Speaker = await getSpeaker(speakerId);
 
   return (
-
-      <div className="col-12 col-sm-6 speakers-list-item" key={speaker.id}>
-        <div className="events-speaker d-flex align-items-center">
-          <div className="events-speaker-photo">
-            <Image
-              src={`/speakers/speaker-${speaker?.id}.jpg`}
-              alt={`${speaker.first} ${speaker.last}`}
-              width={135}
-              height={135}
-            />
-          </div>
-          <div className=" events-speaker-description">
+    <div className="col-12 col-sm-6 speakers-list-item" key={speaker.id}>
+      <div className="events-speaker d-flex align-items-center">
+        <div className="events-speaker-photo">
+          <Image
+            src={`/speakers/speaker-${speaker?.id}.jpg`}
+            alt={`${speaker.first} ${speaker.last}`}
+            width={135}
+            height={135}
+          />
+        </div>
+        <div className=" events-speaker-description">
+          <a href={`/speakers/${speaker.id}`}>
             <div className=" name">
               {speaker.first} {speaker.last}{" "}
             </div>
-          </div>
+          </a>
         </div>
       </div>
-
+    </div>
   );
 }

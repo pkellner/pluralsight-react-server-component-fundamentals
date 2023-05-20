@@ -1,10 +1,10 @@
 import * as React from "react";
 
-declare global {
+declare module "react" {
   namespace JSX {
     export type ElementType =
       | ((props: any) => React.ReactNode | Promise<React.ReactNode>)
       | (new (props: any) => React.ReactNode)
-      | keyof IntrinsicElements;
+      | keyof React.JSX.IntrinsicElements;
   }
 }
