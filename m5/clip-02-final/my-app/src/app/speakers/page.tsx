@@ -44,7 +44,7 @@ export default async function Sessions() {
           <div>
             {speakers.map((speaker: Speaker) => {
               return (
-                <div className="col-12 col-sm-6 speakers-list-item">
+                <div className="col-12 col-sm-6 speakers-list-item" key={speaker.id}>
                   <div className="events-speaker d-flex align-items-center">
                     <div className="events-speaker-photo">
                       <Image

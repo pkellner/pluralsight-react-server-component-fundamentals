@@ -1,3 +1,6 @@
+import SpeakerDetail from "@/app/sessions/speaker-detail";
+import { Suspense } from "react";
+
 export interface Session {
   id?: string;
   title?: string;
@@ -5,7 +8,7 @@ export interface Session {
   description?: string;
 }
 
-async function getData() {
+async function getSessions() {
   const delay = (ms: number) =>
     new Promise((resolve) => setTimeout(resolve, ms));
   await delay(1000);
@@ -37,7 +40,7 @@ async function getData() {
 }
 
 export default async function Sessions() {
-  const sessions = await getData();
+  const sessions = await getSessions();
   return (
     <div className="container-main">
       <div className="sessions">
@@ -48,6 +51,11 @@ export default async function Sessions() {
                 <div className="news-tile__top">
                   <h3 className="news-tile__title">{session?.title}</h3>
                   {session?.description}
+                </div>
+                <div className="news-tile__bottom">
+                  <Suspense fallback={<div>Loading...</div>}>
+                    <SpeakerDetail speakerId={session.speakerId ?? "0"} />
+                  </Suspense>
                 </div>
               </li>
             );
