@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <nav className="navbar navbar-expand navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <Image height={18} width={72} alt="logo" src="/SVCClogo.png" />
         </a>
         <div className="navbar-nav">
