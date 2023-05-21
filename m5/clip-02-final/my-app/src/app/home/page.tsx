@@ -1,14 +1,6 @@
-import TooltipComponent from "@/app/common/tool-tip";
+import TooltipComponent from "@/app/common/tool-tip-speaker";
 
 export default async function Home() {
-  return (
-    <div className="container px-4 py-5 mx-auto text-center">
-      <TooltipComponent speakerName="sp" speakerBio="bio">
-        THIS is the tooltip
-      </TooltipComponent>
-    </div>
-  );
-
   return (
     <div className="container px-4 py-5 mx-auto text-center">
       <h1 className="display-6 fw-bold">

@@ -2,7 +2,7 @@
 
 import { ReactNode, useState } from "react";
 
-export default function ToolTip({
+export default function ToolTipSpeaker({
                                       children,
                                       speakerName,
                                       speakerBio,
