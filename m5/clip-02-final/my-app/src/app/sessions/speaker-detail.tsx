@@ -1,19 +1,19 @@
 import Image from "next/image";
-import { speakersData } from "@/app/common/speakers-data"
+import { speakersData } from "@/app/common/speakers-data";
+import {Speaker} from "@/app/speakers/page";
+import SpeakerFirstLastWithHoverOver from "@/app/sessions/speaker-first-last-with-hover-over";
 
-export interface Speaker {
-  id?: string;
-  first?: string;
-  last?: string;
-  sessionId?: string;
-}
 
 async function getSpeaker(speakerId: string) {
   const delay = (ms: number) =>
     new Promise((resolve) => setTimeout(resolve, ms));
   await delay(2000);
-  return speakersData.find((speaker : Speaker) => speaker.id === speakerId) || {};
+  return (
+    speakersData.find((speaker: Speaker) => speaker.id === speakerId) || {}
+  );
 }
+
+
 
 export default async function SpeakerDetail({
   speakerId,
@@ -35,9 +35,10 @@ export default async function SpeakerDetail({
         </div>
         <div className=" events-speaker-description">
           <a href={`/speakers/${speaker.id}`}>
-            <div className=" name">
-              {speaker.first} {speaker.last}{" "}
-            </div>
+            <SpeakerFirstLastWithHoverOver speaker={speaker} />
+            {/*<div className=" name">*/}
+            {/*  {speaker.first} {speaker.last}{" "}*/}
+            {/*</div>*/}
           </a>
         </div>
       </div>

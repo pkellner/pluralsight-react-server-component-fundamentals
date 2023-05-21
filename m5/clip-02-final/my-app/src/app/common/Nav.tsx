@@ -14,10 +14,10 @@ export default function Nav() {
         </a>
         <div className="navbar-nav">
           <Link href="/sessions">
-            <div className="nav-link">Session</div>
+            <div className="nav-link">Sessions</div>
           </Link>
           <Link href="/speakers">
-            <div className="nav-link">Speaker</div>
+            <div className="nav-link">Speakers</div>
           </Link>
         </div>
       </div>

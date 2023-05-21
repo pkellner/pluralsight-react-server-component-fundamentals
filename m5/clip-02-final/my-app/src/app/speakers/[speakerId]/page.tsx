@@ -6,7 +6,7 @@ export default async function SpeakerDetailById({
   params: { speakerId: string };
 }) {
   return (
-    <div className="col-12 speakers-list-item">
+    <div className="col-12 speakers-list-item p-2">
       <SpeakerDetailWithBio speakerId={params.speakerId} />
     </div>
   );

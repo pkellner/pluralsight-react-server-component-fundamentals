@@ -1,8 +1,19 @@
+import TooltipComponent from "@/app/common/tool-tip";
+
 export default async function Home() {
+  return (
+    <div className="container px-4 py-5 mx-auto text-center">
+      <TooltipComponent speakerName="sp" speakerBio="bio">
+        THIS is the tooltip
+      </TooltipComponent>
+    </div>
+  );
 
   return (
     <div className="container px-4 py-5 mx-auto text-center">
-      <h1 className="display-6 fw-bold">Silicon Valley Code Camp and Campfire</h1>
+      <h1 className="display-6 fw-bold">
+        Silicon Valley Code Camp and Campfire
+      </h1>
       <div className="col-lg-6 mx-auto">
         <p className="lead mb-4 p-3">
           Our events are technical conferences in Silicon Valley where
@@ -16,5 +27,4 @@ export default async function Home() {
       </div>
     </div>
   );
-
 }

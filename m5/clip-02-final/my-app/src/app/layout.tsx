@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "@/app/common/Nav";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "@/styles/globals.css";
 
 
