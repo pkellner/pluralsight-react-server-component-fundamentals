@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "@/app/common/Nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@/styles/globals.css";
 
@@ -18,11 +17,11 @@ export default function RootLayout({
     <html lang="en">
     <body>
     <div style={{ overflow: "hidden" }}>
-      <header className="header">
-        <div className="container-main">
-          <Nav />
-        </div>
-      </header>
+      {/*<header className="header">*/}
+      {/*  <div className="container-main">*/}
+      {/*    <Nav />*/}
+      {/*  </div>*/}
+      {/*</header>*/}
       {children}
     </div>
     </body>

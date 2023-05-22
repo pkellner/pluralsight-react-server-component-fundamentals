@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { speakersData } from "@/app/common/speakers-data";
 import {Speaker} from "@/app/speakers/page";
-import SpeakerFirstLastWithHoverOver from "@/app/sessions/speaker-first-last-with-hover-over";
+import SpeakerFirstLastWithHoverOver from "@/app/speaker-first-last-with-hover-over";
 
 
 async function getSpeaker(speakerId: string) {

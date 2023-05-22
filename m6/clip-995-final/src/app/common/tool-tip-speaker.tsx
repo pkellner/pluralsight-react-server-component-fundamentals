@@ -29,7 +29,7 @@ export default function ToolTipSpeaker({
           <div className="tooltip-inner">
             <h4 className="mt-2">{speakerName}</h4>
             <hr />
-            <p>{speakerBio?.slice(0,200)}...</p>
+            <p>{speakerBio?.slice(0,120)}...</p>
           </div>
         </div>
       )}
