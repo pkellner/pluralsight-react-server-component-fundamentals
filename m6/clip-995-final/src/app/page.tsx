@@ -1,5 +1,5 @@
 import {Suspense} from "react";
-import { sessionsData } from "@/app/common/sessions-data";
+import {sessionsData} from "@/app/common/sessions-data";
 import SpeakerDetailLoading from "@/app/speaker-detail-loading";
 import SpeakerDetail from "@/app/speaker-detail";
 
