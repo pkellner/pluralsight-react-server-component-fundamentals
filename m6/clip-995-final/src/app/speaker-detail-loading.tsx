@@ -1,5 +1,6 @@
-import Image from "next/image";
+import "server-only"
 
+import Image from "next/image";
 
 export default async function SpeakerDetailLoading() {
 
