@@ -15,7 +15,7 @@ async function getSpeaker(speakerId: string) {
   const delay = (ms: number) =>
     new Promise((resolve) => setTimeout(resolve, ms));
   await delay(2000);
-  //throw new Error("Error loading speaker detail");
+  throw new Error("Error loading speaker detail");
   return (
     speakersData.find((speaker: Speaker) => speaker.id === speakerId) || {}
   );
