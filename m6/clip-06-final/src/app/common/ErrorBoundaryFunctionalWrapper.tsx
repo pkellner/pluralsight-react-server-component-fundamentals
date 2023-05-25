@@ -1,47 +1,37 @@
 "use client";
 
 import React, { ReactNode } from "react";
-import ErrorBoundary from "./ErrorBoundary";
-
-function ErrorFallback({ error, resetErrorBoundary }: { error: Error, resetErrorBoundary: () => void }) {
-  return <div>
-    There was an error: {error.message}
-    <button onClick={resetErrorBoundary}>Try again</button>
-  </div>;
+import { ErrorBoundary } from "react-error-boundary";
 
 
 export default function ErrorBoundaryFunctionalWrapper({
   children,
+  error,
 }: {
   children: ReactNode;
+  error: Error;
 }) {
+  function getFallbackRender() {
+    return ({error}) => (
+      <div>
+        <p>An error occurred: <b style={{color: "red"}}>{error.message}</b></p>
+      </div>
+    );
+  }
 
-  // @ts-ignore
+// @ts-ignore
   return (
     <>
       {
         /* @ts-ignore */
-        <ErrorBoundary fallback={<ErrorFallback/>} onError={errorHandler}>
+        <ErrorBoundary
+          fallbackRender={getFallbackRender()}
+        >
           {children}
         </ErrorBoundary>
       }
     </>
   );
 }
-
-
-  // // @ts-ignore
-  // return (
-  //   <>
-  //     {
-  //       /* @ts-ignore */
-  //       <ErrorBoundary fallback={<div>problem found</div>} onError={errorHandler}>
-  //         {children}
-  //       </ErrorBoundary>
-  //     }
-  //   </>
-  //);
-
-
 
 
