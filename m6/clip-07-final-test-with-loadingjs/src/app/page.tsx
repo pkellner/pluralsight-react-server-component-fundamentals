@@ -3,6 +3,7 @@ import React, { Suspense } from "react";
 import { sessionsData } from "@/app/common/sessions-data";
 import SpeakerDetail from "@/app/speaker-detail";
 import ErrorBoundaryFunctionalWrapper from "@/app/common/ErrorBoundaryFunctionalWrapper";
+import SpeakerDetailErrorBoundary from "@/app/speaker-detail-error-boundary";
 
 export interface Session {
   id?: string;
@@ -15,7 +16,7 @@ async function getSessions() {
   const delay = (ms: number) =>
     new Promise((resolve) => setTimeout(resolve, ms));
   await delay(2000);
-  throw new Error("Error loading sessions data");
+  //throw new Error("Error loading sessions data");
   return sessionsData;
 }
 
@@ -34,9 +35,9 @@ export default async function Sessions() {
                   {session?.description}
                 </div>
                 <div className="news-tile__bottom">
-                  <ErrorBoundaryFunctionalWrapper>
+                  <SpeakerDetailErrorBoundary>
                     <SpeakerDetail speakerId={session.speakerId ?? "0"} />
-                  </ErrorBoundaryFunctionalWrapper>
+                  </SpeakerDetailErrorBoundary>
                 </div>
               </li>
             );

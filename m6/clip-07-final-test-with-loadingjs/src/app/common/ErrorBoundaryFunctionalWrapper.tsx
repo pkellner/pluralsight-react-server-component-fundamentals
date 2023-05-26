@@ -5,10 +5,11 @@ import { ErrorBoundary } from "react-error-boundary";
 
 export default function ErrorBoundaryFunctionalWrapper({
   children,
+  errorComponent,
 }: {
   children: ReactNode;
+  errorComponent?: ReactNode;
 }) {
-
   function Fallback({ error }: { error: Error }) {
     return (
       <div role="alert">
@@ -18,15 +19,24 @@ export default function ErrorBoundaryFunctionalWrapper({
     );
   }
 
-  // @ts-ignore
+  if (!errorComponent) {
+    return (
+      <>
+        {
+          /* @ts-ignore */
+          <ErrorBoundary FallbackComponent={Fallback}>{children}</ErrorBoundary>
+        }
+      </>
+    );
+  }
+
   return (
     <>
       {
         /* @ts-ignore */
-        <ErrorBoundary FallbackComponent={Fallback}>
-          {children}
-        </ErrorBoundary>
+        <ErrorBoundary FallbackComponent={errorComponent}>{children}</ErrorBoundary>
       }
     </>
   );
+
 }
