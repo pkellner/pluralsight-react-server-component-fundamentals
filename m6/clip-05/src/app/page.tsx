@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { sessionsData } from "@/app/common/sessions-data";
 import SpeakerDetail from "@/app/speaker-detail";
 
