@@ -2,8 +2,6 @@ import { sessionsData } from "@/app/common/sessions-data";
 import SpeakerDetail from "@/app/speaker-detail";
 import React, { Suspense } from "react";
 import SpeakerDetailLoading from "@/app/speaker-detail-loading";
-import ErrorBoundaryFunctionalWrapper from "@/app/common/ErrorBoundaryFunctionalWrapper";
-import SpeakerDetailErrorBoundary from "@/app/speaker-detail-error-boundary";
 
 export interface Session {
   id?: string;
@@ -13,10 +11,8 @@ export interface Session {
 }
 
 async function getSessions() {
-  const delay = (ms: number) =>
-    new Promise((resolve) => setTimeout(resolve, ms));
+  const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
   await delay(2000); // 2 seconds
-  //throw new Error("Error in getSessions");
   return sessionsData;
 }
 
@@ -35,22 +31,20 @@ function SessionsLoading() {
                   <SpeakerDetailLoading />
                 </div>
               </li>
-            );
+            )
           })}
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export default async function Page() {
   return (
-    <ErrorBoundaryFunctionalWrapper>
-      <Suspense fallback={<SessionsLoading />}>
-        <Sessions />
-      </Suspense>
-    </ErrorBoundaryFunctionalWrapper>
-  );
+    <Suspense fallback={<SessionsLoading />}>
+      <Sessions />
+    </Suspense>
+  )
 }
 
 async function Sessions() {
@@ -67,11 +61,9 @@ async function Sessions() {
                   {session?.description}
                 </div>
                 <div className="news-tile__bottom">
-                  <SpeakerDetailErrorBoundary>
-                    <Suspense fallback={<SpeakerDetailLoading />}>
-                      <SpeakerDetail speakerId={session.speakerId ?? "0"} />
-                    </Suspense>
-                  </SpeakerDetailErrorBoundary>
+                  <Suspense fallback={<SpeakerDetailLoading />}>
+                    <SpeakerDetail speakerId={session.speakerId ?? "0"} />
+                  </Suspense>
                 </div>
               </li>
             );

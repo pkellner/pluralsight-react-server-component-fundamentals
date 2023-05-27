@@ -13,12 +13,6 @@ export interface Speaker {
 async function getSpeaker(speakerId: string) {
   const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
   await delay(2000);
-
-  console.log("getSpeaker called",speakerId);
-  if (speakerId === "8367") {
-    throw new Error("Error in getSpeaker");
-  }
-
   return (speakersData.find((speaker: Speaker) => speaker.id === speakerId) || {});
 }
 
