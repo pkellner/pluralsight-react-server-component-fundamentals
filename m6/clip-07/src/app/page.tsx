@@ -2,6 +2,8 @@ import { sessionsData } from "@/app/common/sessions-data";
 import SpeakerDetail from "@/app/speaker-detail";
 import React, { Suspense } from "react";
 import SpeakerDetailLoading from "@/app/speaker-detail-loading";
+import ErrorBoundaryFunctionalWrapper from
+  "@/app/common/ErrorBoundaryFunctionalWrapper";
 
 export interface Session {
   id?: string;
@@ -13,6 +15,7 @@ export interface Session {
 async function getSessions() {
   const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
   await delay(2000); // 2 seconds
+  throw new Error("Errors in getSessions()");
   return sessionsData;
 }
 
@@ -41,10 +44,12 @@ function SessionsLoading() {
 
 export default async function Page() {
   return (
-    <Suspense fallback={<SessionsLoading />}>
-      <Sessions />
-    </Suspense>
-  )
+    <ErrorBoundaryFunctionalWrapper>
+      <Suspense fallback={<SessionsLoading />}>
+        <Sessions />
+      </Suspense>
+    </ErrorBoundaryFunctionalWrapper>
+  );
 }
 
 async function Sessions() {
