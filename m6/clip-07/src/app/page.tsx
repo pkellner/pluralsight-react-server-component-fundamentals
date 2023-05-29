@@ -4,6 +4,8 @@ import React, { Suspense } from "react";
 import SpeakerDetailLoading from "@/app/speaker-detail-loading";
 import ErrorBoundaryFunctionalWrapper from
   "@/app/common/ErrorBoundaryFunctionalWrapper";
+import ErrorBoundaryLoadingSpeaker from
+  "@/app/ErrorBoundaryLoadingSpeaker";
 
 export interface Session {
   id?: string;
@@ -15,7 +17,7 @@ export interface Session {
 async function getSessions() {
   const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
   await delay(2000); // 2 seconds
-  throw new Error("Errors in getSessions()");
+  //throw new Error("Errors in getSessions()");
   return sessionsData;
 }
 
@@ -66,9 +68,11 @@ async function Sessions() {
                   {session?.description}
                 </div>
                 <div className="news-tile__bottom">
-                  <Suspense fallback={<SpeakerDetailLoading />}>
-                    <SpeakerDetail speakerId={session.speakerId ?? "0"} />
-                  </Suspense>
+                  <ErrorBoundaryLoadingSpeaker>
+                    <Suspense fallback={<SpeakerDetailLoading />}>
+                      <SpeakerDetail speakerId={session.speakerId ?? "0"} />
+                    </Suspense>
+                  </ErrorBoundaryLoadingSpeaker>
                 </div>
               </li>
             );
