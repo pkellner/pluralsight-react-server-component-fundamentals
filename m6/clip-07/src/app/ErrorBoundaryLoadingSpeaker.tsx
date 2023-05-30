@@ -3,7 +3,7 @@
 import React, { ReactNode } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 
-export default function ErrorBoundaryFunctionalWrapper({
+export default function ErrorBoundaryLoadingSpeaker({
   children,
 }: {
   children: ReactNode;
