@@ -23,19 +23,19 @@ async function getSessions() {
 export default async function Sessions() {
   const sessions = await getSessions();
 
-  return (
-    <div className="container-main">
-      <h4>Douglas Crockford</h4>
-      <div className="events-speaker-photo">
-        <Image
-          src={`/speakers/speaker-1124.jpg`}
-          alt="speaker"
-          width={135}
-          height={135}
-        />
-      </div>
-    </div>
-  );
+  // return (
+  //   <div className="container-main">
+  //     <h4>Douglas Crockford</h4>
+  //     <div className="events-speaker-photo">
+  //       <Image
+  //         src={`/speakers/speaker-1124.jpg`}
+  //         alt="speaker"
+  //         width={135}
+  //         height={135}
+  //       />
+  //     </div>
+  //   </div>
+  // );
 
   return (
     <div className="container-main">
