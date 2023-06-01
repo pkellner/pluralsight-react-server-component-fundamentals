@@ -3,7 +3,6 @@
 
 // module.exports = nextConfig;
 
-
 module.exports = {
   typescript: {
     // !! WARN !!

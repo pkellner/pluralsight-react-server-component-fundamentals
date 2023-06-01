@@ -6,7 +6,6 @@ import ErrorBoundaryFunctionalWrapper from
   "@/app/common/ErrorBoundaryFunctionalWrapper";
 import ErrorBoundaryLoadingSpeaker from
   "@/app/ErrorBoundaryLoadingSpeaker";
-import ToolTipSpeaker from "@/app/common/tool-tip-speaker";
 
 export interface Session {
   id?: string;
