@@ -14,7 +14,7 @@ export interface Session {
 async function getSessions() {
   const delay = (ms: number) =>
     new Promise((resolve) => setTimeout(resolve, ms));
-  await delay(1000);
+  await delay(3000);
   return sessionsData;
 }
 

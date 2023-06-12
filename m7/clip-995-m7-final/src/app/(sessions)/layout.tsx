@@ -1,10 +1,14 @@
 "use client";
 import Link from "next/link";
 
-import React, { useState } from "react";
+import React from "react";
+import { usePathname } from 'next/navigation'
 
-export default function Layout({ children }: { children: React.ReactNode }) {
-  const [isGrid, setIsGrid] = useState<boolean>(false);
+export default function Layout({ children, params }: { children: React.ReactNode, params: any }) {
+  const isGrid = usePathname() === "/sessions";
+
+  console.log("params", params);
+
 
   return (
     <div className="container-main">
@@ -15,7 +19,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               !isGrid ? "mb-3 p-3 bg-light" : "mb-3 p-3 bg-secondary text-white"
             }`}
             href={`/sessions`}
-            onClick={() => setIsGrid(true)}
           >
             grid
           </Link>
@@ -25,7 +28,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               isGrid ? "mb-3 p-3 bg-light" : "mb-3 p-3 bg-secondary text-white"
             }`}
             href={`/sessions-short`}
-            onClick={() => setIsGrid(false)}
           >
             list
           </Link>

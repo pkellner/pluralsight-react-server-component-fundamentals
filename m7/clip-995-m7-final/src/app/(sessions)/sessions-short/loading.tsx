@@ -1,5 +1,8 @@
 import { Session } from "@/app/(sessions)/sessions-short/page";
 import Image from "next/image";
+import LoadingAnimation from "@/app/(sessions)/sessions-short/loading-component";
+import AnimatedPlaceholder from "@/app/(sessions)/sessions-short/loading-component";
+import LoadingComponent from "@/app/(sessions)/sessions-short/loading-component";
 
 export default function Page() {
   return (
@@ -10,24 +13,7 @@ export default function Page() {
             className="col-12 p-3 border rounded shadow-sm bg-light"
             key={id}
           >
-            <div className="row">
-              <div className="col-9" style={{ visibility: "hidden" }}>
-                <Image
-                  src="/loading.gif"
-                  alt="loading speaker..."
-                  width={135}
-                  height={15}
-                />
-              </div>
-              <div className="col-3" style={{ visibility: "hidden" }}>
-                <Image
-                  src="/loading.gif"
-                  alt="loading speaker..."
-                  width={30}
-                  height={15}
-                />
-              </div>
-            </div>
+            <LoadingComponent />
           </div>
         );
       })}
