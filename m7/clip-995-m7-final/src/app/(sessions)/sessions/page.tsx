@@ -1,8 +1,7 @@
-import SpeakerDetail from "@/app/sessions/speaker-detail";
+import SpeakerDetail from "@/app/(sessions)/sessions/speaker-detail";
 import {Suspense} from "react";
 import { sessionsData } from "@/app/common/sessions-data";
-import SpeakerDetailLoading from "@/app/sessions/speaker-detail-loading";
-import MyAnimation from "@/app/sessions/my-animation";
+import SpeakerDetailLoading from "@/app/(sessions)/sessions/speaker-detail-loading";
 
 
 export interface Session {
@@ -23,7 +22,6 @@ export default async function Sessions() {
   const sessions = await getSessions();
   return (
     <div className="container-main">
-      <MyAnimation />
       <div className="sessions">
         <ul className="news-list">
           {sessions.map((session: Session) => {
