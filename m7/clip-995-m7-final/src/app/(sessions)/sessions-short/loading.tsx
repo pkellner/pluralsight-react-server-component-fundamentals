@@ -5,6 +5,7 @@ import AnimatedPlaceholder from "@/app/(sessions)/sessions-short/loading-compone
 import LoadingComponent from "@/app/(sessions)/sessions-short/loading-component";
 
 export default function Page() {
+
   return (
     <>
       {[1, 2, 3].map((id) => {
@@ -13,7 +14,7 @@ export default function Page() {
             className="col-12 p-3 border rounded shadow-sm bg-light"
             key={id}
           >
-            <LoadingComponent />
+            <Image src="/placeholder-text.gif" height="20" width="300" alt="speaker loading..."/>
           </div>
         );
       })}
