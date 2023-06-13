@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Speaker } from "@/common/CodeCampInterfaces";
+import { Speaker } from "@/common/code-camp-interfaces";
 import { speakersData } from "@/common/speakers-data";
 
 async function getBySpeakerId(id: string) {

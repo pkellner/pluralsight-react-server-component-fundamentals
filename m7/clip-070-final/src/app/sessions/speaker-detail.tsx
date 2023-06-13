@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { speakersData } from "@/app/common/speakers-data";
+import { speakersData } from "@/common/speakers-data";
 import 'server-only';
-import ToolTipSpeaker from "@/app/common/tool-tip-speaker";
-import { Speaker } from "@/common/CodeCampInterfaces";
+import ToolTipSpeaker from "@/common/tool-tip-speaker";
+import { Speaker } from "@/common/code-camp-interfaces";
 
 async function getSpeaker(speakerId: string) {
   const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));

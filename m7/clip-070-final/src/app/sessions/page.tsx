@@ -1,10 +1,9 @@
-import { sessionsData } from "@/app/common/sessions-data";
-import SpeakerDetail from "@/sessions/speaker-detail";
 import React, { Suspense } from "react";
-
+import { sessionsData } from "@/common/sessions-data";
+import SpeakerDetail from "@/sessions/speaker-detail";
 import ErrorBoundaryLoadingSpeaker from "@/sessions/ErrorBoundaryLoadingSpeaker";
 import SpeakerDetailLoading from "@/sessions/speaker-detail-loading";
-import { Session } from "@/common/CodeCampInterfaces";
+import { Session } from "@/common/code-camp-interfaces";
 
 
 
