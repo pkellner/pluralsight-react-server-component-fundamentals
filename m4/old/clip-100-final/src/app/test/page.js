@@ -1,7 +1,6 @@
 import getRandomNumber from "../../../lib/getRandomNumber";
 import { Suspense } from "react";
 
-
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getSessions() {
@@ -24,7 +23,6 @@ async function getVideo(id) {
   const data = await res.json();
   return data;
 }
-
 
 export default async function App() {
   const sessions = await getSessions();

@@ -1,7 +1,6 @@
 import getRandomNumber from "../../../lib/getRandomNumber";
 import { Suspense } from "react";
 
-
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getSessions() {
@@ -25,7 +24,6 @@ async function getVideo(id) {
   return data;
 }
 
-
 export default async function App() {
   const sessions = await getSessions();
   return (
@@ -42,12 +40,14 @@ async function Video({ id }) {
 
 async function Sessions({ sessions }) {
   return (
-    <>{sessions.map(function (rec) {
+    <>
+      {sessions.map(function (rec) {
         return (
           <Suspense fallback={<div>Loading Video...</div>}>
             <Video key={rec.id} id={rec.youTubeId} />
           </Suspense>
         );
-      })}</>
+      })}
+    </>
   );
 }

@@ -1,7 +1,6 @@
 import getRandomNumber from "../../../lib/getRandomNumber";
 import { Suspense } from "react";
 
-
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 async function getSessions() {
@@ -11,9 +10,9 @@ async function getSessions() {
     throw new Error("Failed to fetch data");
   }
   const data = await res.json();
-  return data.filter((rec,id) => {
-    return  id != 4; // get rid of "no video" for demo
-  })
+  return data.filter((rec, id) => {
+    return id != 4; // get rid of "no video" for demo
+  });
 }
 
 async function getVideo(id) {
@@ -27,14 +26,12 @@ async function getVideo(id) {
   return data;
 }
 
-
 export default async function App() {
-
   return (
     <div className="container m-2">
-    <Suspense fallback={<div>Loading sessions...</div>}>
-      <SessionsListComp />
-    </Suspense>
+      <Suspense fallback={<div>Loading sessions...</div>}>
+        <SessionsListComp />
+      </Suspense>
     </div>
   );
 }
