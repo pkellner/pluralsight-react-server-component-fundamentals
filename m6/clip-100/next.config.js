@@ -3,6 +3,4 @@
 
 // module.exports = nextConfig;
 
-module.exports = {
-  
-};
+module.exports = {};
