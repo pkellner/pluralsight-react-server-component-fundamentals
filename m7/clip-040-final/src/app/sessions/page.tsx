@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import { sessionsData } from "@/common/sessions-data";
 import SpeakerDetail from "@/sessions/speaker-detail";
-import ErrorBoundaryLoadingSpeaker from "@/sessions/ErrorBoundaryLoadingSpeaker";
+import ErrorBoundaryLoadingSpeaker from "@/sessions/error-boundary-loading-speaker";
 import SpeakerDetailLoading from "@/sessions/speaker-detail-loading";
 import { Session } from "@/common/code-camp-interfaces";
 
