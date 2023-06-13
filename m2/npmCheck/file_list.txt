@@ -1,0 +1,2 @@
+/Users/peterkellner/repos/pluralsight-react-server-component-fundamentals/m2/clip-00/package.json
+/Users/peterkellner/repos/pluralsight-react-server-component-fundamentals/m2/clip-080/package.json
