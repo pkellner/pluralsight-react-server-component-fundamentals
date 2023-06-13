@@ -3,6 +3,7 @@ import { speakersData } from "@/common/speakers-data";
 import 'server-only';
 import ToolTipSpeaker from "@/common/tool-tip-speaker";
 import { Speaker } from "@/common/code-camp-interfaces";
+import Link from "next/link";
 
 async function getSpeaker(speakerId: string) {
   const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -30,11 +31,11 @@ export default async function SpeakerDetail({ speakerId }: {
             />
           </div>
           <div className="events-speaker-description">
-            <a href="#">
+            <Link href={`/speakers/${speaker.id}`}>
               <div className="name">
                 {speaker.first} {speaker.last}
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
