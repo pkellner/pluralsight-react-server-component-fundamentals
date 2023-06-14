@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Speaker } from "@/common/code-camp-interfaces";
-import { speakersData } from "@/common/speakers-data";
+import { Speaker } from "@/app/speakers/page";
+import { speakersData } from "@/app/common/speakers-data";
 
 async function getBySpeakerId(id: string) {
   const delay = (ms: number) =>

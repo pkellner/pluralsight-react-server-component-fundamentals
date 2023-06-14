@@ -1,9 +1,7 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@/styles/globals.css";
 import Nav from "@/common/nav";
 import Footer from "@/common/footer";
-
 
 export const metadata = {
   title: "SV Code Camp Next.js 13 Exp",

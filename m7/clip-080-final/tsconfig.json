@@ -23,7 +23,7 @@
       "@/*": ["./src/*"],
       "@/styles/*": ["/styles/*"],
       "@/common/*": ["./src/app/common/*"],
-      "@/sessions/*": ["./src/app/(sessions)/sessions/*"],
+      "@/sessions/*": ["./src/app/sessions/*"],
       "@/speakers/*": ["./src/app/speakers/*"]
     }
   },

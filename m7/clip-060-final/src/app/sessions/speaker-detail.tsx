@@ -2,7 +2,14 @@ import Image from "next/image";
 import { speakersData } from "@/app/common/speakers-data";
 import 'server-only';
 import ToolTipSpeaker from "@/app/common/tool-tip-speaker";
-import { Speaker } from "../speakers/page";
+
+export interface Speaker {
+  id?: string;
+  first?: string;
+  last?: string;
+  bio?: string;
+  sessionId?: string;
+}
 
 async function getSpeaker(speakerId: string) {
   const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));

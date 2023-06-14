@@ -1,7 +1,6 @@
 'use client';
 import { ReactNode, useState } from 'react';
-import { Speaker } from '@/common/code-camp-interfaces';
-
+import { Speaker } from '../speakers/page';
 
 export default function ToolTipSpeaker({
   children,

@@ -1,6 +1,7 @@
 'use client';
 import { ReactNode, useState } from 'react';
-import { Speaker } from '../speakers/page';
+import { Speaker } from '../sessions/speaker-detail';
+
 
 export default function ToolTipSpeaker({
   children,

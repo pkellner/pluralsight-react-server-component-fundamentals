@@ -1,4 +1,4 @@
-import SpeakerDetailLoading from "@/sessions/speaker-detail-loading";
+import SpeakerDetailLoading from "@/app/sessions/speaker-detail-loading";
 
 export default function SessionsLoading() {
   return (

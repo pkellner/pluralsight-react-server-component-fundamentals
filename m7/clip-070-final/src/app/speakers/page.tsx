@@ -1,6 +1,14 @@
 import SpeakerDetailWithBio from "@/speakers/speaker-detail-with-bio";
 import { speakersData } from "@/common/speakers-data";
 
+export interface Speaker {
+  id?: string;
+  first?: string;
+  last?: string;
+  bio?: string;
+  sessionId?: string;
+}
+
 const speakerIds = speakersData.map((speaker) => speaker.id);
 
 export default async function Sessions() {

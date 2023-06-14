@@ -1,11 +1,16 @@
-import React, { Suspense } from "react";
-import { sessionsData } from "@/common/sessions-data";
+import { sessionsData } from "@/app/common/sessions-data";
 import SpeakerDetail from "@/sessions/speaker-detail";
+import React, { Suspense } from "react";
+
 import ErrorBoundaryLoadingSpeaker from "@/sessions/ErrorBoundaryLoadingSpeaker";
 import SpeakerDetailLoading from "@/sessions/speaker-detail-loading";
-import { Session } from "@/common/code-camp-interfaces";
 
-
+export interface Session {
+  id?: string;
+  title?: string;
+  speakerId?: string;
+  description?: string;
+}
 
 async function getSessions() {
   const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
