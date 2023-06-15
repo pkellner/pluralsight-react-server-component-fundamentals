@@ -9,8 +9,7 @@ export default function Nav() {
     <nav className="navbar navbar-expand navbar-light bg-light">
       <div className="container-fluid">
         <Link href="/" className="navbar-brand">
-          <Image height={18} width={72} src="/SVCClogo.png"
-            alt="Site Logo" />
+          <Image height={18} width={72} src="/SVCClogo.png" alt="Site Logo" />
         </Link>
         <div className="navbar-nav">
           <Link href="/sessions">

@@ -2,13 +2,18 @@
 import Link from "next/link";
 
 import React from "react";
-import { usePathname } from 'next/navigation'
+import { usePathname } from "next/navigation";
 
-export default function Layout({ children, params }: { children: React.ReactNode, params: any }) {
+export default function Layout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: any;
+}) {
   const isGrid = usePathname() === "/sessions";
 
   console.log("params", params);
-
 
   return (
     <div className="container-main">

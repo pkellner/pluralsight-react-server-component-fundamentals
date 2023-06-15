@@ -5,9 +5,7 @@ export default function Footer() {
         <div className="row">
           <div className="col-12">
             <div className="creditsWrap">
-              <p>
-                Silicon Valley Code Camp
-              </p>
+              <p>Silicon Valley Code Camp</p>
             </div>
           </div>
         </div>

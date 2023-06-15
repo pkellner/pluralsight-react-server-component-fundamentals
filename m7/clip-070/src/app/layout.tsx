@@ -4,14 +4,14 @@ import Nav from "@/common/nav";
 import Footer from "@/common/footer";
 
 export const metadata = {
-  title: 'Server Component Fundamentals',
-  description: 'Pluralsight Course',
-}
+  title: "Server Component Fundamentals",
+  description: "Pluralsight Course",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -27,5 +27,5 @@ export default function RootLayout({
         <Footer />
       </body>
     </html>
-  )
+  );
 }

@@ -5,10 +5,9 @@ import ErrorBoundaryLoadingSpeaker from "@/sessions/ErrorBoundaryLoadingSpeaker"
 import SpeakerDetailLoading from "@/sessions/speaker-detail-loading";
 import { Session } from "@/common/code-camp-interfaces";
 
-
-
 async function getSessions() {
-  const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+  const delay = (ms: number) =>
+    new Promise((resolve) => setTimeout(resolve, ms));
   await delay(2000); // 2 seconds
   //throw new Error("Errors in getSessions()");
   return sessionsData;

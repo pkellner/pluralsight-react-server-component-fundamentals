@@ -1,8 +1,7 @@
 import SpeakerDetail from "@/app/(sessions)/sessions/speaker-detail";
-import {Suspense} from "react";
+import { Suspense } from "react";
 import { sessionsData } from "@/app/common/sessions-data";
 import SpeakerDetailLoading from "@/app/(sessions)/sessions/speaker-detail-loading";
-
 
 export interface Session {
   id?: string;

@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { speakersData } from "@/app/common/speakers-data";
-import {Speaker} from "@/app/speakers/page";
+import { Speaker } from "@/app/speakers/page";
 import SpeakerFirstLastWithHoverOver from "@/app/(sessions)/sessions/speaker-first-last-with-hover-over";
-
 
 async function getSpeaker(speakerId: string) {
   const delay = (ms: number) =>
@@ -12,8 +11,6 @@ async function getSpeaker(speakerId: string) {
     speakersData.find((speaker: Speaker) => speaker.id === speakerId) || {}
   );
 }
-
-
 
 export default async function SpeakerDetail({
   speakerId,

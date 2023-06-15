@@ -3,9 +3,11 @@
 import React, { ReactNode } from "react";
 import { ErrorBoundary } from "react-error-boundary";
 
-export default function ErrorBoundaryFunctionalWrapper(
-  { children, }: { children: ReactNode; }) {
-  
+export default function ErrorBoundaryFunctionalWrapper({
+  children,
+}: {
+  children: ReactNode;
+}) {
   function Fallback({ error }: { error: Error }) {
     return (
       <div role="alert">
@@ -14,17 +16,6 @@ export default function ErrorBoundaryFunctionalWrapper(
       </div>
     );
   }
-  
-  
-  
-  
-  
-  
-  
-  return (
-    <ErrorBoundary FallbackComponent={Fallback}>
-      {children}
-    </ErrorBoundary>
-  );
-  
+
+  return <ErrorBoundary FallbackComponent={Fallback}>{children}</ErrorBoundary>;
 }

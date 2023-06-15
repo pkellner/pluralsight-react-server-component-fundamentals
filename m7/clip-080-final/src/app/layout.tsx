@@ -4,7 +4,6 @@ import "@/styles/globals.css";
 import Nav from "@/common/nav";
 import Footer from "@/common/footer";
 
-
 export const metadata = {
   title: "SV Code Camp Next.js 13 Exp",
   description: "Silicon Valley Code Camp with Next.js",
@@ -13,7 +12,7 @@ export const metadata = {
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">

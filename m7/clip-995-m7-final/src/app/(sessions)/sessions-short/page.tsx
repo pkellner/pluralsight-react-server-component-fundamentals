@@ -23,18 +23,21 @@ export default async function Sessions() {
 
   return (
     <>
-        {sessions.map((session: Session) => {
-          return (
-            <div className="col-12 p-3 border rounded shadow-sm bg-light" key={session.id}>
-              <div className="row">
-                <div className="col-9">{session?.title}</div>
-                <div className="col-3">
-                  <a href={`/speakers/${session.speakerId}`}>Speaker</a>
-                </div>
+      {sessions.map((session: Session) => {
+        return (
+          <div
+            className="col-12 p-3 border rounded shadow-sm bg-light"
+            key={session.id}
+          >
+            <div className="row">
+              <div className="col-9">{session?.title}</div>
+              <div className="col-3">
+                <a href={`/speakers/${session.speakerId}`}>Speaker</a>
               </div>
             </div>
-          );
-        })}
-     </>
+          </div>
+        );
+      })}
+    </>
   );
 }
