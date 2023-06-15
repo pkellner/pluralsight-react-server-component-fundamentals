@@ -1,25 +1,14 @@
 import Image from "next/image";
 import { Speaker } from "@/app/speakers/page";
-import { speakersData } from "@/app/common/speakers-data";
-
-async function getBySpeakerId(id: string) {
-  const delay = (ms: number) =>
-    new Promise((resolve) => setTimeout(resolve, ms));
-  await delay(2000);
-  const speakerData: Speaker =
-    speakersData.find((speaker) => speaker.id === id) ?? {};
-  return speakerData;
-}
 
 export default async function SpeakerDetailWithBio({
-  speakerId,
+  speaker,
 }: {
-  speakerId: string;
+  speaker: Speaker;
 }) {
-  const speaker = await getBySpeakerId(speakerId);
 
   // NOTE, WE ARE NOT CATCHING INDIVIDUAL ERROR HERE, IF WE DID WE WOULD NEED TO ADD ERRORBOUNDARY
-  if (speakerId === "1124") {
+  if (speaker.id === "1124") {
     //throw new Error("error on speaker 1124")
   }
 
@@ -27,7 +16,7 @@ export default async function SpeakerDetailWithBio({
     <div className="events-speaker d-flex align-items-center">
       <div className="events-speaker-photo">
         <Image
-          src={`/speakers/speaker-${speakerId}.jpg`}
+          src={`/speakers/speaker-${speaker.id}.jpg`}
           alt={`${speaker.first} ${speaker.last}`}
           width={135}
           height={135}
