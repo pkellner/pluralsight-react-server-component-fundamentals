@@ -15,7 +15,7 @@ export default function Nav() {
           <Link href="/sessions">
             <div className="nav-link">Sessions</div>
           </Link>
-          <Link href="speakers">
+          <Link href="/speakers">
             <div className="nav-link">Speakers</div>
           </Link>
         </div>
