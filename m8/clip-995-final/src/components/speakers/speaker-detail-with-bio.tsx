@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {Speaker} from "../common/code-camp-interfaces";
+import { Speaker } from "../common/code-camp-interfaces";
 import React from "react";
 
 export default function SpeakerDetailWithBio({

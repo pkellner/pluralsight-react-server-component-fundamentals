@@ -1,6 +1,6 @@
-import {Speaker} from "@/common/code-camp-interfaces";
+import { Speaker } from "@/common/code-camp-interfaces";
 
-export const speakersData : Speaker[] = [
+export const speakersData: Speaker[] = [
   {
     id: "1124",
     first: "Douglas",

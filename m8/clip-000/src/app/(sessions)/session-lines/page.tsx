@@ -17,19 +17,17 @@ export default async function SessionLines() {
         return (
           <div
             className="col-12 p-3 border rounded shadow-sm bg-light"
-            key={session.id} >
+            key={session.id}
+          >
             <div className="row">
-              <div className="col-9">{session?.title}</div>  
+              <div className="col-9">{session?.title}</div>
               <div className="col-3">
-                <Link href={`/speakers/${session.speakerId}`}>
-                  Speaker
-                </Link>
+                <Link href={`/speakers/${session.speakerId}`}>Speaker</Link>
               </div>
             </div>
           </div>
-        )
+        );
       })}
     </>
-  )
+  );
 }
-

@@ -1,18 +1,14 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation"
+import { usePathname } from "next/navigation";
 
-export default function Layout({ children }:
-  { children: React.ReactNode }) {
-  
+export default function Layout({ children }: { children: React.ReactNode }) {
   const isGrid = usePathname() === "/sessions";
   const gridLinkClass =
-    "mb-3 p-3 " + 
-    (isGrid ? "bg-secondary text-white" : "bg-light text-dark");
+    "mb-3 p-3 " + (isGrid ? "bg-secondary text-white" : "bg-light text-dark");
   const listLinkClass =
-    "mb-3 p-3 " + 
-    (isGrid ? "bg-light text-dark" : "bg-secondary text-white");
+    "mb-3 p-3 " + (isGrid ? "bg-light text-dark" : "bg-secondary text-white");
 
   return (
     <div className="container-main">
@@ -29,5 +25,4 @@ export default function Layout({ children }:
       </div>
     </div>
   );
-  
 }

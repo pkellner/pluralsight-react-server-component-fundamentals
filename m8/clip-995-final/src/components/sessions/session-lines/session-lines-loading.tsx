@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Loading() {
+export default function SessionLinesLoading() {
   return (
     <>
       {[1, 2, 3].map((id) => {

@@ -1,5 +1,5 @@
-import {ReactNode, useState} from "react";
-import {Speaker} from "@/common/code-camp-interfaces";
+import { ReactNode, useState } from "react";
+import { Speaker } from "@/common/code-camp-interfaces";
 
 export default function ToolTipSpeaker({
   children,

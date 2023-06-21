@@ -1,10 +1,9 @@
 import SpeakerDetailWithBio from "@/speakers/speaker-detail-with-bio";
-import {speakersData} from "@/common/speakers-data";
-import {Speaker} from "@/common/code-camp-interfaces";
+import { speakersData } from "@/common/speakers-data";
+import { Speaker } from "@/common/code-camp-interfaces";
 import Layout from "@/common/layout";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import LoadingDetail from "@/speakers/loading-detail";
-
 
 async function getSpeaker(id: string) {
   const delay = (ms: number) =>
@@ -21,8 +20,7 @@ async function getSpeaker(id: string) {
   );
 }
 
-export default function SpeakerDetail({speakerId} : {speakerId: string}) {
-
+export default function SpeakerDetail({ speakerId }: { speakerId: string }) {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [speakerDetail, setSpeakerDetail] = useState<Speaker>();
   const [error, setError] = useState<string>();

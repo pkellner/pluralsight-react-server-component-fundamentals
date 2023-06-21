@@ -1,7 +1,7 @@
-import {speakersData} from "@/common/speakers-data";
-import {Speaker} from "@/common/code-camp-interfaces";
+import { speakersData } from "@/common/speakers-data";
+import { Speaker } from "@/common/code-camp-interfaces";
 import SpeakerDetailWithBio from "@/speakers/speaker-detail-with-bio";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import Loading from "@/speakers/loading";
 import Layout from "@/common/layout";
 import ErrorSpeaker from "@/speakers/error-speaker";
@@ -50,7 +50,7 @@ export default function Speakers() {
                 key={speaker.id}
               >
                 <ErrorSpeaker>
-                <SpeakerDetailWithBio speaker={speaker} />
+                  <SpeakerDetailWithBio speaker={speaker} />
                 </ErrorSpeaker>
               </div>
             );

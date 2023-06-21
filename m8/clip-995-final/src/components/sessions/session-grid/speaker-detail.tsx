@@ -1,9 +1,9 @@
 import Image from "next/image";
-import {speakersData} from "@/common/speakers-data";
+import { speakersData } from "@/common/speakers-data";
 import ToolTipSpeaker from "@/common/tool-tip-speaker";
-import {Speaker} from "@/common/code-camp-interfaces";
+import { Speaker } from "@/common/code-camp-interfaces";
 import Link from "next/link";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import SpeakerDetailLoading from "@/sessions/session-grid/speaker-detail-loading";
 
 async function getSpeaker(id: string) {

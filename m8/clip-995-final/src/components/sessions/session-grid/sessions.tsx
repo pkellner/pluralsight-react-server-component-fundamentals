@@ -1,8 +1,8 @@
-import {sessionsData} from "@/common/sessions-data";
+import { sessionsData } from "@/common/sessions-data";
 import SpeakerDetail from "./speaker-detail";
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 
-import {Session} from "@/common/code-camp-interfaces";
+import { Session } from "@/common/code-camp-interfaces";
 import SessionsLoading from "@/sessions/session-grid/sessions-loading";
 
 async function getSessions() {
@@ -13,8 +13,7 @@ async function getSessions() {
   return sessionsData;
 }
 
-export default  function SessionGrid() {
-
+export default function SessionGrid() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string>();
   const [sessionsList, setSessionsList] = useState<Session[]>();
