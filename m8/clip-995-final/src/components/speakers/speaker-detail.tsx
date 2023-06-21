@@ -28,6 +28,7 @@ export default function SpeakerDetail({ speakerId }: { speakerId: string }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        setIsLoading(true);
         const response = await getSpeaker(speakerId);
         setSpeakerDetail(response);
         setIsLoading(false);
@@ -36,7 +37,7 @@ export default function SpeakerDetail({ speakerId }: { speakerId: string }) {
       }
     };
     fetchData().then((r) => void 0);
-  }, []);
+  }, [speakerId]);
 
   if (isLoading) {
     return <LoadingDetail />;

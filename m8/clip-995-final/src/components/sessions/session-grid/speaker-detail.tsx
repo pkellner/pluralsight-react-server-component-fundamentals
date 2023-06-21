@@ -22,8 +22,6 @@ async function getSpeaker(id: string) {
 }
 
 export default function SpeakerDetail({ speakerId }: { speakerId: string }) {
-  //const speaker: Speaker = speakersData.find((speaker: Speaker) => speaker.id === speakerId) || {}
-
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [speakerDetail, setSpeakerDetail] = useState<Speaker>();
   const [error, setError] = useState<string>();
@@ -48,6 +46,8 @@ export default function SpeakerDetail({ speakerId }: { speakerId: string }) {
   if (error) {
     return <div>Error Loading Speaker: {error}</div>;
   }
+
+  console.log("speakerId", speakerId);
 
   return (
     <ToolTipSpeaker speaker={speakerDetail} key={speakerId}>
