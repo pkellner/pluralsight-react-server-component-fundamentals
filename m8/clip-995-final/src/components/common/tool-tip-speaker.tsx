@@ -1,12 +1,12 @@
-import { ReactNode, useState } from "react";
-import { Speaker } from "@/common/code-camp-interfaces";
+import {ReactNode, useState} from "react";
+import {Speaker} from "@/common/code-camp-interfaces";
 
 export default function ToolTipSpeaker({
   children,
   speaker,
 }: {
   children: ReactNode;
-  speaker: Speaker;
+  speaker: Speaker | undefined;
 }) {
   const [show, setShow] = useState(false);
   return (
@@ -21,10 +21,10 @@ export default function ToolTipSpeaker({
           <div className="tooltip-arrow"></div>
           <div className="tooltip-inner">
             <h4 className="mt-2">
-              {speaker.first} {speaker.last}
+              {speaker?.first} {speaker?.last}
             </h4>
             <hr />
-            <p>{speaker.bio?.slice(0, 150)}...</p>
+            <p>{speaker?.bio?.slice(0, 150)}...</p>
           </div>
         </div>
       )}

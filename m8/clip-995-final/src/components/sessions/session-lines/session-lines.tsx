@@ -1,7 +1,7 @@
-import { sessionsData } from "@/common/sessions-data";
+import {sessionsData} from "@/common/sessions-data";
 import React from "react";
 
-import { Session } from "@/common/code-camp-interfaces";
+import {Session} from "@/common/code-camp-interfaces";
 import Link from "next/link";
 
 export default  function SessionLines() {

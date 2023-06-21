@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation"
+import {usePathname} from "next/navigation"
 
 export default function SessionsLayout({ children }:
                                  { children: React.ReactNode }) {

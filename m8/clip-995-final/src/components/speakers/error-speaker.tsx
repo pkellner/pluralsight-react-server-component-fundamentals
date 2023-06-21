@@ -1,5 +1,5 @@
-import React, { ReactNode } from "react";
-import { ErrorBoundary } from "react-error-boundary";
+import React, {ReactNode} from "react";
+import {ErrorBoundary} from "react-error-boundary";
 import Image from "next/image";
 
 export default function ErrorSpeaker({ children }: { children: ReactNode }) {
