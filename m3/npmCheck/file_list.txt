@@ -1,7 +1,0 @@
-/Users/peterkellner/repos/pluralsight-react-server-component-fundamentals/m3/clip-000/package.json
-/Users/peterkellner/repos/pluralsight-react-server-component-fundamentals/m3/clip-020/package.json
-/Users/peterkellner/repos/pluralsight-react-server-component-fundamentals/m3/clip-030/package.json
-/Users/peterkellner/repos/pluralsight-react-server-component-fundamentals/m3/clip-040/package.json
-/Users/peterkellner/repos/pluralsight-react-server-component-fundamentals/m3/clip-050/package.json
-/Users/peterkellner/repos/pluralsight-react-server-component-fundamentals/m3/clip-060/package.json
-/Users/peterkellner/repos/pluralsight-react-server-component-fundamentals/m3/clip-070/package.json
