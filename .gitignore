@@ -105,3 +105,6 @@ dist
 
 .idea
 .vscode
+file_list.txt
+package.lock.json
+
