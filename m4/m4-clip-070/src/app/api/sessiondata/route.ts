@@ -20,6 +20,12 @@ export async function GET(req: Request) {
     //await delay(delayTime);
     if (!readFileData) {
       console.log("Error: Request failed with status code 404");
+
+      // this is a hack to get around the fact that the data is not being returned.
+      // @ts-ignore
+      return Response.json(sessions);
+
+
     } else {
       // @ts-ignore
       return Response.json(sessions.slice(0, maxToRetrieve));
