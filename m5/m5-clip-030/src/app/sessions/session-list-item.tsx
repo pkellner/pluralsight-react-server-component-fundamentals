@@ -12,7 +12,7 @@ export default function SessionListItem({ rec }: { rec: SessionData }) {
             <div className="card-body">
               <h6 className="card-title smaller-item">{rec.title}</h6>
               <p className="card-text small text">
-                {rec.descriptionShort.substring(0, 60)}...
+                {(rec.descriptionShort ?? "").substring(0, 60)}...
               </p>
             </div>
           </div>
