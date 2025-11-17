@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "bootstrap": "^5.3.8",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.3",
+    "next": "^16.0.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-error-boundary": "^6.0.0",
+    "rooks": "^9.3.0",
+    "server-only": "^0.0.1",
+    "typescript": "^5.9.3"
+  }
+}
