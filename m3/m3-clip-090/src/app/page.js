@@ -7,7 +7,8 @@ import AppContainer from "./app-container";
 import ServerForm from "./server-form";
 
 export default function AppHeader() {
-  const isoDateString = new Date("December 17, 1995 10:24:00").toISOString();
+  const isoDateString =
+    new Date("December 17, 1995 10:24:00").toISOString();
 
   return (
     <AppThemeProvider>
@@ -17,9 +18,7 @@ export default function AppHeader() {
         <AppHeaderClock isoDateString={isoDateString}>
           <AppServerComponent />
         </AppHeaderClock>
-        <hr/>
         <ServerForm />
-        <hr/>
       </AppContainer>
     </AppThemeProvider>
   );
