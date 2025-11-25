@@ -9,6 +9,9 @@ import SessionsList from "@/src/app/sessions/sessions-list";
 import SessionsQuery from "@/src/app/sessions/sessions-query";
 import QueryProvider from "@/src/app/contexts/query-provider";
 
+// Force dynamic rendering to prevent build-time fetch errors in Next.js 16+
+export const dynamic = 'force-dynamic';
+
 export default function MainApp() {
   return (
     <div className="container py-1">
