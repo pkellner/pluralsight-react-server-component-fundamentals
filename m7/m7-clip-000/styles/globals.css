@@ -3087,42 +3087,6 @@
   clip: auto;
 }
 
-@font-face {
-  font-family: "PT Sans";
-  src: url(/_next/static/media/pt_sans-web-bold-webfont.4bd7266c.woff2) format("woff2"), url(/_next/static/media/pt_sans-web-bold-webfont.3b168d21.woff) format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "PT Sans";
-  src: url(/_next/static/media/pt_sans-web-bolditalic-webfont.49bb98ae.woff2) format("woff2"), url(/_next/static/media/pt_sans-web-bolditalic-webfont.8888e461.woff) format("woff");
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: "PT Sans";
-  src: url(/_next/static/media/pt_sans-web-italic-webfont.d3105622.woff2) format("woff2"), url(/_next/static/media/pt_sans-web-italic-webfont.36c28184.woff) format("woff");
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: "PT Sans";
-  src: url(/_next/static/media/pt_sans-web-regular-webfont.8ee65a18.woff2) format("woff2"), url(/_next/static/media/pt_sans-web-regular-webfont.211519cf.woff) format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Handel Gothic";
-  src: url(/_next/static/media/handel_gothic.6e068231.woff) format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Handel Gothic d-light";
-  src: url(/_next/static/media/handel-gothic-d-light.a79c461d.woff) format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 *,
 *::before,
 *::after {

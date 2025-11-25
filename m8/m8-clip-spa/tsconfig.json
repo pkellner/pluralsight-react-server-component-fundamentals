@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -12,22 +16,41 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
-    ], 
+    ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@/styles/*": ["/styles/*"],
-      "@/common/*": ["./src/components/common/*"],
-      "@/sessions/*": ["./src/components/sessions/*"],
-      "@/speakers/*": ["./src/components/speakers/*"],
-      "@/home/*": ["./src/components/home/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@/styles/*": [
+        "/styles/*"
+      ],
+      "@/common/*": [
+        "./src/components/common/*"
+      ],
+      "@/sessions/*": [
+        "./src/components/sessions/*"
+      ],
+      "@/speakers/*": [
+        "./src/components/speakers/*"
+      ],
+      "@/home/*": [
+        "./src/components/home/*"
+      ]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

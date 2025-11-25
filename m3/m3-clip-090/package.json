@@ -1,7 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.1.1",
-  "private": true,
+  "version": "2.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +9,7 @@
   },
   "dependencies": {
     "@types/node": "^24.10.1",
-    "@types/react": "^19.2.5",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "bootstrap": "^5.3.8",
     "eslint": "^9.39.1",
